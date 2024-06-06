@@ -19,8 +19,7 @@ Para tal era necessario primeiro definir-se as representações gráficas e ent�
 Está porta aceita dois operandos: A e B, sendo binarios 0 e 1. 
 A operação AND simula a multiplicaçãoo  binaria, possuindo a finalidade de garantir que o mesmo bit de entrada seja o mesmo da saída (transferencia de bit, ou seja, é usado para transferir dados da memoria para a CPU).
 
-|Porta Lógica AND |
-|-----------------|
+Porta Lógica AND 
 |Entrada|  Saída  |
 |-------|---------|
 | A | B |  Y = AB |
@@ -35,8 +34,7 @@ A operação AND simula a multiplicaçãoo  binaria, possuindo a finalidade de g
 Está porta aceita dois operandos: A e B, sendo binarios 0 e 1.
 Ela simula a soma binaria, ou seja, só reultara em verdadeiro (1) se um dos operandos forem 1
 
-|Porta Lógica OR  |
-|-----------------|
+Porta Lógica OR  
 |Entrada|  Saída  |
 |-------|---------|
 | A | B | Y = A+B |
@@ -52,8 +50,7 @@ Está porta aceita dois operandos: A e B, sendo binarios 0 e 1.
 Ele serve como uma verificação de igualdade, em que se os operando tiverem os seus valores binarios iguais, ou seja, se A e B forem iguais a 1 ou 0. então a operação irá reultar em 0 (falso).
 Logo, se seus valores são diferentes a operação resultara em verdadeiro (1).
 
-|Porta Lógica XOR |
-|-----------------|
+Porta Lógica XOR 
 |Entrada|  Saída  |
 |-------|---------|
 | A | B |Y = A XOR B |
@@ -68,8 +65,7 @@ Logo, se seus valores são diferentes a operação resultara em verdadeiro (1).
 Está porta aceita um operando: A, sendo binario 0 ou 1.
 Ela faz uma inversão de valores, ou seja, s o valor do operando for 1 ele se torna 0 de mesmo modo que seja o vlor 0 ele o inverte para 1.
 
-|Porta Lógica NOT |
-|-----------------|
+Porta Lógica NOT 
 |Entrada|  Saída  |
 |-------|---------|
 | A     |  NOT A  |
@@ -84,8 +80,7 @@ Ela faz uma inversão de valores, ou seja, s o valor do operando for 1 ele se to
 Está porta aceita dois operandos: A e B, sendo binarios 0 e 1.
 Ela faz a operação AND e em seguida faz a execução do NOT
 
-|Porta Lógica NAND |
-|-----------------|
+Porta Lógica NAND 
 |Entrada|  Saída  |
 |-------|---------|
 | A | B | Y = A NAND B |
@@ -100,8 +95,7 @@ Ela faz a operação AND e em seguida faz a execução do NOT
 Está porta aceita dois operandos: A e B, sendo binarios 0 e 1.
 Ele faz primiero o OR e em seguida opra o NOT.
 
-|Porta Lógica NOR  |
-|-----------------|
+Porta Lógica NOR  
 |Entrada|  Saída  |
 |-------|---------|
 | A | B | Y = A+B |
