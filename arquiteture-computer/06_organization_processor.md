@@ -42,8 +42,8 @@ Podendo ser dividida em duas partes funcionais:
                                                |-------------|                                      
         Unidade funcional de Controle                                          
 
-- REM => Registro Em Memoria
-- RDM => Registro De Memoria
+- REM => Registro de Endereços Memoria
+- RDM => Registro de Dados Memoria
 ```
 
 ## Unidade Funcional de Processamento
@@ -69,4 +69,48 @@ A maioria dos processadores utilizam a arquitetura baseada em registratores de p
     -Caracterizado por um conjunto de instruções mais **complexas e abrangentes** (voltado para dispositivos que exigem maia poder de processamentos como desktops e servidores);
 
 
+## Unidade Funcional de Controle
+Executa algumas funções:
+- Busca de instrução a serem executadas e armazenadas em um registrador da CPU;
+- Interpretar as instruçõex para serem envoadas a ULA 
+    - Gerar sinais de controle, ao interpretar vai gerar um sinal para a ULA dizendo qual das operações devem ser executadas;
 
+### Contador de Instruções (CI)
+O Contador de Instruções é aquele que vai registrar a contagem para sequenciamento das intruções ou seja montar aquela fila de fichas, onde cada ficha possui oum numero de ordem de chamada para que se possa ter o controle das ordens de instruções.
+
+### Registrador de Instruções (RI)
+Este Registrador de Instruções possui a função sr armazenar a instrução que deve ser executada para a CPU.
+
+### Decodificador de Instruçôes
+O **RI** irá passar uma _sequencia de bits_ representando a instrução a ser executadapara o **Decodificador de Instruções** que por sua vez ira interpretar essa sequencoa de bits e relacionar com a operação qie deve ser feita. Em seguida mandar essa insteução já interpretada para a **UC**, assim ela manda ps sinais necesaarios para a ULA, por exemplo do que deve ser feito.
+
+- Diagrama de funcionamento RI e Decod. Instruc.
+```
+    ------     _____________      ______
+    | UC |o----| Decod.    |o-----| RI |
+    ------     | Instrução |      ------
+               -------------
+```
+
+### RDM e REM
+- RDM (Registrador de Dados em Memoria): sendo o registrador que _armazena os dados que estão sendo transmitidos_ da CPU e para a Memoria e vice versa
+
+- REM (Registrador de Endereços de Memoria): sua função é _armazenar o endereço de acesso a memoria_ para que seja necessario a leutura e a escrita da de dasos.
+
+> Ambos os registradores, possuem registro temporario dos dados que são gravados nelas.
+
+```
+    --------------
+    | Barramento o-----|----------|
+    |  Interno   |------|         |
+    --------------      |         |
+                     ---|---   ---|---
+                     | RDM |   | REM |
+                     -----|-   ---|---
+                          |       |
+                         -o-------o-
+                         | Memoria |
+                         -----------
+
+o =>significa o fluxo de direção os dados
+```
