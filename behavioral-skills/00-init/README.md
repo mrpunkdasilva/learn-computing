@@ -1,12 +1,12 @@
 # Habilidades Comportamentais
 
-Está é a pary3 em qur caminhatemos para alinhar o seu 'eu' com a cultura que almejamos. Para que possa ter um sucesso acadêmico.
+Está é a parte em que caminhatemos para alinhar o seu 'eu' com a cultura que almejamos. Para que possa ter um sucesso acadêmico.
 Servindo para te mostrar *técnicas* **eficazes** e **práticas**.
 
 > Lembre-se, tudo é técnica.
 
 ## O que iremos desenvolver:
-- Habilidades acadêmicas e de estudo essenciais para alcançar o sucesso acadêmico na Universidade
+- Habilidades acadêmicas e de estudo essenciais para alcançar o sucesso acadêmico
 - Estratégias para leitura, redação, preparação para testes e administração de tempo mais eficaz
 - Mentalidade de crescimento
 - Gerenciamento de estresse
