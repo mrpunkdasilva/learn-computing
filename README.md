@@ -5,7 +5,8 @@ Este repositório é onde eu irei organizar e documentar todos os meus conhecime
 
 ## Índice
 
-1.
+1. [Habilidades Comportamentais](behavioral-skills/00-init/README.md#habilidades-comportamentais)
+2. [Matematica Fundamental](foundation-math/00-init/README.md)
 
 Cada uma dessas seções conterá subdiretórios e arquivos Markdown detalhando os conceitos relevantes, com exemplos de código, referências bibliográficas e outras informações úteis.
 
