@@ -42,5 +42,5 @@ servindo para entrar e sair com dados.
     - Saída: Monitor, Caixa de Som
 
 ### Barrramento 
-são fios ou caminhos condutores que passam pelo computador e interligam os componenetes.
+são fios ou caminhos condutores que passam pelo computador e interligam os componentes.
 

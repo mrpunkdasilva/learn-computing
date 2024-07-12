@@ -1,4 +1,4 @@
-# Sistema Númerico
+# Sistema Numérico
 
 ## Sistema de Numeração e Conversões Entre Bases
 
@@ -60,15 +60,15 @@ A conversão entre sistemas de numeração é essencial para trabalhar com difer
 ### 7. Tabela de Conversão Resumida
 
 | Decimal | Binário | Octal | Hexadecimal |
-|---|---|---|---|
-| 0 | 0000 | 0 | 0 |
-| 1 | 0001 | 1 | 1 |
-| 2 | 0010 | 2 | 2 |
-| 3 | 0011 | 3 | 3 |
-| 4 | 0100 | 4 | 4 |
-| 5 | 0101 | 5 | 5 |
-| 6 | 0110 | 6 | 6 |
-| 7 | 0111 | 7 | 7 |
+| ------- | ------- | ----- | ----------- |
+| 0       | 0000    | 0     | 0           |
+| 1       | 0001    | 1     | 1           |
+| 2       | 0010    | 2     | 2           |
+| 3       | 0011    | 3     | 3           |
+| 4       | 0100    | 4     | 4           |
+| 5       | 0101    | 5     | 5           |
+| 6       | 0110    | 6     | 6           |
+| 7       | 0111    | 7     | 7           |
 
 ---
 
