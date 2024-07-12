@@ -1,4 +1,4 @@
-	Está é a parte em que caminharemos para alinhar o seu 'eu' com a cultura que almejamos. Para que possa ter um sucesso acadêmico.
+> Está é a parte em que caminharemos para alinhar o seu 'eu' com a cultura que almejamos. Para que possa ter um sucesso acadêmico.
 
 Servindo para te mostrar *técnicas* **eficazes** e **práticas**.
 
@@ -14,19 +14,19 @@ Servindo para te mostrar *técnicas* **eficazes** e **práticas**.
 
 ## Plano de Estudo:
 
-1. [[Metacognição e Mentalidade]]
+1. [[Metacognição e Mentalidade]] 
 
-2. [[Leitura ativa e anotações]]
+3. [[Leitura ativa e anotações]]
 
-3. [[Como estudar para cursos técnicos]]
+4. [[Como estudar para cursos técnicos]]
 
-4. [[Leitura difícil, boa escrita]]
+5. [[Leitura difícil, boa escrita]]
 
-5. [[Gestão eficaz do tempo]]
+6. [[Gestão eficaz do tempo]]
 
-6. [[Gerenciamento de estresse]]
+7. [[Gerenciamento de estresse]]
 
-7. [[Um tour pela nossa cultura]]
+8. [[Um tour pela nossa cultura]]
 
 ## Visão Geral
 

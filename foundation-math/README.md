@@ -1,7 +1,7 @@
 # Matematica Fundamental
 
 ## PROGRAMA DE ESTUDOS
-1. O método Científico
+1. [O método Científico](Jala/foundation-math/01-method-scientific/README.md)
 2. Demonstrações
     a. Demonstração por dedução
     b. Demonstração por contraexemplo
