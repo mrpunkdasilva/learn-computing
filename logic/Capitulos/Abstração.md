@@ -25,4 +25,4 @@ Os niveis de abstraçãoi é o quantos detalhes está jogando para debaixo do ta
 
 ---
 
-[[Linguagem Formal]] <- Anterior | Próximo -> [[Lógica Proposicional]]
+[[Linguagem Formal]] <- Anterior | Próximo -> [[Parte 1 - Lógica Proposicional]]

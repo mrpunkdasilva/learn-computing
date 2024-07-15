@@ -1,0 +1,1 @@
+![](Tela-azul-da-morte-Windows-versao-Nana-Gouveia.jpg)
