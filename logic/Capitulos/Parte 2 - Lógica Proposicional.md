@@ -32,3 +32,19 @@ Agora veremos o **calculo proposicional** ou então **álgebra proposicional**.
 │ (p ∧ q) ∨ (q ∧ ¬r)                    │
 └───────────────────────────────────────┘
 ```
+
+
+## Semântica
+- Define as interpretações possíveis das formulas.
+- Exemplo - usaremos a formula anterior:
+```
+┌─────────┐
+│ p ∧ q   │
+└─────────┘
+
+- Para que seja verdadeira, as duas proposições devem ser verdadeiras.
+```
+
+---
+
+[[Regra Formal]] <- Anterior | Próximo -> [[Propriedades e Relações entre fórmulas]]

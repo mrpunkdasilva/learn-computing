@@ -11,7 +11,7 @@ Assim, a Lógica usa como base alguns conceitos e um deles é o **[[Silogismo]]*
 
 Ou seja, como ambas são verdadeiras, o silogismo garante que todas são *verdadeiras se as remissas forem verdadeiras*.
 
-## Inferencia
+## Inferência
 É a técnica de **chegar na conclusão a partir das premissas** de maneira argumentativa perfeita.
 
 ## Lógica Dedutiva
@@ -33,4 +33,3 @@ De antemão da Dedutiva, ela parte de **premissas particulares** ou menos gerais
 
 ---
 Próximo -> [[Silogismo]]
-

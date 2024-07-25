@@ -5,6 +5,5 @@
 
 Assim usamos a **[[Parte 1 - Lógica Proposicional]]** para se fundamentar nas construções e manipulação da Lógica, como área de aprendizado.
 
-
 ---
 [[Silogismo]] <- Anterior | Próximo -> [[Abstração]]

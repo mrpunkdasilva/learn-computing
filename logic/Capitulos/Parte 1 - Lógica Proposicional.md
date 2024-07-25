@@ -24,7 +24,6 @@ As sentenças abertas, são afirmações em que eu posso atribuir valor: verdade
 
 Este tipo de sentenças (afirmações) que são como o vírus da biologia dentro da computação, existe discordância entre os *computeiros*  se eles são proposições ou não.
 
-
 ---
 
 [[Linguagem Formal]] <- Anterior | Próximo -> [[Regra Formal]]
