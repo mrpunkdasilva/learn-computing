@@ -45,6 +45,28 @@ Agora veremos o **calculo proposicional** ou então **álgebra proposicional**.
 - Para que seja verdadeira, as duas proposições devem ser verdadeiras.
 ```
 
+## Fórmula Bem Formada
+
+- **fbf** ou **wff** ~~(whata fuckin fucking kkkk~~) as formulas bem formadas são aquelas que seguem o uso correto da sintaxe;
+- Casos em que são **fbf**:
+1. Qualquer letra do alfabeto é uma fbf  
+2. Se α é uma fbf, **¬ α** também é.  
+3. Se α e β são fbfs, **α ∧ β, α ∨ β, α → β e α <→ β** também  
+são.
+
+```
+┌───────────────────────────────────────┐
+│       Símbolos e cadeia de símbolos   │
+└───────────────────────────────────────┘
+         ┌───────────────────┐
+         │       fbf         │
+         └───────────────────┘
+           ┌───────────┐
+           │ Teoremas  │
+           └───────────┘
+```
+
+
 ---
 
 [[Regra Formal]] <- Anterior | Próximo -> [[Propriedades e Relações entre fórmulas]]
