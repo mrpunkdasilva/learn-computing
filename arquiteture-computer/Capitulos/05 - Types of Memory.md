@@ -62,7 +62,7 @@ E essaa memoria utiliza o sistema: Static Random Access Memory
 Ao não se encontrar no Cache L2, ela é responsavel por chamar a memoria princial, ou seja, a DRAM (Dynamic Random Access Memory)
 
 ## Memoria Principal
-Rsponsavel por alocar informações das aplicações executadas no momento em que o PC ainda está ligado. Por isso ela precisa ficar refrescando a memoria, assim ela funciona de modo dinamico.
+Responsável por alocar informações das aplicações executadas no momento em que o PC ainda está ligado. Por isso ela precisa ficar refrescando a memoria, assim ela funciona de modo dinamico.
  A memoria princial é denominada memoria RAM. 
 ### Padrões de RAM  
  - DDR: este padrão tem como caracteristica a duplicação de lotes de bits por 1 ciclo de clock, ou seja, 64 bits por 1 ciclo de clock (ida e volta do CPU a Memoria)
@@ -76,14 +76,13 @@ Rsponsavel por alocar informações das aplicações executadas no momento em qu
 
 Firmwares já instalados:
 - BIOS: sistema Básico de Entrada e Saida;
-- POST: autoteste e verificalção no momento da incialização;
+- POST: autoteste e verificação no momento da incialização;
 - SETUP: muda as configurações já pre-definidas;
 
-
 ## Memoria Secundaria 
-É a memoria que va ser auela que vai armazenar os dados em massa, ou seja, o `SO` e outros programas assimcomo outros dados e por isso ela não pode ser `vólatil`.
+É a memoria que vai ser aquela que vai armazenar os dados em massa, ou seja, o `SO` e outros programas, assim como, outros dados e por isso ela não pode ser `vólatil`.
 Essas memorias **não** são **acessadas** pelo **processador**.
 
-> Vólatil é igual a desligou o PC ela deixou de existir, igual a gigolos, acabou o dinheiro não se vê mais ninguem (kkkkkkk)
-> SO é o Sistma Operacional, sendo a interfac entre hardware e humano e software. ele é aquele amigo cúpido
+> Vólatil é igual a desligou o PC ela deixou de existir, igual a gigolos, acabou o dinheiro não se vê mais ninguem ~~(kkkkkkk)~~
+> SO é o Sistma Operacional, sendo a interface entre hardware e humano e software. ele é aquele amigo cúpido
 

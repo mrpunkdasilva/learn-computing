@@ -16,38 +16,23 @@ E o **SO** tem algumas funções básicas que é:
 Um **sistema computadorizado** ou só computador, pode ser *dividido em quatro partes*:
 - [[Hardware]]
 - Sistema Operacional
-- [[Programas Aplicativos]]
+- [[Software]]
 - [[Usuários]]
 
-##### Hardware
-O hardware, quando falo desse componente se trata das **[[Partes Físicas]].** 
 
-> Hardware é aquilo que você chuta
-
-###### Partes Físicas
-Tais partes entregam as funcionalidades computacionais básicas:
-- [[Unidade Central de Processamento]] (CPU em ingres baby)
-- [[Memoria]]
-- [09 - IO Devices](09%20-%20IO%20Devices.md)
-
-###### Programas Aplicativos
-Tais programas são as partes em que não são físicas e são usados para diversos assuntos. Como: planilhas de textos.
-
-- **[[Programas Aplicativos]]** (Aplicativos)
-
-**Também podemos considerar que um sistema computadorizado é composto por:**
+- **Também podemos considerar que um sistema computadorizado é composto por:**
 
 ```
-										   	
-	[0101] |                             | [  ] -> Finge que é um PC
-	[010]  |--: Dados        Hardware :--| |==| 
- 	[01]   |       |             |       | ----
-			       -- Software----
-					     |
-					     |
-					|--------|
-					|  WIN95 |
-					|--------|     
+										
+[0101] |                             | [  ] -> Finge que é um PC
+[010]  |--: Dados        Hardware :--| |==| 
+[01]   |       |             |       | ----
+			   -- Software----
+					 |
+					 |
+				|--------|
+				|  WIN95 |
+				|--------|     
 ```
 
 
@@ -99,7 +84,7 @@ Esse programa é conhecido como **([Firmware]())** porque está instalado direta
 
 Para carregar o SO ele precisa localizar o **[Kernel]()** que é o nucleo do sistema operacional, assim que carregado na memoria do computador ele chama um processo chamado **init** que espera uma interrupção do sistema ou do hardware, os dois casos:
 - Se for pelo hardware, ele manda uma interrupção por sinal para a CPU, via normalmente barramento do sistema;
-- Se for por software, ele pode fazer de duas maneiras ou chamando o **[system call]()** (chamada do sistema) ou usando o **[monitor call]()** (monitor de chamada) elas são operações especiais execcutadas para realizar a interrupção disparando um sinal para a CPU.
+- Se for por software, ele pode fazer de duas maneiras ou chamando o **[system call]()** (chamada do sistema) ou usando o **[monitor call]()** (monitor de chamada) elas são operações especiais executadas para realizar a interrupção disparando um sinal para a CPU.
 Assim que a CPU  recebe alguma interrupção ela para o que está fazendo:
 ![](Pasted%20image%2020240712151644.jpg)
 
@@ -187,7 +172,6 @@ Se modificar o estado do   Caso
      ⬇️                         ⬇️
   Processador continua a execução 🚀
 ```
-
 
 
 

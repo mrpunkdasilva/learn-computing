@@ -60,8 +60,36 @@
 ```
 
 
+## Algoritmo
 
+Algoritmo nada mais é que uma **sequencia de instruções lógicas finitas** para resolver problemas.
+- Um passo a passo que termina e possui lógica
+
+**Exemplo:**
+- Como fazer um bolo -> possui uma sequencia de instruções lógicas e finitas
+- Thubirau naunaun -> só uma expressão nada de sequencia de instruções
+
+Os **algoritmos são montados com base no pensamento computacional** (pelo menos em TI deveria ser assim).
+
+### Algoritmos na Computação
+Os algoritmos são usados em computação de algumas formas:
+
+- **Algoritmo** -> seria o código feito em uma linguagem, já que le já estaria sendo usado para resolver problema (na verdade é melhor chamar de código, você sabera o porque mais a frente).
+
+- **Pseudocodigo** -> representação "informal" do algoritmo ele não é o codigo usado para resolver o problema mais sim feito para compreender o problema e para ensinar programação.
+
+- **Fluxograma** -> diagrama feito para esboçar o algoritmo de forma visual (com elementos muito mais visuais e com algum texto), os fluxogramas em geral tem um padronização de suas figuras (que são os elementos gráficos) tais elementos possui cada um seu significado, assim estabelecemos uma  função para cada figura.
+   -  **Alguns símbolos usados nos Fluxogramas**
+![](FlowChartSymbols.png)
+
+### Que porra é computação?
+Então, senta ai arrombado que eu digo:
+- COMPUTAÇÃO É O PROCESSO DE USAR O COMPUTADOR ORIENTADO A ~~GAMBIARRA~~ OBJETIVOS
+Ou seja, usamos os computadores para resolver nossos problemas seguindo os princípios anteriores como **pensamento computacional**.
+Resolver problemas é o core, a vida, a essencia, a fonte da vida, o Rio Nilo da Ciência da Computação usando a **mecanização maxima dos computadores usando os processos de informação** (ou melhor sequencia de etapas) -> a vida não é só *CRUDMaker*.
+
+Para isso é imprescindivel entender como o computador funcion, para isso devemos estudar alguns conceitos, ou seja, o conhecimento em: **[Architeture Computer](Architeture%20Computer.md)** e *[Sistemas Operacionais](Sistemas%20Operacionais.md)* são importantes.  
 
 ---
 
-[Programação 1](Programação%201.md) <- Anterior | Próximo -> 
+[Programação 1](Programação%201.md) <- Anterior | Próximo -> [[Intro  - Java]]

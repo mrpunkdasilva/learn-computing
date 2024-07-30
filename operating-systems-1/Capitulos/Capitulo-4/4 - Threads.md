@@ -149,10 +149,10 @@ Nesta representação, utilizei os seguintes elementos:
 
 As threads em seu uso, ou seja a forma como os processos são construidos, podem ser divididos em **dois tipos threads:**
 - **Singlethread**: é uma **única** **thread** em uso;
-![](../resources/SingleThread.png)
+![](SingleThread.png)
 
 - **Multithread**: são **varias** **threads** que funcionam simultaneamente, de modo **paralelas**;
-![](../resources/MultiThread.png)
+![](MultiThread.png)
 
 ## Usos
 Vários softwares que são executados nos computadores modernos são dotados de múltiplas threads. 
