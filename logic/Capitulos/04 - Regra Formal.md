@@ -1,3 +1,4 @@
+# Regra Formal
 Definem algumas **regras**, para estabelecer conceitos para.
 
 ## Conceito Verdade:
@@ -131,4 +132,4 @@ Sistema que **representa** as **proposições**, através de **combinação**. T
 
 
 ---
-[Parte 1 - Lógica Proposicional](Parte%201%20-%20Lógica%20Proposicional.md) <- Anterior | Próximo -> [[Parte 2 - Lógica Proposicional]]
+[03 Intro - Lógica Proposicional](03%20Intro%20-%20Lógica%20Proposicional.md) <- Anterior | Próximo -> [[04.2 - Sintaxe e Semântica]]

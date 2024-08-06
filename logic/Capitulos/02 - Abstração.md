@@ -1,3 +1,4 @@
+# Abstração
 Abstração é muito abstrato - difícil de conceitualizar, mas podemos dizer que é:
 - **Achar o mais importante**
 
@@ -25,4 +26,4 @@ Os niveis de abstraçãoi é o quantos detalhes está jogando para debaixo do ta
 
 ---
 
-[[Linguagem Formal]] <- Anterior | Próximo -> [[Parte 1 - Lógica Proposicional]]
+[[01 - Linguagem Formal]] <- Anterior | Próximo -> [[03 Intro - Lógica Proposicional]]

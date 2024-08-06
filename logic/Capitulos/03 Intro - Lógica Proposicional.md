@@ -1,3 +1,4 @@
+# Intro - Lógica Proposicional
 Lógica para a construção da argumentação usando proposições
 
 ## Proposições
@@ -26,4 +27,4 @@ Este tipo de sentenças (afirmações) que são como o vírus da biologia dentro
 
 ---
 
-[[Linguagem Formal]] <- Anterior | Próximo -> [[Regra Formal]]
+[[01 - Linguagem Formal]] <- Anterior | Próximo -> [[04 - Regra Formal]]

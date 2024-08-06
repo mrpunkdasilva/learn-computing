@@ -28,7 +28,7 @@
 
 - **Decomposição:** dividir problemas complexos em  problemas menores e mais simples (dividir para  conquistar);
 - **Reconhecimento de padrões**: estabelecer conexões entre problemas similares e experiências anteriores;
-- **[[Abstração]]**:  identificar informações importantes  enquanto ignora detalhes irrelevantes ou não  relacionados;
+- **[[02 - Abstração]]**:  identificar informações importantes  enquanto ignora detalhes irrelevantes ou não  relacionados;
 - **Algoritmos**: projetar etapas simples para  resolver problemas.  
 ```
 ┌──────────────────────────────┐  

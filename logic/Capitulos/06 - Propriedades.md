@@ -1,4 +1,3 @@
-
 ## Propriedades 
 
 ### Contradição
@@ -12,12 +11,13 @@
 | T   | F   | F       |
 | F   | T   | F       |
 | F   | T   | F       |
+
 > Paradoxo X Contradição
 > O paradOoxo -> é aquele que ainda pode haver verdade
 >  A contradição -> é aquele que não existe verdade, é impossível possuir verdade
 
 ### Tautologia
-é a proposição em que é **tudo verdadeiro**, ou seja, independende dos valores de entrada (premisas) a proposição sempre resulta em verdadeiro.
+é a proposição em que é **tudo verdadeiro**, ou seja, independente dos valores de entrada (premissas) a proposição sempre resulta em verdadeiro.
 
 **EXEMPLO:**
 
@@ -41,9 +41,7 @@ Aqui está a tabela-verdade com a formatação em Markdown:
 | V   | F   | F     | F           |
 | V   | V   | V     | V           |
 
-
 ### Satisfatibilidade 
-
 Uma **FBF** (Formula Bem Formada) é satisfazivel quando se tem **pelo menos um resultado verdadeiro**.
 O problema que vai determinar se um expressão é satisfazivel é chamado de **SAT**.
 
@@ -86,4 +84,5 @@ O problema que vai determinar se um expressão é satisfazivel é chamado de **S
 | F                               | F   | T     |
 
 ---
-[Propriedades e Relações entre fórmulas](Propriedades%20e%20Relações%20entre%20fórmulas.md) <- Anterior | Próximo -> [[Arvore de Formação]]
+
+ [05 - Arvore de Formação](05%20-%20Arvore%20de%20Formação.md) <- Anterior | Próximo -> [07 - Relações](07%20-%20Relações.md)

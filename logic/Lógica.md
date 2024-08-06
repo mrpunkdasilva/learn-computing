@@ -2,7 +2,7 @@
 
 Aristóteles, historicamente é chamado e tido como o pai da lógica, como área de estudo, ou seja, os gregos já falavam sobre: a razão, a forma como devemos e como fazemos a estruturação do raciocínio e da argumentação de uma **tese**.
 
-Assim, a Lógica usa como base alguns conceitos e um deles é o **[[Silogismo]]** que é a forma como **estruturamos de maneira básica o argumento**.
+Assim, a Lógica usa como base alguns conceitos e um deles é o **[[00 - Silogismo]]** que é a forma como **estruturamos de maneira básica o argumento**.
 
 **Exemplo:** 
 - **Premissa 1:** Todo baiano dorme em redes
@@ -32,4 +32,4 @@ De antemão da Dedutiva, ela parte de **premissas particulares** ou menos gerais
 
 
 ---
-Próximo -> [[Silogismo]]
+Próximo -> [[00 - Silogismo]]
