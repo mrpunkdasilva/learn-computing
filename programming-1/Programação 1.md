@@ -2,7 +2,7 @@
 
 Para começarmos, fizemos algo em especifico com este projeto, temos que o que queremos: **Projetar soluções computatorizadas para problemas.**
 
-Assim para criar tais soluções usamos **diversas técnicas**, como por exemplo: **[[Pensamento Computacional]]** usado para iniciar a projeção de um problema de forma **estruturada e sistemática**.
+Assim para criar tais soluções usamos **diversas técnicas**, como por exemplo: **[[00.2 - Pensamento Computacional]]** usado para iniciar a projeção de um problema de forma **estruturada e sistemática**.
 
 ## Solução de Problemas
 Resolver problemas não é nada além de técnica, ou seja, **assimilar os conceitos já sabidos, relacionar tais conceitos e praticar  muito**.
@@ -28,4 +28,4 @@ De modo geral, podemos resumir  solução de problemas em alguns passo:
 
 ---
 
- | Próximo -> [Pensamento Computacional](Pensamento%20Computacional.md)
+ | Próximo -> [00.2 - Pensamento Computacional](00.2%20-%20Pensamento%20Computacional.md)

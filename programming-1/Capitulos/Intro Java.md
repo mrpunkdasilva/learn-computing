@@ -23,5 +23,5 @@ Porem, contudo, toda via, o Java está  mais em uso muito mais em algumas áreas
 ## Como o Java funciona
 1. Criamos o programa -> `HelloWorld.java`
 2. Compilamos usando o compilador do Java -> `javac`
-3. Execução do programa Java -> execucação por código pela `JVM`
+3. Execução do programa Java -> execução por código pela `JVM`
 
