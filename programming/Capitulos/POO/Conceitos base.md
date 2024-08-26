@@ -1,12 +1,30 @@
-## Conceitos base
+# Conceitos base
 
-### Classes
+<!-- TOC -->
+* [Conceitos base](#conceitos-base)
+  * [Classes](#classes)
+    * [Vamos a um exemplo no Minecraft:](#vamos-a-um-exemplo-no-minecraft)
+    * [Transformando em código:](#transformando-em-código)
+  * [Objeto](#objeto)
+    * [Vamos a um exemplo no Minecraft:](#vamos-a-um-exemplo-no-minecraft-1)
+    * [Transformando em código:](#transformando-em-código-1)
+  * [Atributos](#atributos)
+    * [Vamos a um exemplo no Minecraft:](#vamos-a-um-exemplo-no-minecraft-2)
+    * [Transformando em código:](#transformando-em-código-2)
+  * [Métodos](#métodos)
+    * [Vamos a um exemplo no Minecraft:](#vamos-a-um-exemplo-no-minecraft-3)
+    * [Transformando em código:](#transformando-em-código-3)
+<!-- TOC -->
+
+---
+
+## Classes
 
 > Quando se usa POO, **tudo ou quase é uma classe e por tabela é um objeto.**
 
 Com isso em mente e o conceito do que seria programação orientada a objetos, temos que pensar que para **representarmos algo** do mundo real, precisamos primeiro fazer o modelo da “coisa” ou “ser”, para isso criamos as **classes**, que por vez elas terão as suas respectivas **características** → **atributos** e suas **ações → métodos.**
 
-#### Vamos a um exemplo no Minecraft:
+### Vamos a um exemplo no Minecraft:
 ![[Classes.png]]
 
  **Tudo** **no Minecraft** **é um objeto,** ou seja, o seu personagem, os mobs, os blocos, o mundo
@@ -29,14 +47,14 @@ As classes por padrão começam sempre com as primeiras letras em maiúscula →
 
 Pense que o **objeto é o uso do modelo** e ele que usamos para interagir com o sistema, contendo todos os **atributos** e **métodos da classe**.
 
-#### Vamos a um exemplo no Minecraft:
+### Vamos a um exemplo no Minecraft:
 ![[Objeto.png]]
 
 Como vemos no exemplo a classe Jogador **possui três instancias** → Jogador1, Jogador2, Jogador3
 
 - Que **possuem** as **características** e **ações** **definidas na classe Jogador**.
 
-#### Transformando em código:
+### Transformando em código:
 ![[ObjetoCodigo.png]]
 - Para criar objetos precisamos instanciar as classes e para isso usamos a palavra-chave:
 ```
@@ -70,7 +88,7 @@ E para usá-los usamos a palavra reservada → `this` servindo para referenciar 
 ![[AtributosCodigo2.png]]
 ![[Atributos3.png]]
 
-### Métodos
+## Métodos
 
 > **Tudo aquilo que as classes fazem.**
 
@@ -78,7 +96,7 @@ Os métodos são responsáveis pelas **ações de uma classe (ou seja, do objeto
 - **construtor** → **inicializa a classe**, (obrigatório) e o primeiro a ser executado assim que a classe é invocada (quando usamos o ``new)
 - **métodos não construtor** → todo e qualquer outro **método** **que não é o construtor**
 
-#### Vamos a um exemplo no Minecraft:
+### Vamos a um exemplo no Minecraft:
 No exemplo vemos que um objeto Jogador ele precisa de algumas ações básicas como:
 
 - andar | correr | comer | nadar

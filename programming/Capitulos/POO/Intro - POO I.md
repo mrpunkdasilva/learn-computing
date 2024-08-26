@@ -1,5 +1,12 @@
 # Programação Orientada a Objetos
 
+<!-- TOC -->
+* [Programação Orientada a Objetos](#programação-orientada-a-objetos)
+  * [Começando pelo começo](#começando-pelo-começo)
+<!-- TOC -->
+
+---
+
 ## Começando pelo começo
 
 Para começar, primeiro precisamos entender o conceito de POO, ou, Programação Orientada a Objetos. Ela é **uma técnica de programação** – ou seja, **uma forma de pensar em criar algoritmos**.

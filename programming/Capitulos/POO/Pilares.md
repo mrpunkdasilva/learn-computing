@@ -1,7 +1,23 @@
-## Pilares
+# Pilares
 De forma que ela se baseia em alguns pilares:
 
-### Abstração
+<!-- TOC -->
+* [Pilares](#pilares)
+  * [Abstração](#abstração)
+      * [Ao Transformar em código serial algo assim:](#ao-transformar-em-código-serial-algo-assim)
+  * [Encapsulamento](#encapsulamento-)
+    * [Modificadores](#modificadores)
+  * [**Herança**](#herança)
+    * [Transformando **em** **código:**](#transformando-em-código)
+  * [**Poliformismo**](#poliformismo-)
+    * [Voltando ao nosso Minecraft:](#voltando-ao-nosso-minecraft)
+    * [Transformando em código:](#transformando-em-código-1)
+<!-- TOC -->
+
+---
+
+
+## Abstração
 
 > _Jogar os detalhes para debaixo do tapete_
 
@@ -16,7 +32,7 @@ De forma que ela se baseia em alguns pilares:
 - No caso, vamos **abstrair a questão da linguagem**, já que o importante são os conceitos
 - Assim criamos uma classe – modelo, que possui **apenas o que é importante** para um jogador
 
-### Encapsulamento 
+## Encapsulamento 
 
 > _cada um no seu quadrado_
 
@@ -42,7 +58,7 @@ Caso **não exista este pilar**, ou seja, os atributos não estão encapsulados 
 ![[Encapsulamento2.png]]
 
 
-#### Modificadores
+### Modificadores
 - **Modificadores:** _**public**_
 ![[ModificadorPublic.png]]
 
@@ -52,7 +68,7 @@ Caso **não exista este pilar**, ou seja, os atributos não estão encapsulados 
 - **Modificadores:** _**protected**_
 ![[ModificadorProtected.png]]
 
-###  **Herança**
+##  **Herança**
 
 > _copia, mas não faz igual_
 
@@ -63,16 +79,16 @@ Nesse pilar pense assim: há uma **classe pai**, aquela que vai ser usada para s
         
 - Sendo que tanto **Jogador e Mob** **terão o que a classe pai tem**, mas **serão vistos como outras classes**, ou seja, **é uma copia** do que o modelo tem, **mas não é igual**, as filhas podem sobrescrever o que uma ação faz para ficar personalizada, só que isso é [Poliformismo](#Poliformismo)
 
-#### Transformando **em** **código:**
- ![[HerançaCodigo1.png]]
+### Transformando **em** **código:**
+![[HerançaCodigo1.png]]
 ![[HerançaCodigo2.png]]
 
-### **Poliformismo** 
+## **Poliformismo** 
 > _eu sou o Douglas, você não é o Douglas_
 
 Com esse pilar devemos se basear na Herança, já que o poliformismo é ter **um mesmo metodo**, o que o objeto faz, que possui o **mesmo nome da classe pai e** **ma** **filha**, só que com **uma forma diferente de fazer as coisas.**
 
-#### Voltando ao nosso Minecraft:
+### Voltando ao nosso Minecraft:
 Como temos, **Jogador e Mob** que **possuem formas diferentes de fazer a mesma coisa**, ou seja,
 
 - Os dois atacam, correm, etc, porém o Mob tem certos tipos de ataque diferente do Jogador
@@ -81,7 +97,7 @@ Como temos, **Jogador e Mob** que **possuem formas diferentes de fazer a mesma c
 
 Logo para fazer isso além de usar a [Herança](#Herança) temos que **sobrescrever** o que jaz **escrito em Personagem,** para **cada classe filha** que tenha que possuir **uma ação** que tem o **mesmo nome**, mas **varia em comportamento**.
 
-#### Transformando em código:
+### Transformando em código:
   ![[PoliformismoCodigo1.png]]
 - Mas não mudamos, por exemplo, seu retorno ou então os parâmetros que são aceitos
 - Sendo que poderia ser feito isso, com o Poliformismo temos os **mesmo nomes de métodos só que com formas diferentes de usá-los**

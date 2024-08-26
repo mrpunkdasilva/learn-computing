@@ -24,8 +24,8 @@
 2. [Habilidades Comportamentais.md](behavioral-skills/Habilidades%20Comportamentais.md)
 3. [Lógica.md](logic/L%C3%B3gica.md)
 4. [Architeture Computer.md](arquiteture-computer/Architeture%20Computer.md)
-5. [Sistemas Operacionais.md](operating-systems-1/Sistemas%20Operacionais.md)
-6. [Programação 1.md](programming-1/Programa%C3%A7%C3%A3o%201.md)
+5. [Sistemas Operacionais.md](operating-systems/Sistemas%20Operacionais.md)
+6. [Programação 1.md](programming/Programa%C3%A7%C3%A3o%201.md)
 
 ## O que é
 Este repositório é onde eu irei organizar e documentar todos os meus conhecimentos em computação que adquirir ao longo da minha vida. Meu objetivo é criar um guia abrangente e estruturado sobre os principais conceitos, tecnologias e habilidades relacionadas à área de computação.
