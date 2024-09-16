@@ -139,5 +139,4 @@ Soma: 8 + 0 + 2 + 1 = 11 (decimal).
 Estas são apenas algumas técnicas básicas de conversão. Existem outras abordagens e tabelas de conversão que podem ser utilizadas para facilitar o processo.
 
 
-
-
+[[00 - Evolution of Computers]]

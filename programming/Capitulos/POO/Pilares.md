@@ -21,14 +21,13 @@ De forma que ela se baseia em alguns pilares:
 
 > _Jogar os detalhes para debaixo do tapete_
 
-![[AbstraçãoCodigo.png]]
 - Deixar **apenas o essencial** que o objeto precisa.
 - Por exemplo, vamos abstrair um jogador do Minecraft, ou seja, **pensar** nas **características** e **ações** mais **importantes**:    
 ­![[Abstração.png]]
 
 #### Ao Transformar em código serial algo assim:
 ![[AbstraçãoCodigo.png]]
-- Por convenção, usamos o nome da classe no singular e usando o pascal case
+- Por convenção, usamos o nome da  classe é no singular e usando o pascal case
 - No caso, vamos **abstrair a questão da linguagem**, já que o importante são os conceitos
 - Assim criamos uma classe – modelo, que possui **apenas o que é importante** para um jogador
 
@@ -36,7 +35,7 @@ De forma que ela se baseia em alguns pilares:
 
 > _cada um no seu quadrado_
 
-- Deixar as características do objeto (**atributo****s**) e o que ele faz (**métodos**) **acessível** apenas **a ele mesmo** e **seu acesso é controlado**
+- Deixar as características do objeto (**atributos**) e o que ele faz (**métodos**) **acessível** apenas **a ele mesmo** e **seu acesso é controlado**
 - Usaremos o exemplo abaixo para representar encapsulamento
 ![[Encapsulamento.png]]
 
@@ -55,8 +54,8 @@ Caso **não exista este pilar**, ou seja, os atributos não estão encapsulados 
 ![[Encapsulamento1.png]]
 
 > Obs.: As outras partes do código não são importantes no momento para aparecerem
+- Se tentarmos acessar diretamente os atributos irá retornar erro, já que ele está como `private` e assim só posso modificar e ler o valor dele usando `getters` e `setters`
 ![[Encapsulamento2.png]]
-
 
 ### Modificadores
 - **Modificadores:** _**public**_
@@ -66,7 +65,10 @@ Caso **não exista este pilar**, ou seja, os atributos não estão encapsulados 
 ![[ModificadorPrivate.png]]
 
 - **Modificadores:** _**protected**_
-![[ModificadorProtected.png]]
+![[Pasted image 20240906145814.png]]
+
+- **Modificador:**  _**static**_
+![[Pasted image 20240906151727.png]]
 
 ##  **Herança**
 

@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "4a60985a3c2ac2fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0b5b3e824cf1567",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0911d36d04540655",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e5d3f549230f113b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f56c879df9460147",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f48afb583c2d004",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bb01c9cc33faaf74",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5d439ba7d9e3977f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 213.5
+  },
+  "right": {
+    "id": "0d929310f57b2e7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "270d636b954e3608",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b482b681858a867",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e5b3ac608710da3a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "21068384c58947a0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7046e97d58298fdf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "01e6e42a1c19065a",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "4cdf034d7a2ba780",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          },
+          {
+            "id": "96870bf922f95934",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir Quick Switcher": false,
+      "graph:Abrir Visualização de diagrama de grafo": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Abrir nota de hoje": false,
+      "templates:Inserir templates": false,
+      "command-palette:Abrir paleta de comando": false,
+      "obsidian-git:Open Git source control": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "0911d36d04540655",
+  "lastOpenFiles": [
+    "Untitled Kanban.md",
+    "Untitled Kanban 1.md",
+    "Formas Normais.md",
+    "Função.md",
+    "Função/Pasted image 20240916115922.png",
+    "Função/Pasted image 20240916115220.png",
+    "Função/Pasted image 20240916115753.png",
+    "Função/Pasted image 20240916111450.png",
+    "Função/Pasted image 20240916105752.png",
+    "Função/Pasted image 20240916110628.png",
+    "Função/Pasted image 20240916105628.png",
+    "Função",
+    "Pasted image 20240916104924.png",
+    "Pasted image 20240916104727.png",
+    "Pasted image 20240916104542.png",
+    "intro-computing/6-tipos-de-aplicacoes-web/README.md",
+    "intro-computing/3-roteadores-internet-servidores/README.md",
+    "intro-computing/2-software-hardware/README.md",
+    "intro-computing/1-programacao/README.md",
+    "database/Database.md",
+    "foundation-math/README.md",
+    "foundation-math/02-demonstration/Demonstrações.md",
+    "operating-systems/Capitulos/Capitulo-1/1 - Introdução.md",
+    "operating-systems/Capitulos/Capitulo-10/01 - Arquivo.md",
+    "operating-systems/Capitulos/Capitulo-10/00 - Intro.md",
+    "operating-systems/Capitulos/Capitulo-8/02 - Associação de endereços.md",
+    "operating-systems/Capitulos/Capitulo-8/01 - Conceitos Básicos.md",
+    "operating-systems/Capitulos/Capitulo-8/00 - Intro Gerencia de Memoria.md",
+    "operating-systems/Capitulos/Capitulo-4/4 - Threads.md",
+    "operating-systems/Capitulos/Capitulo-3/3 - Processos.md",
+    "operating-systems/Capitulos/Capitulo-1/Sistema Distribuidos.md",
+    "operating-systems/Capitulos/Capitulo-1/08 - Caching.md",
+    "arquiteture-computer/Architeture Computer.md",
+    "arquiteture-computer/Capitulos/08 - Data Representation.md",
+    "arquiteture-computer/Capitulos/09 - IO Devices.md",
+    "arquiteture-computer/Capitulos/07 - Barrament.md",
+    "arquiteture-computer/Capitulos/06 - Organization of the Processor.md",
+    "arquiteture-computer/Resources",
+    "programming/Resources/POO/Pilar - Encapsulamento.drawio.svg.crswap",
+    "programming/Resources/POO/imgs/CREEPER-POO.jpeg.crdownload"
+  ]
+}

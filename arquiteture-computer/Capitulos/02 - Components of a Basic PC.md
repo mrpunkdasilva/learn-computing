@@ -4,7 +4,7 @@ Nesse caso iremos abordar por um lado do hardware, ou seja, parte física.
 ## Componentes:
 - São eles:
 ```
-  CPU | Memoria | Dispositivos de Entrada e Sáida
+  CPU | Memoria | Dispositivos de Entrada e Sáida | Barramentos
 ```
 
 - Esses componenetes são conectados por `Barrramentos` (são 'estradas' ou cabos que ligam os componenetes)
@@ -44,3 +44,5 @@ servindo para entrar e sair com dados.
 ### Barrramento 
 são fios ou caminhos condutores que passam pelo computador e interligam os componentes.
 
+
+[[03 - Truth Table]]

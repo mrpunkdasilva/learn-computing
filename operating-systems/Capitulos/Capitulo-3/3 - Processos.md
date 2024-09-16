@@ -154,7 +154,7 @@ Assim ,se aplicarmos isso para entender melhor no contexto de um browser, ele s�
 
 No cenário atual, os  **sistemas operacionais** utiliza uma **arquitetura de threads diferente**: como existia essa limitação a cerca dos processos então foi criado essa arquitetura voltada a **multi-threads** que é um processo possuir **mais de uma thread**. Ou seja, ele consegue fazer **mais de uma tarefa por vez**.
 
-**==Representação de um modelo multi thread:==**
+**Representação de um modelo multi thread:**
 ![](MultiThread.png)
 
 
@@ -171,12 +171,12 @@ Então se tem um objetivo que é o **compartilhamento do tempo de uso da CPU** e
 
 Tal que, para atender a essas demandas precisa que o **[Escalonador de Processos]()** (Process Scheduler) **selecione um programa disponivel** (dentro da sua lista de possíveis processos disponíveis), **para que ocorra a execução do programa na CPU**.
 
-==**Representação do Escalonador de Processos:**==
+**Representação do Escalonador de Processos:**
 ![](EscalonamentoDeProcessos1.jpg)
 
 > Se olharmos para um processador único em um sistema isso não será possivel e o que vai acontecer é que um programa entrara em execução enquanto os outros estarão na fila de espera de execução, até que a CPU esteja disponivel para atender a chamada
 
-==**Exemplo de API Padrão:**==
+**Exemplo de API Padrão:**
 O bloco de controle de processo no sistema operacional Linux é representado pela estrutura `task_struct` que consegue representar todas as informações dos processos:
 - Estado do processo
 - Informações de escalonamento
@@ -206,25 +206,25 @@ Então se caso mudar o estado do processo o Kernel faria o seguinte:  `current->
 - Sendo que `curren**t` é um ponteiro para o processo em execução e alteraria um unico processo que está sendo apontado por `current`**, lembrando que ele seria uma estrutura do tipo : `task_struct` por isso poderia ser manipulada desse jeito.
 
 ### Filas de Escalonamento
-Ao programa ser executado e se tornar um programa ele **entra para a ==fila de tarefas (job queue)** ==sendo ela a fila **que contem todos os processos do sistema**.
+Ao programa ser executado e se tornar um programa ele **entra para a fila de tarefas (job queue)** sendo ela a fila **que contem todos os processos do sistema**.
 
 Os processos que **estão**: 
 - Na memoria principal (RAM)
 - Prontos
 - E esperando serem chamados para a execução
-São colocados na ==**fila de prontos (ready queue)**==. Esta sendo em geral **uma lista interligada** que possui no cabeçalho **ponteiros para o primeiro e ultimo PCB da lista**.
+São colocados na **fila de prontos (ready queue)**. Esta sendo em geral **uma lista interligada** que possui no cabeçalho **ponteiros para o primeiro e ultimo PCB da lista**.
 Cada PCB  possui **um ponteiro que indica para o próximo PCB** na fila de prontos:
 ![](FilasDeProntosEFilasDeDispositivos.png)
 
 **Segunda representação: **
 ![](FilaDeProntoEDeDispositivos2.png)
 
-A lista de processos esperando por determinado dispositivo de E/S é chamada de: ==**fila de dispositivos**== ela sendo a fila que vai guardar os **processos que já receberam alocação da CPU**, mas precisa usar um dispositivo:
+A lista de processos esperando por determinado dispositivo de E/S é chamada de: **fila de dispositivos ela sendo a fila que vai guardar os **processos que já receberam alocação da CPU**, mas precisa usar um dispositivo:
 
 Um **diagrama de filas**, ajuda a entender  como o escalonador de processos trabalha com as listas:
 
 Um **processo criado inicialmente é colocado na fila de pronto**. Ele espera até que vá para a execução (ou seja, **até que seja despachado**).
-Quando o processo já recebeu o tempo de CPU, está alocado nela e  está executando. Logo então ==*podem ocorrer um desses eventos*==:
+Quando o processo já recebeu o tempo de CPU, está alocado nela e  está executando. Logo então *podem ocorrer um desses eventos*:
 - O processo pode fazer uma **requisição de um dispositivo de E/S** e então ser **alocado para a fila de dispositivo** (sendo para a fila respectiva a do dispositivo que se requisitou)
 - O processo **pode criar um subprocesso** e **esperar que ele termine**
 - O processo pode ser **removido  a força da CPU  por uma interrupção** e acabar sendo **movido de novo para a fila de pronto**

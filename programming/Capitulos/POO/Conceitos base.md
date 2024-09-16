@@ -98,6 +98,7 @@ Os métodos são responsáveis pelas **ações de uma classe (ou seja, do objeto
 
 ### Vamos a um exemplo no Minecraft:
 No exemplo vemos que um objeto Jogador ele precisa de algumas ações básicas como:
+![[Metodos.png]]
 
 - andar | correr | comer | nadar
 

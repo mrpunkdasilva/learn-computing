@@ -86,3 +86,4 @@ Essas memorias **não** são **acessadas** pelo **processador**.
 > Vólatil é igual a desligou o PC ela deixou de existir, igual a gigolos, acabou o dinheiro não se vê mais ninguem ~~(kkkkkkk)~~
 > SO é o Sistma Operacional, sendo a interface entre hardware e humano e software. ele é aquele amigo cúpido
 
+[[06 - Organization of the Processor]]

@@ -33,7 +33,7 @@ Existem alguns tipos dados:
 - real: são numeros decimais e podem ser subdivididos em dois grupos:
     - float: menor precisão. 
     - double: maior precisão.
-- caractere (char): usad para representar apenas um caractre, sendo normalmente usado aspas simples para criar o char ('')
+- caractere (char): usad para representar apenas um caractre, sendo normalmente usado aspas simples para criar o char
 - cadeia de caracteres (string): são mais de um caractere entre aspas (sendo simples ou duplas)
 - booleano: valore lógicos que podm ser: true (verdadeiro ou 1) ou false (falso ou 0)
 
@@ -42,3 +42,7 @@ Pode-se dizr que a memoria funciona como um vetor, ela possui indices e neles te
 
 > O sistema de gerenciamento de memoria é o programa que realiza a alocação de memoria e a coleta de lixo, logo a memoria RAM possui alocações e librações dinamicas.
 
+
+---
+
+[[09 - IO Devices]]

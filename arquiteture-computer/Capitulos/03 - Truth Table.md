@@ -43,6 +43,7 @@ Ssão particulas usadas para **combinar** e **modificar** proposições e assim 
 
 - **Conjuntivo** (^): esse conectivo diz que para ser verdadeiro as duas devem ser verdadeiras
     - Exemplo: p = verdadeiro; q = verdadeiro; p ^ q = Verdairo
+
 | p | q |  p ^ q  |
 |---|---|---------|
 | v | f |    f    |
@@ -53,6 +54,7 @@ Ssão particulas usadas para **combinar** e **modificar** proposições e assim 
 
 - **Disjunção** (v): é ao conectivo em que apenas uma precisa ser verdadeira para que a expressão resulte em verdadeiro.
     - Exemplo: p = verdadeiro; q = falso; p v q = verdadeiro
+
 | p | q |  p v q  |
 |---|---|---------|
 | v | f |    v    |
@@ -63,6 +65,7 @@ Ssão particulas usadas para **combinar** e **modificar** proposições e assim 
 
 - **Condicional (se...então)** (->): é o conectivoem quse baseia em que para sser verdadeiro, a condição `p` devera verdadeiro para que a proposição `q` seja verdadeira.
     - Exemplo: p = verdadeiro; q = verdadeiro; p -> q = verdadeiro
+
 | p | q |  p -> q |
 |---|---|---------|
 | v | f |    f    |
@@ -92,4 +95,4 @@ Ssão particulas usadas para **combinar** e **modificar** proposições e assim 
 | <-> | Só será verdadeiro se as duas tiverem o mesmo valor, senão é falso |
 
 
- 
+ [[04 - Logic Ports]]
