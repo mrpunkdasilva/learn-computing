@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "b9debaa84769e2d9",
+        "id": "4f2ea969dcee96f7",
         "type": "tabs",
         "children": [
           {
-            "id": "a13c1b87ed42d572",
+            "id": "66196f742edeca7c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Função/Função.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Função",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Função/Função.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Função/Função.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Função/Função.md"
+              }
             }
           },
           {
@@ -150,7 +158,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,8 +174,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "4f48afb583c2d004",
+  "active": "66196f742edeca7c",
   "lastOpenFiles": [
+    "Função/resources/Pasted image 20240916105628.png",
+    "Função/resources",
     "FORMAS_NORMAIS/FormasNormais-1FN.png",
     "memes/taokay.png",
     "FORMAS_NORMAIS/Formas Normais.md",
@@ -183,7 +194,7 @@
     "Diagram.svg.xml",
     "Untitled Kanban.md",
     "Untitled Kanban 1.md",
-    "memes/Função.md",
+    "Função/Função.md",
     "Função",
     "intro-computing/6-tipos-de-aplicacoes-web/README.md",
     "intro-computing/3-roteadores-internet-servidores/README.md",
