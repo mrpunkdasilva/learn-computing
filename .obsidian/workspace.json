@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b0b5b3e824cf1567",
+        "id": "b9debaa84769e2d9",
         "type": "tabs",
         "children": [
           {
-            "id": "0911d36d04540655",
+            "id": "a13c1b87ed42d572",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,23 +165,26 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "0911d36d04540655",
+  "active": "4f48afb583c2d004",
   "lastOpenFiles": [
+    "FORMAS_NORMAIS/FormasNormais-1FN.png",
+    "memes/taokay.png",
+    "FORMAS_NORMAIS/Formas Normais.md",
+    "memes/cirilo2.png",
+    "memes/gru-1.png",
+    "Pasted image 20240916200414.png",
+    "memes/eCiladaBino.png",
+    "memes",
+    "memes/nosso1.png",
+    "FORMAS_NORMAIS",
+    "FORMAS_NORMAIS/FormasNormais-2FN-1.png",
+    "FORMAS_NORMAIS/FormasNormais-1FN-2.png",
+    "Diagram.svg",
+    "Diagram.svg.xml",
     "Untitled Kanban.md",
     "Untitled Kanban 1.md",
-    "Formas Normais.md",
-    "Função.md",
-    "Função/Pasted image 20240916115922.png",
-    "Função/Pasted image 20240916115220.png",
-    "Função/Pasted image 20240916115753.png",
-    "Função/Pasted image 20240916111450.png",
-    "Função/Pasted image 20240916105752.png",
-    "Função/Pasted image 20240916110628.png",
-    "Função/Pasted image 20240916105628.png",
+    "memes/Função.md",
     "Função",
-    "Pasted image 20240916104924.png",
-    "Pasted image 20240916104727.png",
-    "Pasted image 20240916104542.png",
     "intro-computing/6-tipos-de-aplicacoes-web/README.md",
     "intro-computing/3-roteadores-internet-servidores/README.md",
     "intro-computing/2-software-hardware/README.md",
@@ -203,7 +206,6 @@
     "arquiteture-computer/Capitulos/08 - Data Representation.md",
     "arquiteture-computer/Capitulos/09 - IO Devices.md",
     "arquiteture-computer/Capitulos/07 - Barrament.md",
-    "arquiteture-computer/Capitulos/06 - Organization of the Processor.md",
     "arquiteture-computer/Resources",
     "programming/Resources/POO/Pilar - Encapsulamento.drawio.svg.crswap",
     "programming/Resources/POO/imgs/CREEPER-POO.jpeg.crdownload"
