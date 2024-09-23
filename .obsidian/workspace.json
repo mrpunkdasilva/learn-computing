@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4f2ea969dcee96f7",
+        "id": "afd6db5127d3773c",
         "type": "tabs",
         "children": [
           {
-            "id": "66196f742edeca7c",
+            "id": "fb3d0cc2eb8d01ce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Função/Função.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 359.5124969482422
   },
   "right": {
     "id": "0d929310f57b2e7a",
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Função/Função.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Função/Função.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Função/Função.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,34 +162,42 @@
       "command-palette:Abrir paleta de comando": false,
       "obsidian-git:Open Git source control": false,
       "breadcrumbs:Breadcrumbs Visualisation": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "personal-assistant:Obsidian Assistant": false,
+      "vocabulary-highlighter:Highlight vocabulary": false,
+      "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "66196f742edeca7c",
+  "active": "fb3d0cc2eb8d01ce",
   "lastOpenFiles": [
+    "Função/Função.md",
+    "Função/resources/TipoFuncaoBijetora.webp",
+    "Função/resources/TipoFuncaoSobrejetora.webp",
+    "Função/resources/TipoFuncaoInjetora.webp",
+    "Função/resources/TipoFuncaoBijetora.drawio",
+    "Função/resources/TipoFuncaoSobrejetora (Cópia).drawio",
+    "math-discret/Math Discrete.md",
+    "intro-computing/5-linguagens-de-programacao/README.md",
+    "intro-computing/3-roteadores-internet-servidores/README.md",
+    "intro-computing/2-software-hardware/README.md",
+    "Função/resources/TipoFuncaoInjetora.drawio",
+    "Função/resources/TipoFuncaoSobrejetora.drawio",
+    "FORMAS_NORMAIS/Formas Normais.md",
     "Função/resources/Pasted image 20240916105628.png",
     "Função/resources",
     "FORMAS_NORMAIS/FormasNormais-1FN.png",
     "memes/taokay.png",
-    "FORMAS_NORMAIS/Formas Normais.md",
     "memes/cirilo2.png",
     "memes/gru-1.png",
     "Pasted image 20240916200414.png",
     "memes/eCiladaBino.png",
     "memes",
-    "memes/nosso1.png",
     "FORMAS_NORMAIS",
-    "FORMAS_NORMAIS/FormasNormais-2FN-1.png",
-    "FORMAS_NORMAIS/FormasNormais-1FN-2.png",
-    "Diagram.svg",
     "Diagram.svg.xml",
     "Untitled Kanban.md",
     "Untitled Kanban 1.md",
-    "Função/Função.md",
     "Função",
     "intro-computing/6-tipos-de-aplicacoes-web/README.md",
-    "intro-computing/3-roteadores-internet-servidores/README.md",
-    "intro-computing/2-software-hardware/README.md",
     "intro-computing/1-programacao/README.md",
     "database/Database.md",
     "foundation-math/README.md",
@@ -215,10 +214,6 @@
     "operating-systems/Capitulos/Capitulo-1/08 - Caching.md",
     "arquiteture-computer/Architeture Computer.md",
     "arquiteture-computer/Capitulos/08 - Data Representation.md",
-    "arquiteture-computer/Capitulos/09 - IO Devices.md",
-    "arquiteture-computer/Capitulos/07 - Barrament.md",
-    "arquiteture-computer/Resources",
-    "programming/Resources/POO/Pilar - Encapsulamento.drawio.svg.crswap",
-    "programming/Resources/POO/imgs/CREEPER-POO.jpeg.crdownload"
+    "arquiteture-computer/Resources"
   ]
 }

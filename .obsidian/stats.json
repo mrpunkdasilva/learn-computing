@@ -1,0 +1,73 @@
+{
+  "history": {
+    "2024-09-22": {
+      "words": 256,
+      "characters": 1636,
+      "sentences": 0,
+      "pages": 0.7999999999999998,
+      "files": 150,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 37883,
+      "totalCharacters": 276978,
+      "totalSentences": 1215,
+      "totalFootnotes": 0,
+      "totalCitations": 0,
+      "totalPages": 126.20000000000002
+    }
+  },
+  "modifiedFiles": {
+    "Função/Função.md": {
+      "words": {
+        "initial": 771,
+        "current": 1027
+      },
+      "characters": {
+        "initial": 4483,
+        "current": 6119
+      },
+      "sentences": {
+        "initial": 31,
+        "current": 31
+      },
+      "footnotes": {
+        "initial": 0,
+        "current": 0
+      },
+      "citations": {
+        "initial": 0,
+        "current": 0
+      },
+      "pages": {
+        "initial": 2.6,
+        "current": 3.4
+      }
+    },
+    "intro-computing/3-roteadores-internet-servidores/README.md": {
+      "words": {
+        "initial": 172,
+        "current": 171
+      },
+      "characters": {
+        "initial": 1093,
+        "current": 1092
+      },
+      "sentences": {
+        "initial": 10,
+        "current": 10
+      },
+      "footnotes": {
+        "initial": 0,
+        "current": 0
+      },
+      "citations": {
+        "initial": 0,
+        "current": 0
+      },
+      "pages": {
+        "initial": 0.6,
+        "current": 0.6
+      }
+    }
+  }
+}
