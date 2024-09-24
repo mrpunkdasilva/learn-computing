@@ -14,21 +14,36 @@
       "totalFootnotes": 0,
       "totalCitations": 0,
       "totalPages": 126.20000000000002
+    },
+    "2024-09-23": {
+      "words": 475,
+      "characters": 3692,
+      "sentences": 8,
+      "pages": 1.6,
+      "files": 151,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 38359,
+      "totalCharacters": 280671,
+      "totalSentences": 1224,
+      "totalFootnotes": 0,
+      "totalCitations": 0,
+      "totalPages": 127.80000000000001
     }
   },
   "modifiedFiles": {
-    "Função/Função.md": {
+    "math-discret/Conjuntos/Conjuntos.md": {
       "words": {
-        "initial": 771,
-        "current": 1027
+        "initial": 1,
+        "current": 476
       },
       "characters": {
-        "initial": 4483,
-        "current": 6119
+        "initial": 1,
+        "current": 3693
       },
       "sentences": {
-        "initial": 31,
-        "current": 31
+        "initial": 1,
+        "current": 9
       },
       "footnotes": {
         "initial": 0,
@@ -39,34 +54,8 @@
         "current": 0
       },
       "pages": {
-        "initial": 2.6,
-        "current": 3.4
-      }
-    },
-    "intro-computing/3-roteadores-internet-servidores/README.md": {
-      "words": {
-        "initial": 172,
-        "current": 171
-      },
-      "characters": {
-        "initial": 1093,
-        "current": 1092
-      },
-      "sentences": {
-        "initial": 10,
-        "current": 10
-      },
-      "footnotes": {
         "initial": 0,
-        "current": 0
-      },
-      "citations": {
-        "initial": 0,
-        "current": 0
-      },
-      "pages": {
-        "initial": 0.6,
-        "current": 0.6
+        "current": 1.6
       }
     }
   }
