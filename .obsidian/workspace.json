@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ca083b46644c0ac0",
+        "id": "ae8f53b35d750984",
         "type": "tabs",
         "children": [
           {
-            "id": "43353adcbd927bb7",
+            "id": "8ef73b3887f7e727",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5124969482422
+    "width": 292.5
   },
   "right": {
     "id": "0d929310f57b2e7a",
@@ -167,8 +167,22 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "96870bf922f95934",
+  "active": "8ef73b3887f7e727",
   "lastOpenFiles": [
+    "math-discret/analise-combinatoria/resources/Principio Fundamental da Contagem.md",
+    "math-discret/analise-combinatoria/resources/Principio Fundamental da Contagem1.png",
+    "math-discret/analise-combinatoria/resources/Principio Fundamental da Contagem4.png",
+    "math-discret/analise-combinatoria/resources",
+    "math-discret/analise-combinatoria/contagem.xopp",
+    "math-discret/analise-combinatoria/resources/Principio Fundamental da Contagem12.png",
+    "math-discret/analise-combinatoria/resources/Principio Fundamental da Contagem2.png",
+    "math-discret/analise-combinatoria/resources/PrincipioFundamentaldaContagem1.png",
+    "math-discret/analise-combinatoria/Analise Combinatoria.md",
+    "/math-discret/contagem/l.xopp",
+    "math-discret/contagem/l.xopp",
+    "/math-discret/contagem",
+    "/math-discret",
+    "math-discret/analise-combinatoria",
     "math-discret/Conjuntos/Resources/Conjuntos.xopp",
     "math-discret/Conjuntos/Conjuntos.md",
     "math-discret/Conjuntos/Resources/Conjuntos-ExNossoUnido.png",
@@ -176,27 +190,14 @@
     "math-discret/Conjuntos/Resources/Conjuntos-ExConjuntoLineu2.png",
     "math-discret/Conjuntos/Resources/Conjuntos-ExFamiliaLineu.png",
     "memes/dilma1.png",
-    "math-discret/Conjuntos/Resources/Conjuntos-ExElementos.png",
-    "math-discret/Conjuntos/Resources/Conjuntos-ExConjunto.png",
     "math-discret/Conjuntos/Resources",
     "math-discret/Conjuntos",
-    "math-discret/Função/resources/nota__funcoes.xopp",
     "math-discret/Função/Função.md",
-    "math-discret/Função/resources/TipoFuncaoBijetora.webp",
-    "math-discret/Função/resources/TipoFuncaoSobrejetora.webp",
-    "math-discret/Função/resources/TipoFuncaoInjetora.webp",
-    "math-discret/Função/resources/TipoFuncaoBijetora.drawio",
-    "Função/resources/TipoFuncaoSobrejetora (Cópia).drawio",
     "math-discret/Math Discrete.md",
     "intro-computing/5-linguagens-de-programacao/README.md",
     "intro-computing/3-roteadores-internet-servidores/README.md",
     "intro-computing/2-software-hardware/README.md",
-    "math-discret/Função/resources/TipoFuncaoInjetora.drawio",
-    "math-discret/Função/resources/TipoFuncaoSobrejetora.drawio",
     "database/FORMAS_NORMAIS/Formas Normais.md",
-    "math-discret/Função/resources",
-    "memes",
-    "database/FORMAS_NORMAIS",
     "Untitled Kanban.md",
     "Untitled Kanban 1.md",
     "intro-computing/6-tipos-de-aplicacoes-web/README.md",
@@ -212,8 +213,6 @@
     "operating-systems/Capitulos/Capitulo-8/00 - Intro Gerencia de Memoria.md",
     "operating-systems/Capitulos/Capitulo-4/4 - Threads.md",
     "operating-systems/Capitulos/Capitulo-3/3 - Processos.md",
-    "operating-systems/Capitulos/Capitulo-1/Sistema Distribuidos.md",
-    "operating-systems/Capitulos/Capitulo-1/08 - Caching.md",
-    "arquiteture-computer/Architeture Computer.md"
+    "operating-systems/Capitulos/Capitulo-1/Sistema Distribuidos.md"
   ]
 }
