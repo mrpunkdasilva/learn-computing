@@ -1,0 +1,60 @@
+{
+  "debug": false,
+  "targetPath": ".",
+  "fileFormat": "YYYY-MM-DD",
+  "previewLimits": 5,
+  "previewTags": [],
+  "localGraph": {
+    "notice": "show current note grah view",
+    "type": "popover",
+    "depth": 2,
+    "showTags": true,
+    "showAttach": true,
+    "showNeighbor": true,
+    "collapse": false,
+    "autoColors": false,
+    "resizeStyle": {
+      "width": 550,
+      "height": 500
+    }
+  },
+  "memos": {
+    "resizeStyle": {
+      "width": 550,
+      "height": 500
+    }
+  },
+  "enableGraphColors": true,
+  "colorGroups": [
+    {
+      "query": "path:/",
+      "color": {
+        "a": 1,
+        "rgb": 6617700
+      }
+    }
+  ],
+  "enableMetadataUpdating": false,
+  "metadatas": [
+    {
+      "key": "modify",
+      "value": "YYYY-MM-DD HH:mm:ss",
+      "t": "moment"
+    }
+  ],
+  "metadataExcludePath": [],
+  "isEnabledMetadataUpdating": false,
+  "cachePluginRepo": {
+    "personal-assistant": "edonyzpc/personal-assistant"
+  },
+  "cacheThemeRepo": {
+    "Minimal": "kepano/obsidian-minimal"
+  },
+  "statisticsType": "none",
+  "statsPath": ".obsidian/stats.json",
+  "displaySectionCounts": false,
+  "countComments": false,
+  "animation": false,
+  "modelName": "qwen-plus",
+  "apiToken": "sk-xxx"
+}

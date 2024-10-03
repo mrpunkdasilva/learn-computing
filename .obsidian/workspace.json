@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ae8f53b35d750984",
+        "id": "e831d62e7d7226fc",
         "type": "tabs",
         "children": [
           {
-            "id": "8ef73b3887f7e727",
+            "id": "ee6931fbc3322e6d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 303.5,
+    "collapsed": true
   },
   "right": {
     "id": "0d929310f57b2e7a",
@@ -167,33 +168,36 @@
       "xournalpp:Create new Xournal++ note": false
     }
   },
-  "active": "8ef73b3887f7e727",
+  "active": "ee6931fbc3322e6d",
   "lastOpenFiles": [
+    "database/algebra_relacional/algebra-relacional.xopp~",
+    "database/algebra_relacional/Álgebra Relacional.md",
+    "Álgebra Relacional - PC - RESULTANTE.png",
+    "Álgebra Relacional - PC - Cursos.png",
+    "Álgebra Relacional - PC- ALUNO.png",
+    "database/algebra_relacional/resources/Álgebra Relacional - EX2.png",
+    "database/algebra_relacional/resources/Álgebra Relacional - OPerador Seleção Comutatividade.png",
+    "database/algebra_relacional/resources/Álgebra Relacional - Projetção - EX 2 3.png",
+    "database/algebra_relacional/resources/Álgebra Relacional - Operação Projetção - Ex2 - 2.png",
+    "database/algebra_relacional/resources/Álgebra Relacional - Projetção - Ex2-1.png",
+    "database/algebra_relacional/resources/Álgebra Relacional - Projeção EX1.png",
+    "database/algebra_relacional/resources/Álgebra Relacional - Projeçao.png",
+    "database/algebra_relacional/resources",
+    "Sem título.md",
+    "database/algebra_relacional/algebra-relacional.xopp",
+    "database/algebra_relacional",
+    "math-discret/teoria-numeros/Aritmética Modular.md",
+    "math-discret/teoria-numeros",
+    "math-discret/analise-combinatoria/Analise Combinatoria.md",
+    "math-discret/Função/Função.md",
+    "math-discret/Math Discrete.md",
+    "math-discret/Conjuntos/Conjuntos.md",
     "math-discret/analise-combinatoria/resources/Principio Fundamental da Contagem.md",
-    "math-discret/analise-combinatoria/resources/Principio Fundamental da Contagem1.png",
-    "math-discret/analise-combinatoria/resources/Principio Fundamental da Contagem4.png",
     "math-discret/analise-combinatoria/resources",
     "math-discret/analise-combinatoria/contagem.xopp",
-    "math-discret/analise-combinatoria/resources/Principio Fundamental da Contagem12.png",
-    "math-discret/analise-combinatoria/resources/Principio Fundamental da Contagem2.png",
-    "math-discret/analise-combinatoria/resources/PrincipioFundamentaldaContagem1.png",
-    "math-discret/analise-combinatoria/Analise Combinatoria.md",
     "/math-discret/contagem/l.xopp",
     "math-discret/contagem/l.xopp",
     "/math-discret/contagem",
-    "/math-discret",
-    "math-discret/analise-combinatoria",
-    "math-discret/Conjuntos/Resources/Conjuntos.xopp",
-    "math-discret/Conjuntos/Conjuntos.md",
-    "math-discret/Conjuntos/Resources/Conjuntos-ExNossoUnido.png",
-    "math-discret/Conjuntos/Resources/Conjuntos-ExConjuntoFamiliaAgostinho.png",
-    "math-discret/Conjuntos/Resources/Conjuntos-ExConjuntoLineu2.png",
-    "math-discret/Conjuntos/Resources/Conjuntos-ExFamiliaLineu.png",
-    "memes/dilma1.png",
-    "math-discret/Conjuntos/Resources",
-    "math-discret/Conjuntos",
-    "math-discret/Função/Função.md",
-    "math-discret/Math Discrete.md",
     "intro-computing/5-linguagens-de-programacao/README.md",
     "intro-computing/3-roteadores-internet-servidores/README.md",
     "intro-computing/2-software-hardware/README.md",
@@ -210,9 +214,6 @@
     "operating-systems/Capitulos/Capitulo-10/00 - Intro.md",
     "operating-systems/Capitulos/Capitulo-8/02 - Associação de endereços.md",
     "operating-systems/Capitulos/Capitulo-8/01 - Conceitos Básicos.md",
-    "operating-systems/Capitulos/Capitulo-8/00 - Intro Gerencia de Memoria.md",
-    "operating-systems/Capitulos/Capitulo-4/4 - Threads.md",
-    "operating-systems/Capitulos/Capitulo-3/3 - Processos.md",
-    "operating-systems/Capitulos/Capitulo-1/Sistema Distribuidos.md"
+    "operating-systems/Capitulos/Capitulo-8/00 - Intro Gerencia de Memoria.md"
   ]
 }

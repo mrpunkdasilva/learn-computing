@@ -86,7 +86,7 @@ Temos duas formas de definir um conjunto:
 - Direta
 - Por extenso
 
-#### Por extenso explicito:
+#### Por extenso compreensão:
 É quando declaramos o conjuntos e atribuímos os exatos elementos
 
 **Exemplo:**

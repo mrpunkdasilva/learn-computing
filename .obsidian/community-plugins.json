@@ -1,6 +1,5 @@
 [
   "obsidian-git",
-  "obsidian-emoji-toolbar",
   "obsidian-latex-suite",
   "breadcrumbs",
   "obsidian-diagrams-net",
@@ -14,5 +13,6 @@
   "personal-assistant",
   "tw-task-wiki",
   "xournalpp",
-  "better-export-pdf"
+  "better-export-pdf",
+  "obsidian-emoji-toolbar"
 ]
