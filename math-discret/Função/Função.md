@@ -124,7 +124,6 @@ $Img = \{  2, 3, 4\}$
 > $y = 3 + 1 = 4$
 > $Img = \{ 2, 3, 4 \}$
 
-
 ---
 
 ## Encontrando os elementos:

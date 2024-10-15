@@ -119,21 +119,51 @@
       "totalFootnotes": 0,
       "totalCitations": 0,
       "totalPages": 132.2
+    },
+    "2024-10-07": {
+      "words": 0,
+      "characters": 1,
+      "sentences": 0,
+      "pages": 0,
+      "files": 156,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 39719,
+      "totalCharacters": 289344,
+      "totalSentences": 1253,
+      "totalFootnotes": 0,
+      "totalCitations": 0,
+      "totalPages": 132.4
+    },
+    "2024-10-14": {
+      "words": 944,
+      "characters": 5571,
+      "sentences": 27,
+      "pages": 3.1,
+      "files": 155,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 40306,
+      "totalCharacters": 292757,
+      "totalSentences": 1270,
+      "totalFootnotes": 0,
+      "totalCitations": 0,
+      "totalPages": 134.3
     }
   },
   "modifiedFiles": {
-    "database/algebra_relacional/Álgebra Relacional.md": {
+    "math-discret/Função/Função.md": {
       "words": {
-        "initial": 782,
-        "current": 922
+        "initial": 1027,
+        "current": 1027
       },
       "characters": {
-        "initial": 5001,
-        "current": 5877
+        "initial": 6118,
+        "current": 6118
       },
       "sentences": {
-        "initial": 12,
-        "current": 15
+        "initial": 31,
+        "current": 31
       },
       "footnotes": {
         "initial": 0,
@@ -144,8 +174,34 @@
         "current": 0
       },
       "pages": {
-        "initial": 2.6,
-        "current": 3.1
+        "initial": 3.4,
+        "current": 3.4
+      }
+    },
+    "math-discret/analise-combinatoria/Analise Combinatoria.md": {
+      "words": {
+        "initial": 24,
+        "current": 968
+      },
+      "characters": {
+        "initial": 173,
+        "current": 5744
+      },
+      "sentences": {
+        "initial": 1,
+        "current": 28
+      },
+      "footnotes": {
+        "initial": 0,
+        "current": 0
+      },
+      "citations": {
+        "initial": 0,
+        "current": 0
+      },
+      "pages": {
+        "initial": 0.1,
+        "current": 3.2
       }
     }
   }

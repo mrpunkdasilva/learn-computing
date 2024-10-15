@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e831d62e7d7226fc",
+        "id": "d49dbf7bf7787265",
         "type": "tabs",
         "children": [
           {
-            "id": "ee6931fbc3322e6d",
+            "id": "92e8b96f0b7ded1d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "math-discret/analise-combinatoria/Analise Combinatoria.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5,
-    "collapsed": true
+    "width": 303.5
   },
   "right": {
     "id": "0d929310f57b2e7a",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "math-discret/analise-combinatoria/Analise Combinatoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "math-discret/analise-combinatoria/Analise Combinatoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "math-discret/analise-combinatoria/Analise Combinatoria.md"
+              }
             }
           },
           {
@@ -151,53 +158,56 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir Quick Switcher": false,
-      "graph:Abrir Visualização de diagrama de grafo": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Abrir nota de hoje": false,
-      "templates:Inserir templates": false,
-      "command-palette:Abrir paleta de comando": false,
-      "obsidian-git:Open Git source control": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false,
       "obsidian-kanban:Create new board": false,
       "personal-assistant:Obsidian Assistant": false,
-      "xournalpp:Create new Xournal++ note": false
+      "xournalpp:Create new Xournal++ note": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "canvas:Create new canvas": false,
+      "obsidian-git:Open Git source control": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "ee6931fbc3322e6d",
+  "active": "92e8b96f0b7ded1d",
   "lastOpenFiles": [
+    "math-discret/analise-combinatoria/resources/analisecombinatoria.xopp",
+    "Analise Combinatoria ex1 - arranjo2.png",
+    "Analise Combinatoria  - ex1 - arranjo.png",
+    "Analise Combinatoria - Ex1.png",
+    "math-discret/analise-combinatoria/Principio Fundamental da Contagem.md",
+    "math-discret/analise-combinatoria/Analise Combinatoria.md",
+    "math-discret/analise-combinatoria/resources/Principio Fundamental da Contagem1.png",
+    "math-discret/analise-combinatoria/resources/PrincipioFundamentaldaContagem1.png",
+    "math-discret/analise-combinatoria/resources/Principio Fundamental da Contagem12.png",
+    "math-discret/analise-combinatoria/resources/Principio Fundamental da Contagem2.png",
+    "math-discret/analise-combinatoria/resources/Principio Fundamental da Contagem4.png",
+    "math-discret/grafos/Grafos-Vertices-E-Arestas.png",
+    "math-discret/Math Discrete.md",
+    "math-discret/Função/Função.md",
+    "database/algebra_relacional/Álgebra Relacional - PC- ALUNO.png",
+    "math-discret/grafos/grafos.xopp",
+    "math-discret/grafos/Grafos.md",
+    "math-discret/grafos",
+    "Grafos.md",
     "database/algebra_relacional/algebra-relacional.xopp~",
     "database/algebra_relacional/Álgebra Relacional.md",
-    "Álgebra Relacional - PC - RESULTANTE.png",
-    "Álgebra Relacional - PC - Cursos.png",
-    "Álgebra Relacional - PC- ALUNO.png",
-    "database/algebra_relacional/resources/Álgebra Relacional - EX2.png",
-    "database/algebra_relacional/resources/Álgebra Relacional - OPerador Seleção Comutatividade.png",
-    "database/algebra_relacional/resources/Álgebra Relacional - Projetção - EX 2 3.png",
-    "database/algebra_relacional/resources/Álgebra Relacional - Operação Projetção - Ex2 - 2.png",
-    "database/algebra_relacional/resources/Álgebra Relacional - Projetção - Ex2-1.png",
-    "database/algebra_relacional/resources/Álgebra Relacional - Projeção EX1.png",
-    "database/algebra_relacional/resources/Álgebra Relacional - Projeçao.png",
     "database/algebra_relacional/resources",
-    "Sem título.md",
     "database/algebra_relacional/algebra-relacional.xopp",
     "database/algebra_relacional",
     "math-discret/teoria-numeros/Aritmética Modular.md",
     "math-discret/teoria-numeros",
-    "math-discret/analise-combinatoria/Analise Combinatoria.md",
-    "math-discret/Função/Função.md",
-    "math-discret/Math Discrete.md",
     "math-discret/Conjuntos/Conjuntos.md",
-    "math-discret/analise-combinatoria/resources/Principio Fundamental da Contagem.md",
     "math-discret/analise-combinatoria/resources",
     "math-discret/analise-combinatoria/contagem.xopp",
     "/math-discret/contagem/l.xopp",
-    "math-discret/contagem/l.xopp",
-    "/math-discret/contagem",
     "intro-computing/5-linguagens-de-programacao/README.md",
     "intro-computing/3-roteadores-internet-servidores/README.md",
     "intro-computing/2-software-hardware/README.md",
@@ -213,7 +223,6 @@
     "operating-systems/Capitulos/Capitulo-10/01 - Arquivo.md",
     "operating-systems/Capitulos/Capitulo-10/00 - Intro.md",
     "operating-systems/Capitulos/Capitulo-8/02 - Associação de endereços.md",
-    "operating-systems/Capitulos/Capitulo-8/01 - Conceitos Básicos.md",
-    "operating-systems/Capitulos/Capitulo-8/00 - Intro Gerencia de Memoria.md"
+    "operating-systems/Capitulos/Capitulo-8/01 - Conceitos Básicos.md"
   ]
 }
