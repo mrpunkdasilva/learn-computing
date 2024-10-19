@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "51073f4e180f781e",
+        "id": "91a2e57874e61938",
         "type": "tabs",
         "children": [
           {
-            "id": "42fb9bd9ec7167a7",
+            "id": "0441ff4ed9f288f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 303.5,
+    "collapsed": true
   },
   "right": {
     "id": "0d929310f57b2e7a",
@@ -86,7 +87,7 @@
       {
         "id": "270d636b954e3608",
         "type": "tabs",
-        "dimension": 78.70370370370371,
+        "dimension": 62,
         "children": [
           {
             "id": "3b482b681858a867",
@@ -190,7 +191,7 @@
       {
         "id": "df08daa6c9ff0126",
         "type": "tabs",
-        "dimension": 21.296296296296298,
+        "dimension": 38,
         "children": [
           {
             "id": "96870bf922f95934",
@@ -223,21 +224,21 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "42fb9bd9ec7167a7",
+  "active": "0441ff4ed9f288f0",
   "lastOpenFiles": [
+    "Pre-Calculo-potencia-prop-divisao1.png",
+    "Pre-Calculo-potencia-prop-divisao.png",
+    "Pre-Calculo-potencia-formamat1.png",
+    "Pre-Calculo-potencia-prop-produto-1.png",
+    "Pre-Calculo-prop-potencia-produto.png",
+    "pre-calculus/Pre-Calculo.md",
+    "Pre-Calculo-potencia-formagatinhos-1.png",
+    "Pre-Calculo-potenciaçao-simbologia.png",
     "Pre-Calculo-comocalculofaz.png",
     "Pre-Calculo-grafico-vida-real.png",
     "Pre-Calculo-grafico-olhar-matematica.png",
     "Pre-Calculo-exemplo-calculo3.png",
-    "Pre-Calculo-exemplo2calculo.png",
-    "Pre-Calculo- exemplo1calculo.png",
-    "pre-calculus/Resources/Pre-Calculo-ex1mat.png",
-    "Pasted image 20241019150554.png",
-    "pre-calculus/Resources/Pre-Calculo - rockmeme.png",
-    "pre-calculus/Resources/Pre-Calculo-integral-derivada-exe.png",
-    "pre-calculus/Pre-Calculo.md",
     "Untitled.md",
-    "pre-calculus/Resources/the-simpsons-homer.gif",
     "pre-calculus/Resources",
     "pre-calculus",
     "database/algebra_relacional/Álgebra Relacional.md",

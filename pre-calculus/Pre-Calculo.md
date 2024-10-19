@@ -100,8 +100,60 @@ Com isso, o calculo ela vai fazer uma quebra do gráfico e ver apenas pequenas p
 ---
 ### Potenciação
 
+![[Pre-Calculo-potenciaçao-simbologia.png]]
 
+#### Entendendo conceitos
+A potência é a multiplicação de uma determinada base (a) feita n vezes (expoente).
+![[Pre-Calculo-potencia-formagatinhos-1.png]]
+![[Pre-Calculo-potencia-formamat1.png]]
 
+#### Propriedades
+
+##### Produto de Potências:
+Quando temos uma multiplicação de uma **potência de mesma base**, devemos:
+1. Manter a base
+2. Somar os expoentes
+
+![[Pre-Calculo-potencia-prop-produto-1.png]]
+
+Isso se dá porque ao multiplicarmos 
+- Basta apenas quebrar as potências e 
+- Assim podemos escrever o resultado disso em uma nova potência 
+- Cujo o expoente é a soma dos expoentes das potências anteriores
+![[Pre-Calculo-prop-potencia-produto.png]]
+
+##### Divisão de Pôtencias
+Quando temos uma divisão de uma **potência de mesma base**, devemos:
+1. Manter a base
+2. Subtrair os expoentes
+![[Pre-Calculo-potencia-prop-divisao1.png]]
+
+Isso se dá porque ao multiplicarmos 
+- Basta apenas quebrar as potências e 
+- Assim podemos escrever o resultado disso em uma nova potência 
+- Cujo o expoente é a subtração dos expoentes das potências anteriores, já que ao simplificarmos a divisão obtemos isso
+![[Pre-Calculo-potencia-prop-divisao.png]]
+
+##### Exercício
+1. $$\frac{3⁵ . 3²}{3⁴} $$
+**Solução:**
+- Resolvemos a parte de cima:
+$$3⁵.3² = 3^{5+2} = 3^{7}$$
+- Agora resolvemos a divisão:
+$$\frac{3⁷}{3⁴} = 3^{7-4} = 3³ = 27$$
+2. $$(-5)²$$
+**Solução:**
+$$(-5) . (-5) = 25$$
+3. $$-5²$$
+**Solução:**
+$$(5) . (5) = -25$$
+> 📝 Todo número negativo elevado a um número par resulta em um número positivo
+> 📝 De contra partida, todo número negativo elevado a um número impar resulta em um número negativo
+>
+> **❗Lembre-se que:** $(-5)²$ é diferente de $-5²$ ou $-(5²)$ ou $-(5)²$
+> - No primeiro elevamos o número e o sinal
+> - Nos outros três elevamos apenas o número, logo o resultado muda
+ 
 
 ---
 ## Links:

@@ -181,34 +181,34 @@
       "totalPages": 134.3
     },
     "2024-10-19": {
-      "words": 700,
-      "characters": 4555,
-      "sentences": 29,
-      "pages": 2.3,
+      "words": 965,
+      "characters": 6408,
+      "sentences": 40,
+      "pages": 3.2,
       "files": 156,
       "footnotes": 0,
       "citations": 0,
-      "totalWords": 41009,
-      "totalCharacters": 297343,
-      "totalSentences": 1300,
-      "totalFootnotes": 21888,
-      "totalCitations": 21888,
-      "totalPages": 136.6
+      "totalWords": 41272,
+      "totalCharacters": 299169,
+      "totalSentences": 1311,
+      "totalFootnotes": 0,
+      "totalCitations": 0,
+      "totalPages": 137.5
     }
   },
   "modifiedFiles": {
     "pre-calculus/Pre-Calculo.md": {
       "words": {
         "initial": 0,
-        "current": 700
+        "current": 965
       },
       "characters": {
         "initial": 1,
-        "current": 4556
+        "current": 6409
       },
       "sentences": {
         "initial": 1,
-        "current": 30
+        "current": 41
       },
       "footnotes": {
         "initial": 0,
@@ -220,7 +220,7 @@
       },
       "pages": {
         "initial": 0,
-        "current": 2.3
+        "current": 3.2
       }
     }
   }
