@@ -106,5 +106,4 @@ Com isso, o calculo ela vai fazer uma quebra do gráfico e ver apenas pequenas p
 ---
 ## Links:
 > Fonte Arial 12
-> ![[./Resources/ivan.gif]]
-
+> ![./Resources/ivan.gif](./Resources/ivan.gif)
