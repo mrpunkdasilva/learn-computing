@@ -6,6 +6,7 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiPackage",
       "LiFile",
       "LiArrowDownAz"
     ],
@@ -30,5 +31,6 @@
     "lucideIconPackType": "native",
     "debugMode": false
   },
-  "database/FORMAS_NORMAIS/Formas Normais.md": "LiFile"
+  "database/FORMAS_NORMAIS/Formas Normais.md": "LiFile",
+  "pre-calculus/Resources": "LiPackage"
 }

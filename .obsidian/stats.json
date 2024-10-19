@@ -149,47 +149,66 @@
       "totalFootnotes": 0,
       "totalCitations": 0,
       "totalPages": 134.3
+    },
+    "2024-10-17": {
+      "words": 1,
+      "characters": 8,
+      "sentences": 0,
+      "pages": 0,
+      "files": 155,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 40307,
+      "totalCharacters": 292760,
+      "totalSentences": 1270,
+      "totalFootnotes": 15,
+      "totalCitations": 15,
+      "totalPages": 134.3
+    },
+    "2024-10-18": {
+      "words": 0,
+      "characters": 0,
+      "sentences": 0,
+      "pages": 0,
+      "files": 155,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 40307,
+      "totalCharacters": 292760,
+      "totalSentences": 1270,
+      "totalFootnotes": 0,
+      "totalCitations": 0,
+      "totalPages": 134.3
+    },
+    "2024-10-19": {
+      "words": 699,
+      "characters": 4543,
+      "sentences": 29,
+      "pages": 2.3,
+      "files": 156,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 41008,
+      "totalCharacters": 297331,
+      "totalSentences": 1300,
+      "totalFootnotes": 21528,
+      "totalCitations": 21528,
+      "totalPages": 136.6
     }
   },
   "modifiedFiles": {
-    "math-discret/Função/Função.md": {
+    "pre-calculus/Pre-Calculo.md": {
       "words": {
-        "initial": 1027,
-        "current": 1027
+        "initial": 0,
+        "current": 699
       },
       "characters": {
-        "initial": 6118,
-        "current": 6118
-      },
-      "sentences": {
-        "initial": 31,
-        "current": 31
-      },
-      "footnotes": {
-        "initial": 0,
-        "current": 0
-      },
-      "citations": {
-        "initial": 0,
-        "current": 0
-      },
-      "pages": {
-        "initial": 3.4,
-        "current": 3.4
-      }
-    },
-    "math-discret/analise-combinatoria/Analise Combinatoria.md": {
-      "words": {
-        "initial": 24,
-        "current": 968
-      },
-      "characters": {
-        "initial": 173,
-        "current": 5744
+        "initial": 1,
+        "current": 4544
       },
       "sentences": {
         "initial": 1,
-        "current": 28
+        "current": 30
       },
       "footnotes": {
         "initial": 0,
@@ -200,8 +219,8 @@
         "current": 0
       },
       "pages": {
-        "initial": 0.1,
-        "current": 3.2
+        "initial": 0,
+        "current": 2.3
       }
     }
   }

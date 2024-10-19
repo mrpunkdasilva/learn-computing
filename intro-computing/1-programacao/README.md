@@ -150,7 +150,7 @@ Você quer acesssar um site (da Rockeseat), esse seria o que acontece debaixo do
 
 		+ Função: Encaminhamento dos pacotes (chuncks)
 
-- [X] **Seu pedido chega ao servidor**
+- [x] **Seu pedido chega ao servidor**
 
 - [X] **Servidor analisa seu pedido e encaminha uma resposta nesse caso, positiva**
 

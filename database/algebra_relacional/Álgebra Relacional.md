@@ -43,7 +43,7 @@ No Vasco nada, mas para o entendimento da como funcionam a manipulação de banc
 Essa operação é que nem redpill e sigma, só seleciona quem entra nas condições impostas:
 > 👽 ![[redpill1.png]]
 
-#### Definição formal
+#### Definição de livro
 Com o texto acima você já entendeu a função principal do Operador de Seleção (o sigma) então vamos tentar fazer uma definição mais de livro:
 
 É uma operação que consiste em receber um conjunto de entrada e produzir um subconjunto de forma que a estrutura é idêntica ao conjunto de entrada, porém, ele retorna apenas os elementos que satisfaçam a condição.
@@ -168,4 +168,5 @@ Com isso, vemos que uma linha de **Alunos** se relaciona com cada linha de **Cur
 
 
 ### União $\cup$
+
 
