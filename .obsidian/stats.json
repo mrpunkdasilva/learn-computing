@@ -181,18 +181,18 @@
       "totalPages": 134.3
     },
     "2024-10-19": {
-      "words": 699,
-      "characters": 4543,
+      "words": 700,
+      "characters": 4555,
       "sentences": 29,
       "pages": 2.3,
       "files": 156,
       "footnotes": 0,
       "citations": 0,
-      "totalWords": 41008,
-      "totalCharacters": 297331,
+      "totalWords": 41009,
+      "totalCharacters": 297343,
       "totalSentences": 1300,
-      "totalFootnotes": 21528,
-      "totalCitations": 21528,
+      "totalFootnotes": 21888,
+      "totalCitations": 21888,
       "totalPages": 136.6
     }
   },
@@ -200,11 +200,11 @@
     "pre-calculus/Pre-Calculo.md": {
       "words": {
         "initial": 0,
-        "current": 699
+        "current": 700
       },
       "characters": {
         "initial": 1,
-        "current": 4544
+        "current": 4556
       },
       "sentences": {
         "initial": 1,
