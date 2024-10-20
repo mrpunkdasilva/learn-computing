@@ -1,7 +1,7 @@
 # Pré-Cálculo
 
 ## Intro
-O calculo nasceu para resolver questões que a matemática não conseguiam resolver.
+O calculo nasceu para resolver questões que a matemática não conseguia resolver.
 
 ## Parte 1 - Senta que lavem história
 >![[the-simpsons-homer.gif]]
@@ -113,28 +113,25 @@ A potência é a multiplicação de uma determinada base (a) feita n vezes (expo
 Quando temos uma multiplicação de uma **potência de mesma base**, devemos:
 1. Manter a base
 2. Somar os expoentes
-
 ![[Pre-Calculo-potencia-prop-produto-1.png]]
-
-Isso se dá porque ao multiplicarmos 
+Isso se dá porque ao multiplicarmos:
 - Basta apenas quebrar as potências e 
 - Assim podemos escrever o resultado disso em uma nova potência 
 - Cujo o expoente é a soma dos expoentes das potências anteriores
 ![[Pre-Calculo-prop-potencia-produto.png]]
 
-##### Divisão de Pôtencias
+##### Divisão de Pôtencias:
 Quando temos uma divisão de uma **potência de mesma base**, devemos:
 1. Manter a base
 2. Subtrair os expoentes
 ![[Pre-Calculo-potencia-prop-divisao1.png]]
-
-Isso se dá porque ao multiplicarmos 
+Isso se dá porque ao multiplicarmos:
 - Basta apenas quebrar as potências e 
 - Assim podemos escrever o resultado disso em uma nova potência 
 - Cujo o expoente é a subtração dos expoentes das potências anteriores, já que ao simplificarmos a divisão obtemos isso
 ![[Pre-Calculo-potencia-prop-divisao.png]]
 
-##### Exercício
+##### Exercícios
 1. $$\frac{3⁵ . 3²}{3⁴} $$
 **Solução:**
 - Resolvemos a parte de cima:
@@ -154,6 +151,104 @@ $$(5) . (5) = -25$$
 > - No primeiro elevamos o número e o sinal
 > - Nos outros três elevamos apenas o número, logo o resultado muda
  
+##### Potência de potência:
+Quando temos uma **potencia de uma potência**, devemos:
+1. Manter a base
+2. Multiplicar os expoentes
+![[Pre-Calculo-potencia-prop-potencia-de-potencia1.png]]
+Isso se dá porque ao multiplicarmos:
+- Basta apenas manter a base
+- Fazer a potencia dos parenteses 
+- Assim podemos fazer a  potencia que sobrou  
+- Logo o que temos é o expoente que pode ser obtido fazendo a multiplicação dos expoentes das potências anteriores
+![[Pre-Calculo-potencia-prop-potencia-de-potencia.png]]
+
+##### Expoente 0:
+Quando temos um **expoente 0**, devemos:
+- Colocar como resultado sempre 1
+![[Pre-Calculo-pot-prop-expoente0.png]]
+Isso se dá porque ao dividirmos um número por ele mesmo o resultado sempre é 1:
+- Só que podemos expressar esse número por uma potencia
+- Logo, teremos uma divisão de potências e podemos a aplicar a respectiva propriedade
+- Assim temos que todo número elevado a zero resulta sempre em 1
+![[Pre-Calculo-potencia-prop-expoente01.png]]
+
+##### Expoente Negativo:
+Quando temos um **expoente negativo**, devemos:
+- Fazer o inverso do número e do expoente, ou seja: 
+	- O que está em baixo fica em cima 
+	- E o que está em cima fica em baixo
+- Depois disso elevamos a fração pelo mesmo que agora é positivo
+- Assim temos toda a fração elevada pelo expoente
+![[Pre-Calculo-potenciacao-prop-expoente-negativo.png]]
+Vendo de outra forma temos:
+![[Pre-Calculo-potencia-prop-expoentenegativo-1.png]]
+
+##### Exercícios
+1. $$(5³)²$$
+**Solução:**
+$$5^{3.2} = 5⁵ = 3125$$
+
+2. $$5³^{2}$$
+**Solução:**
+$$5³^{2} = 5⁹ = 1953125$$
+
+> **❗Lembre-se que:** $(5³)²$ é diferente de $5³^{2}$
+> - No primeiro elevamos o número e o expoente
+> - Nos outros três elevamos apenas o expoente
+
+3. $$\frac{(5³)² . 5³^{2}}{(5⁵)²}$$
+**Solução:**
+- Resolvemos a parte de cima:
+$$(5³)² = 5^{3.2} = 5^{6}$$
+$$5³^{2} = 5⁹$$
+$$(5³)² . 5³^{2} = 5⁶ . 5⁹ = 5^{15}$$
+- Voltando a original:
+$$\frac{(5³)² . 5³^{2}}{(5⁵)²} = \frac{5^{15}}{5^{10}} = 5^{15 - 10} = 5⁵ = 3125$$
+
+3. $$(9^{-1})^{2} . 81$$
+**Solução:**
+$$9^{-1 . 2} . 81 = 9^{-2} . 9^{2} = 9^{-2 + 2} = 9^{0}$$
+
+##### Raiz para Potência:
+Quando temos uma **raiz e queremos transformar em potência**, devemos:
+- Mantem a base
+- Faz um expoente fracionário, onde:
+	- O expoente inicial ficará em cima da fração
+	- O índice da raiz ficará em baixo da fração
+![[Pre-Calculo-potencia-prop-raiz-para-pot1.png]]
+Nisso teremos:
+![[Pre-Calculo-potencia-prop-raiz-para-pot.png]]
+
+##### Separar potências:
+Quando temos uma **potência com mais de um valor, podemos separa-las**, devemos:
+- Manter as bases
+- Manter a operação entre os dois valores
+- Tornar cada valor uma potência com o expoente inicial
+Nessa propriedade temos duas sub propriedades.
+###### Não sendo fração:
+![[Pre-Calculo-potencia-prop-separar1-1.png]]
+![[Pre-Calculo-potencia-prop-separar1-2.png]]
+###### Sendo fração:
+![[Pre-Calculo-potencia-separar-2-1.png]]
+![[Pre-Calculo-potencia-prop-separar-2-2.png]]
+
+
+##### Exercício
+1. Deixe em uma unica fração:
+$$\frac{25 . \sqrt{ 5 }}{\sqrt[3]{5}}$$
+**Solução:**
+- Jogar tudo para potência:
+$$25 = 5^{2}$$
+$$\sqrt{ 5 } = 5^{\frac{1}{2}}$$
+$$\sqrt[3]{ 5 } = 5^{\frac{1}{3}}$$
+- Tratar as potências de cima:
+$$5^{2} . 5^{\frac{1}{2}} = 5^{2 + \frac{1}{2}}$$
+- Voltar a original:
+$$\frac{5^{2 + \frac{1}{2}}}{5^{\frac{1}{3}}}$$
+- Aplicar a respectiva propriedade:
+$$5^{2 + \frac{1}{2} - \frac{1}{3}}$$
+$$5^{\frac{12 + 3 - 2}{6}} = 5^{\frac{13}{6}}$$
 
 ---
 ## Links:
