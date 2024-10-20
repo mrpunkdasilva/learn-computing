@@ -194,34 +194,22 @@
       "totalFootnotes": 0,
       "totalCitations": 0,
       "totalPages": 139.20000000000002
+    },
+    "2024-10-20": {
+      "words": 0,
+      "characters": 0,
+      "sentences": 0,
+      "pages": 0,
+      "files": 156,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 41783,
+      "totalCharacters": 302570,
+      "totalSentences": 1329,
+      "totalFootnotes": 0,
+      "totalCitations": 0,
+      "totalPages": 139.20000000000002
     }
   },
-  "modifiedFiles": {
-    "pre-calculus/Pre-Calculo.md": {
-      "words": {
-        "initial": 0,
-        "current": 1474
-      },
-      "characters": {
-        "initial": 1,
-        "current": 9764
-      },
-      "sentences": {
-        "initial": 1,
-        "current": 59
-      },
-      "footnotes": {
-        "initial": 0,
-        "current": 0
-      },
-      "citations": {
-        "initial": 0,
-        "current": 0
-      },
-      "pages": {
-        "initial": 0,
-        "current": 4.9
-      }
-    }
-  }
+  "modifiedFiles": {}
 }
