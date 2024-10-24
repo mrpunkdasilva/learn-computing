@@ -32,5 +32,6 @@
     "debugMode": false
   },
   "database/FORMAS_NORMAIS/Formas Normais.md": "LiFile",
-  "pre-calculus/Resources": "LiPackage"
+  "pre-calculus/Resources": "LiPackage",
+  "version-control-system/Resources": "LiPackage"
 }

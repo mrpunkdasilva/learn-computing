@@ -4,22 +4,44 @@
     "type": "split",
     "children": [
       {
-        "id": "91a2e57874e61938",
+        "id": "9d6b79277fea87ac",
         "type": "tabs",
         "children": [
           {
-            "id": "0441ff4ed9f288f0",
+            "id": "fc1ddb7a9d93f5b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pre-calculus/Pre-Calculo.md",
+                "file": "version-control-system/Version-Control-System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pre-Calculo"
-            }
+              "title": "Version-Control-System"
+            },
+            "group": "e0614280c478ca86"
+          }
+        ]
+      },
+      {
+        "id": "4e52e5516ade899e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7842f44c01389f03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "version-control-system/Version-Control-System.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Version-Control-System"
+            },
+            "group": "e0614280c478ca86"
           }
         ]
       }
@@ -77,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5,
-    "collapsed": true
+    "width": 283.5026054382324
   },
   "right": {
     "id": "0d929310f57b2e7a",
@@ -87,7 +108,6 @@
       {
         "id": "270d636b954e3608",
         "type": "tabs",
-        "dimension": 62,
         "children": [
           {
             "id": "3b482b681858a867",
@@ -139,10 +159,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pre-calculus/Pre-Calculo.md"
+                "file": "version-control-system/Version-Control-System.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Pre-Calculo"
+              "title": "Outline of Version-Control-System"
+            }
+          },
+          {
+            "id": "96870bf922f95934",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -169,6 +199,26 @@
             "id": "6b740366ae45c890",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "7b45dea93f5a13d1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "59896702a223dbf4",
+            "type": "leaf",
+            "state": {
               "type": "BC-matrix",
               "state": {},
               "icon": "BC-trail-icon",
@@ -176,7 +226,7 @@
             }
           },
           {
-            "id": "7b45dea93f5a13d1",
+            "id": "88acec678dbed596",
             "type": "leaf",
             "state": {
               "type": "BC-tree",
@@ -186,28 +236,12 @@
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "df08daa6c9ff0126",
-        "type": "tabs",
-        "dimension": 38,
-        "children": [
-          {
-            "id": "96870bf922f95934",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          }
-        ]
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -224,28 +258,37 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "0441ff4ed9f288f0",
+  "active": "fc1ddb7a9d93f5b7",
   "lastOpenFiles": [
-    "pre-calculus/Resources/notas__precalculus.xopp~",
-    "Pre-Calculo-potencia-prop-separar-2-2.png",
-    "Pre-Calculo-potencia-separar-2-1.png",
-    "Pre-Calculo-potencia-prop-separar1-2.png",
-    "Pre-Calculo-potencia-prop-separar1-1.png",
-    "Pre-Calculo-potencia-prop-raiz-para-pot1.png",
-    "Pre-Calculo-potencia-prop-raiz-para-pot.png",
-    "pre-calculus/Resources/notas__precalculus.xopp",
-    "Pre-Calculo-potencia-prop-expoentenegativo-1.png",
-    "Pre-Calculo-potenciacao-prop-expoente-negativo.png",
-    "Pre-Calculo-potencia-prop-expoente01.png",
-    "Pre-Calculo-pot-prop-expoente0.png",
+    "Version-Control-System-sistemasdistribuidos.png",
+    "Version-Control-System-diagrama-basicogit-1.png",
+    "Version-Control-System-sistema-local.png",
+    "Version-Control-System-basico-outros-vcs.png",
+    "version-control-system/Version-Control-System.md",
+    "Version-Control-System-stream-of-snapshots.png",
+    "version-control-system/Resources/notas__vcs.xopp~",
+    "version-control-system/Resources/notas__vcs.xopp",
+    "memes/cachorro-comuna.png",
+    "version-control-system/Resources/stifler-kiss.gif",
+    "version-control-system/Resources/stifler-kiss.gif.crdownload",
+    "version-control-system/Resources/warm-american-pie.gif",
+    "version-control-system/Resources/stifler-dude-no.gif",
+    "version-control-system/Resources/the-simpsons-homer.gif",
+    "pre-calculus/Resources/the-simpsons-homer.gif",
+    "version-control-system/Resources/american-pie-good-stuff.gif.crdownload",
+    "version-control-system/Resources/stifler-dude-no.gif.crdownload",
+    "version-control-system/Resources/warm-american-pie.gif.crdownload",
+    "version-control-system/Resources/seann-william-scott-stifler.gif.crdownload",
+    "version-control-system/Resources/american-pie.gif.crdownload",
+    "version-control-system/Resources/stifler.gif.crdownload",
+    "version-control-system/Resources",
+    "intro-computing/1-programacao/README.md",
+    "Untitled Kanban.md",
     "pre-calculus/Pre-Calculo.md",
     "Untitled.md",
-    "pre-calculus/Resources",
-    "pre-calculus",
     "database/algebra_relacional/Álgebra Relacional.md",
     "intro-computing/3-roteadores-internet-servidores/README.md",
     "intro-computing/2-software-hardware/README.md",
-    "intro-computing/1-programacao/README.md",
     "logic/Lógica.md",
     "operating-systems/Capitulos/Capitulo-1/08 - Caching.md",
     "operating-systems/Capitulos/Capitulo-1/1 - Introdução.md",
@@ -262,14 +305,6 @@
     "logic/Capitulos/01 - Linguagem Formal.md",
     "logic/Capitulos/00.1 - Inferência.md",
     "logic/Capitulos/00 - Silogismo.md",
-    "math-discret/Função/Função.md",
-    "math-discret/Math Discrete.md",
-    "math-discret/grafos/Grafos.md",
-    "math-discret/analise-combinatoria/resources/analisecombinatoria.xopp",
-    "math-discret/grafos/grafos.xopp",
-    "math-discret/grafos",
-    "database/algebra_relacional/algebra-relacional.xopp~",
-    "database/algebra_relacional/resources",
-    "database/algebra_relacional/algebra-relacional.xopp"
+    "math-discret/Função/Função.md"
   ]
 }

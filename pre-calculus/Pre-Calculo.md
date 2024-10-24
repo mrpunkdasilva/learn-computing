@@ -4,6 +4,7 @@
 O calculo nasceu para resolver questões que a matemática não conseguia resolver.
 
 ## Parte 1 - Senta que lavem história
+
 >![[the-simpsons-homer.gif]]
 
 A invenção do calculo se deu como uma grande ferramenta para resolver os problemas que os matemáticos sempre criam e problemas que ainda nem se vinham a aurora de seus dias. 
@@ -11,6 +12,7 @@ A invenção do calculo se deu como uma grande ferramenta para resolver os probl
 Essas questões que se tinham se enebriava nas mentes dos matemáticos por 2.000 anos.
 
 > Devo ser muito matemático, nem se eu tivesse todo esse tempo esqueceria minha ex
+> 
 > ![[noite-carioca-noite.gif]]
 
 ### Um pouco sobre o Cálculo
@@ -184,6 +186,9 @@ Quando temos um **expoente negativo**, devemos:
 Vendo de outra forma temos:
 ![[Pre-Calculo-potencia-prop-expoentenegativo-1.png]]
 
+
+
+
 ##### Exercícios
 1. $$(5³)²$$
 **Solução:**
@@ -249,6 +254,24 @@ $$\frac{5^{2 + \frac{1}{2}}}{5^{\frac{1}{3}}}$$
 - Aplicar a respectiva propriedade:
 $$5^{2 + \frac{1}{2} - \frac{1}{3}}$$
 $$5^{\frac{12 + 3 - 2}{6}} = 5^{\frac{13}{6}}$$
+
+2. $$[\frac{(a b)^{5}}{a^{6}b^{3}}]^{-1}$$
+**Solução:**
+- Resolver a parte de cima:
+$$[\frac{a^{5} b^{5}}{a^{6}b^{3}}]^{-1}$$
+- Aplicar as respectivas propriedades:
+$$[\frac{a^{5} b^{5}}{a^{6}b^{3}}]^{-1} = [a^{5-6}b^{5-3}]^{-1} = [a^{-1}b^{2}]^{-1}$$
+
+$$[(\frac{1}{a})^{1}b^{2}]^{-1} = [\frac{1}{a}\frac{b^{2}}{1}]^{-1} = [\frac{b^{2}}{a}]^{-1}$$
+$$[\frac{a}{b^{2}}]^{1} = \frac{a}{b^{2}}$$
+
+
+
+
+
+
+
+
 
 ---
 ## Links:
