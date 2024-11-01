@@ -1,6 +1,47 @@
 ![](./Resources/american-pie.gif)
 # Git Pie: Aprenda sobre VCS
 
+**Table of Contents**
+
+- [Nota do Autor](#nota-do-autor)
+- [Introdução](#introdu%C3%A7%C3%A3o)
+	- [Versionamento de Código](#versionamento-de-c%C3%B3digo)
+		- [Controle de Versão](#controle-de-vers%C3%A3o)
+		- [Importância](#import%C3%A2ncia)
+		- [Tipos](#tipos)
+			- [Sistemas Locais](#sistemas-locais)
+			- [Sistemas Centralizados](#sistemas-centralizados)
+			- [Sistemas Distribuídos](#sistemas-distribu%C3%ADdos)
+- [Git](#git)
+	- [Senta que lavem história](#senta-que-lavem-hist%C3%B3ria)
+	- [O básico](#o-b%C3%A1sico)
+	- [Integridade](#integridade)
+	- [Estados](#estados)
+			- [Commited](#commited)
+			- [Modified](#modified)
+			- [Staged](#staged)
+				- [Fluxo básico](#fluxo-b%C3%A1sico)
+	- [Agora vai 1.0](#agora-vai-10)
+		- [Instalação](#instala%C3%A7%C3%A3o)
+		- [Configuração](#configura%C3%A7%C3%A3o)
+			- [Você não é o Douglas, eu  sou Douglas:](#voc%C3%AA-n%C3%A3o-%C3%A9-o-douglas-eu--sou-douglas)
+			- [Definir a ferramenta:](#definir-a-ferramenta)
+			- [Pedir um help:](#pedir-um-help)
+	- [Agora vai 2.0 versão final](#agora-vai-20-vers%C3%A3o-final)
+		- [Iniciar o repositório](#iniciar-o-reposit%C3%B3rio)
+		- [Fazendo alterações](#fazendo-altera%C3%A7%C3%B5es)
+		- [Branches](#branches)
+				- [Recapitulando o fluxo](#recapitulando-o-fluxo)
+			- [Juntando tudo](#juntando-tudo)
+		- [Se conectando com o mundo...](#se-conectando-com-o-mundo)
+			- [Criar Repositório](#criar-reposit%C3%B3rio)
+			- [Push](#push)
+			- [Pull](#pull)
+- [Cheat Sheet (Tabela de preguiçoso)](#cheat-sheet-tabela-de-pregui%C3%A7oso)
+- [Links](#links)
+- [Nota final](#nota-final)
+
+---
 ## Nota do Autor
 Olá pessoas, nesse texto irei falar sobre VCS (Sistema de Versionamento de Código, sigla em inglês) ou melhor, como o tema é mais conhecido -  falarei sobre Git.
 
@@ -312,7 +353,7 @@ Ela é independente pois o que fazemos nela não influencia em uma outra.
 ```bash
 # Exibira uma lista de todas as branches do repositorio
 # E também vai destacar em qual branch você está
-git branch -l 
+git branch -a
 ```
 
 > ![[Version-Control-System-git-branch-l.png]]

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6595a0233a6b2203",
+        "id": "5d527598f3a43d16",
         "type": "tabs",
         "children": [
           {
-            "id": "b9d18921e0930b39",
+            "id": "66bce57299658d6a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "version-control-system/Version-Control-System.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Version-Control-System"
+              "title": "New tab"
             }
           }
         ]
@@ -77,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.51103591918945
+    "width": 273.5110321044922
   },
   "right": {
     "id": "0d929310f57b2e7a",
@@ -137,10 +133,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "version-control-system/Version-Control-System.md"
+                "file": "calculus-1/Calculus 1.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Version-Control-System"
+              "title": "Outline of Calculus 1"
             }
           },
           {
@@ -154,7 +150,7 @@
             }
           },
           {
-            "id": "3b282899bc252d46",
+            "id": "bf436fb2912a7d9e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,7 +160,7 @@
             }
           },
           {
-            "id": "334f70a61e4203d8",
+            "id": "d3b68485151db3e1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -174,7 +170,7 @@
             }
           },
           {
-            "id": "6b740366ae45c890",
+            "id": "04adf994285ee147",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -184,7 +180,7 @@
             }
           },
           {
-            "id": "7b45dea93f5a13d1",
+            "id": "0ae143f64bc44cd3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -194,37 +190,7 @@
             }
           },
           {
-            "id": "59896702a223dbf4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "88acec678dbed596",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "a7e367e947bd98b2",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {},
-              "icon": "BC-trail-icon",
-              "title": "Breadcrumbs Matrix"
-            }
-          },
-          {
-            "id": "50cbae3e8a1362b9",
+            "id": "e3d293266cc314f3",
             "type": "leaf",
             "state": {
               "type": "BC-tree",
@@ -232,13 +198,24 @@
               "icon": "feather-corner-right-down",
               "title": "Breadcrumbs Down"
             }
+          },
+          {
+            "id": "cf1d4ca34393b7dd",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {},
+              "icon": "BC-trail-icon",
+              "title": "Breadcrumbs Matrix"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -255,13 +232,26 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "b9d18921e0930b39",
+  "active": "66bce57299658d6a",
   "lastOpenFiles": [
+    "Untitled.md",
+    "calculus-1/Resources/nota__calculus1.xopp~",
+    "calculus-1/Resources/nota__calculus1.xopp",
+    "calculus-1/Resources",
+    "calculus-1/Calculus 1.md",
+    "math-discret/Função/Função.md",
+    "math-discret/Math Discrete.md",
+    "calculus-1",
+    "uml/UML.md",
+    "database/FORMAS_NORMAIS/FormasNormais-2FN-1.png",
+    "uml/Resources",
+    "uml",
+    "database/algebra_relacional/resources/Álgebra Relacional - PC- ALUNO.png",
+    "version-control-system/Version-Control-System.md",
+    "version-control-system/Resources/Version-Control-System-clone-2.png",
     "version-control-system/Resources/horny-trumpet.gif",
     "version-control-system/Resources/horny-trumpet.gif.crdownload",
-    "Version-Control-System-clone.png",
-    "Version-Control-System-clone-2.png",
-    "version-control-system/Version-Control-System.md",
+    "version-control-system/Resources/Version-Control-System-clone.png",
     "version-control-system/Resources/tell-your-mother.gif",
     "version-control-system/Resources/tell-your-mother.gif.crdownload",
     "version-control-system/Resources/american-pie-its-not-what-it-looks-like.gif",
@@ -270,19 +260,9 @@
     "version-control-system/Resources/Version-Control-System-gitlab-5.png",
     "version-control-system/Resources/notas__vcs.xopp~",
     "version-control-system/Resources/Version-Control-System-git-push.png",
-    "version-control-system/Resources/Version-Control-System-repo-gitlab-sucesso.png",
-    "version-control-system/Resources/Version-Control-System-ssh-addgitlab.png",
-    "Version-Control-System-chavessh.png",
-    "version-control-system/Resources/jim-american-pie.gif.crdownload",
-    "version-control-system/Resources/nadia-scene-american-pie.gif.crdownload",
-    "version-control-system/Resources/stiflerway.gif.crdownload",
-    "version-control-system/Resources/notas__vcs.xopp",
-    "version-control-system/Resources/stifler-kiss.gif.crdownload",
-    "version-control-system/Resources/american-pie-good-stuff.gif.crdownload",
     "intro-computing/1-programacao/README.md",
     "Untitled Kanban.md",
     "pre-calculus/Pre-Calculo.md",
-    "Untitled.md",
     "database/algebra_relacional/Álgebra Relacional.md",
     "intro-computing/3-roteadores-internet-servidores/README.md",
     "intro-computing/2-software-hardware/README.md",
@@ -299,9 +279,6 @@
     "logic/Capitulos/04.1  - Interpretação.md",
     "logic/Capitulos/04.2 - Sintaxe e Semântica.md",
     "logic/Capitulos/02 - Abstração.md",
-    "logic/Capitulos/01 - Linguagem Formal.md",
-    "logic/Capitulos/00.1 - Inferência.md",
-    "logic/Capitulos/00 - Silogismo.md",
-    "math-discret/Função/Função.md"
+    "logic/Capitulos/01 - Linguagem Formal.md"
   ]
 }
