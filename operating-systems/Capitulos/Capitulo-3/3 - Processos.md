@@ -1,3 +1,12 @@
+
+**Table of Contents**
+
+- [Bloco de Controle de Processo](#bloco-de-controle-de-processo)
+- [Threads](#threads)
+- [Escalonamento de processos](#escalonamento-de-processos)
+
+---
+
 O processo em sí é **um programa em execução**.
 Seria asssim:
 - Ao ligar o PC você **abriu** o Chrome para assitir um video, logo podemos dizer que o **Chrome é um processo**, já que é um programa que está em execução.
@@ -10,7 +19,7 @@ Um **processo** vai além de apenas **códigos em execução** está parte é co
 	- Parametros de metodos
 - **Uma pilha heap** -> uma **memoria alocada dinamicamente**, seria o armazenamento que o processo vai precisar enquanto está sendo executado
 
-**Representação da estutura de um processo na memoria:**
+**Representação da estrutura de um processo na memoria:**
 
 ```
 ┌───────────┐
@@ -109,9 +118,9 @@ Esse **PCB (Process Control Block)** é uma tabela onde estão as informações 
 └───────────────────┘
 ```
 
-- **Estado do processo**: -> o estado atual do processo vá em [Estados do Processo](#EstadosDoProcesso)
+- **Estado do processo**: --> o estado atual do processo vá em [Estados do Processo](#EstadosDoProcesso)
 - **Contador de programa (program counter)** -> o contador é aquele que **vai indicar qual o endereço da próxima instrução** a ser executada pelo processo
-- **Registradores da CPU** -> os registradores são de vaios tipos e funções, eles possuem:
+- **Registradores da CPU** --> os registradores são de vaios tipos e funções, eles possuem:
 	- Acumuladores
 	- Registradores de indice
 	- Ponteiros de pilha 
@@ -127,19 +136,21 @@ Junto com o contador de programa a informação do estado precisa ser armazenado
 ![](TrocaCPUProcesso1.png)
 
 **Informações que o PCB possui:**
-- ==**Informação de Escalonamento de CPU**== -> são usados para o trabalho do [**Escalonador]()**: 
+- **Informação de Escalonamento de CPU** --> são usados para o trabalho do [**Escalonador]()**: 
 	- Prioridade de escalonamento, define qual processo vai usar mais a CPU, ou melhor, o *valor processo tem prioridade de uso da CPU*
-- ==**Informação de gêrencia de memoria**== -> define as informações de quanta memoria e para qual se destinada o processo, possuindo:
+- **Informação de gêrencia de memoria** -> define as informações de quanta memoria e para qual se destinada o processo, possuindo:
 	- O valor dos *registradores de base e limite*
 	- As *Tabelas de páginas ou tabelas de segmento* (vai depender do sistema que está usando)
-- ==**Informação contabil**== -> define os dados sobre: 
+- **Informação contabil** --> define os dados sobre: 
 	- Uso de CPU como: *quantidade de CPU* e o *tempo de leitura* a ser utilizado
 	- *Limites* de tempo
 	- Número da *conta*
 	- Números de *processos* ou *tarefas*
-- ==**Informações de status de E/S**== -> define as infromações sobre os dispositivos de entrada e saida e sobre arquivos alocados para aquele processo, entre outros:
+- **Informações de status de E/S** --> define as infromações sobre os dispositivos de entrada e saida e sobre arquivos alocados para aquele processo, entre outros:
 	- *Dispositivos E/S* alocados ao processo
 	- Uma *lista de arquivos abertos* 
+
+
 
 ---
 
@@ -149,7 +160,7 @@ Com o que foi discutido agora, pensemos assim: o modelo empregado até agora foi
 
 Assim ,se aplicarmos isso para entender melhor no contexto de um browser, ele só pode abrir **uma única aba**. já que dentro desse processo só existe **uma única thread (trabalhador)**.
 
-**==Representação de um modelo single thread:==**
+**Representação de um modelo single thread:**
 ![](SingleThread.png)
 
 No cenário atual, os  **sistemas operacionais** utiliza uma **arquitetura de threads diferente**: como existia essa limitação a cerca dos processos então foi criado essa arquitetura voltada a **multi-threads** que é um processo possuir **mais de uma thread**. Ou seja, ele consegue fazer **mais de uma tarefa por vez**.
@@ -231,5 +242,3 @@ Quando o processo já recebeu o tempo de CPU, está alocado nela e  está execut
 
 Nos dois primeiros casos, os processos passam para **o estado de espera para o estado de pronto** e depois **é colocado de vota na fila de pronto**. 
 Esse ciclo se repete até que o processo termine **ele então saí de todas as filas que  está e a alocação do PCB e seus recursos são removidos.**
-
-### Escalonadores

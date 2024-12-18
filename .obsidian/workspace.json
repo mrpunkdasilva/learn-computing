@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5d527598f3a43d16",
+        "id": "f783295818ec4772",
         "type": "tabs",
         "children": [
           {
-            "id": "66bce57299658d6a",
+            "id": "e53533f9890da486",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 2.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled 2"
             }
           }
         ]
@@ -73,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5110321044922
+    "width": 206.5031967163086
   },
   "right": {
     "id": "0d929310f57b2e7a",
@@ -193,14 +197,114 @@
             "id": "e3d293266cc314f3",
             "type": "leaf",
             "state": {
-              "type": "BC-tree",
+              "type": "empty",
               "state": {},
-              "icon": "feather-corner-right-down",
-              "title": "Breadcrumbs Down"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "cf1d4ca34393b7dd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "eafbc06e3b5ad323",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "3ee6be3d06c173f8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "ad7b033c899c5fa4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "810d333fd8e08eb0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "182d7337a836a64a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "9c56b5232e9e2e32",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "d54d4c927557c6e2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "45ae542ac0fcd083",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "5fae689f99ce082e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "f5bf5c7003047e81",
             "type": "leaf",
             "state": {
               "type": "BC-matrix",
@@ -208,9 +312,19 @@
               "icon": "BC-trail-icon",
               "title": "Breadcrumbs Matrix"
             }
+          },
+          {
+            "id": "4546ae8090af65ae",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {},
+              "icon": "feather-corner-right-down",
+              "title": "Breadcrumbs Down"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 21
       }
     ],
     "direction": "horizontal",
@@ -229,56 +343,58 @@
       "command-palette:Open command palette": false,
       "canvas:Create new canvas": false,
       "obsidian-git:Open Git source control": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "breadcrumbs:Breadcrumbs Visualisation": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "66bce57299658d6a",
+  "active": "e53533f9890da486",
   "lastOpenFiles": [
-    "Untitled.md",
-    "calculus-1/Resources/nota__calculus1.xopp~",
-    "calculus-1/Resources/nota__calculus1.xopp",
-    "calculus-1/Resources",
-    "calculus-1/Calculus 1.md",
-    "math-discret/Função/Função.md",
-    "math-discret/Math Discrete.md",
-    "calculus-1",
-    "uml/UML.md",
-    "database/FORMAS_NORMAIS/FormasNormais-2FN-1.png",
-    "uml/Resources",
-    "uml",
-    "database/algebra_relacional/resources/Álgebra Relacional - PC- ALUNO.png",
-    "version-control-system/Version-Control-System.md",
-    "version-control-system/Resources/Version-Control-System-clone-2.png",
-    "version-control-system/Resources/horny-trumpet.gif",
-    "version-control-system/Resources/horny-trumpet.gif.crdownload",
-    "version-control-system/Resources/Version-Control-System-clone.png",
-    "version-control-system/Resources/tell-your-mother.gif",
-    "version-control-system/Resources/tell-your-mother.gif.crdownload",
-    "version-control-system/Resources/american-pie-its-not-what-it-looks-like.gif",
-    "version-control-system/Resources/american-pie-its-not-what-it-looks-like.gif.crdownload",
-    "version-control-system/Resources/Version-Control-System.png",
-    "version-control-system/Resources/Version-Control-System-gitlab-5.png",
-    "version-control-system/Resources/notas__vcs.xopp~",
-    "version-control-system/Resources/Version-Control-System-git-push.png",
-    "intro-computing/1-programacao/README.md",
-    "Untitled Kanban.md",
-    "pre-calculus/Pre-Calculo.md",
-    "database/algebra_relacional/Álgebra Relacional.md",
-    "intro-computing/3-roteadores-internet-servidores/README.md",
-    "intro-computing/2-software-hardware/README.md",
-    "logic/Lógica.md",
-    "operating-systems/Capitulos/Capitulo-1/08 - Caching.md",
-    "operating-systems/Capitulos/Capitulo-1/1 - Introdução.md",
     "operating-systems/Sistemas Operacionais.md",
-    "programming/Capitulos/Intro/00.2 - Pensamento Computacional.md",
-    "programming/Capitulos/Intro/00.1 - Tradutores.md",
-    "programming/Capitulos/Intro/00.0 - Algoritmos e Computação.md",
-    "programming/Capitulos/Intro Java.md",
-    "programming/Programação 1.md",
-    "logic/Capitulos/07 - Relações.md",
-    "logic/Capitulos/04.1  - Interpretação.md",
-    "logic/Capitulos/04.2 - Sintaxe e Semântica.md",
-    "logic/Capitulos/02 - Abstração.md",
-    "logic/Capitulos/01 - Linguagem Formal.md"
+    "operating-systems/Capitulos/Capitulo-1/004 - Estrutura de E IO.md",
+    "operating-systems/Capitulos/Capitulo-1/003 - Estrutura de Armazenamento.md",
+    "operating-systems/sistemas-operacionais-com-java Silberschatz.pdf",
+    "Untitled 2.md",
+    "Untitled.md",
+    "operating-systems/Capitulos/Capitulo-1/Resources/003 - Estrutura de Armazenamento.png",
+    "operating-systems/Capitulos/Capitulo-1/Resources",
+    "operating-systems/Capitulos/Capitulo-1/Resources/003 - Estrutura de Armazenamento - Diagrama Hierarquia.png",
+    "operating-systems/Capitulos/Capitulo-1/Resources/003 - Estrutura de Armazenamento-Hierarquia-Dispositivos-De-Armazenamento.png",
+    "operating-systems/Capitulos/Capitulo-1/Diagrama.drawio",
+    "operating-systems/Capitulos/Capitulo-1/002 - Operação do computador.md",
+    "().md",
+    "operating-systems/Capitulos/Capitulo-1/001 - Introdução.md",
+    "dictionary/Software.md",
+    "Untitled 1.md",
+    "Untitled 3.md",
+    "Calc-Exxtra.md",
+    "Atividade Extra.md",
+    "Atividade Extra.png",
+    "calculus-1/Integral/Integral.md",
+    "Assignment-Week7.md",
+    "Laboratory-Week7.md",
+    "Integral-1.png",
+    "calculus-1/Integral/Resources/Integral.xopp~",
+    "Integral-grafico1.png",
+    "Integral-grafico1.png",
+    "calculus-1/Integral/Resources/memes/crazyeyes-stevebuscemi.gif",
+    "calculus-1/Integral/Resources/memes/crazyeyes-stevebuscemi.gif.crdownload",
+    "calculus-1/Integral/Resources/memes/touhou-iosys.gif",
+    "calculus-1/Integral/Resources/memes/touhou-iosys.gif.crdownload",
+    "calculus-1/Integral/Resources/memes/frieren-calculus.gif",
+    "calculus-1/Integral/Resources/memes/frieren-calculus.gif.crdownload",
+    "calculus-1/Integral/Resources/memes",
+    "/calculus-1/Integral/Resources/Integral.xopp",
+    "calculus-1/Integral/Resources/Integral.xopp",
+    "calculus-1/Integral/Resources/Untitled.canvas",
+    "calculus-1/Calculus 1.md",
+    "capitulos/02-loading-and-initialize.md",
+    "pre-calculus/Pre-Calculo.md",
+    "math-discret/Math Discrete.md",
+    "math-discret/Conjuntos/Conjuntos.md",
+    "math-discret/teoria-numeros/Aritmética Modular.md",
+    "math-discret/grafos/Grafos.md",
+    "math-discret/Função/Função.md",
+    "web/php/laravel/mod1/06 layouts.md",
+    "web/php/laravel/mod1/03 routes and views.md"
   ]
 }

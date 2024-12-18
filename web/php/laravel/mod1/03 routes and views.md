@@ -37,10 +37,6 @@ Route::get('/', function () {
   return view('welcome', ['nome' => $nome]);
 });
 ```
-
-<br>
-<br>
-
 ### Views
 
 + Nas views teremos os templates, onde há a estruturação por meio do HTML, usando a template engine: Blade;

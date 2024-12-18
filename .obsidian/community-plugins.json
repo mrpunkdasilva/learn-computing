@@ -13,6 +13,11 @@
   "personal-assistant",
   "tw-task-wiki",
   "xournalpp",
+  "obsidian-emoji-toolbar",
+  "cm-chs-patch",
+  "obsidian-pandoc",
   "better-export-pdf",
-  "obsidian-emoji-toolbar"
+  "mermaid-tools",
+  "any-block",
+  "mehrmaid"
 ]

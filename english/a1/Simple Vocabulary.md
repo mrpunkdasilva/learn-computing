@@ -1,0 +1,3 @@
+- Lots of love: much love
+- Best Wishies: we use for greeting
+ - From x To y

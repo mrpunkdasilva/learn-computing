@@ -301,20 +301,253 @@
       "totalPages": 149.9
     },
     "2024-11-01": {
+      "words": 2,
+      "characters": 24,
+      "sentences": 1,
+      "pages": 0,
+      "files": 161,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 44995,
+      "totalCharacters": 325217,
+      "totalSentences": 1403,
+      "totalFootnotes": 5,
+      "totalCitations": 5,
+      "totalPages": 149.9
+    },
+    "2024-11-09": {
+      "words": 88,
+      "characters": 515,
+      "sentences": 3,
+      "pages": 0.30000000000000004,
+      "files": 165,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 45085,
+      "totalCharacters": 325733,
+      "totalSentences": 1408,
+      "totalFootnotes": 408,
+      "totalCitations": 408,
+      "totalPages": 150.2
+    },
+    "2024-11-30": {
       "words": 0,
       "characters": 0,
       "sentences": 0,
       "pages": 0,
-      "files": 160,
+      "files": 165,
       "footnotes": 0,
       "citations": 0,
-      "totalWords": 44993,
-      "totalCharacters": 325193,
-      "totalSentences": 1402,
+      "totalWords": 44944,
+      "totalCharacters": 324890,
+      "totalSentences": 1406,
       "totalFootnotes": 0,
       "totalCitations": 0,
-      "totalPages": 149.9
+      "totalPages": 149.80000000000004
+    },
+    "2024-12-01": {
+      "words": 17,
+      "characters": 162,
+      "sentences": 0,
+      "pages": 0.09999999999999964,
+      "files": 164,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 44960,
+      "totalCharacters": 325041,
+      "totalSentences": 1406,
+      "totalFootnotes": 0,
+      "totalCitations": 0,
+      "totalPages": 149.90000000000003
+    },
+    "2024-12-03": {
+      "words": 218,
+      "characters": 1341,
+      "sentences": 7,
+      "pages": 0.7,
+      "files": 164,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 45179,
+      "totalCharacters": 326386,
+      "totalSentences": 1414,
+      "totalFootnotes": 56,
+      "totalCitations": 56,
+      "totalPages": 150.6
+    },
+    "2024-12-05": {
+      "words": 225,
+      "characters": 1133,
+      "sentences": 0,
+      "pages": 0.8,
+      "files": 165,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 45404,
+      "totalCharacters": 327516,
+      "totalSentences": 1414,
+      "totalFootnotes": 1538,
+      "totalCitations": 1538,
+      "totalPages": 151.39999999999992
+    },
+    "2024-12-07": {
+      "words": 994,
+      "characters": 4794,
+      "sentences": 8,
+      "pages": 3.2,
+      "files": 166,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 46398,
+      "totalCharacters": 332313,
+      "totalSentences": 1423,
+      "totalFootnotes": 6,
+      "totalCitations": 6,
+      "totalPages": 154.6
+    },
+    "2024-12-08": {
+      "words": 0,
+      "characters": 0,
+      "sentences": 0,
+      "pages": 0,
+      "files": 166,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 46398,
+      "totalCharacters": 332313,
+      "totalSentences": 1423,
+      "totalFootnotes": 0,
+      "totalCitations": 0,
+      "totalPages": 154.6
+    },
+    "2024-12-09": {
+      "words": 0,
+      "characters": 0,
+      "sentences": 0,
+      "pages": 0,
+      "files": 167,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 46397,
+      "totalCharacters": 332310,
+      "totalSentences": 1422,
+      "totalFootnotes": 0,
+      "totalCitations": 0,
+      "totalPages": 154.6
+    },
+    "2024-12-11": {
+      "words": 261,
+      "characters": 1534,
+      "sentences": 9,
+      "pages": 0.9,
+      "files": 170,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 46911,
+      "totalCharacters": 335408,
+      "totalSentences": 1440,
+      "totalFootnotes": 0,
+      "totalCitations": 0,
+      "totalPages": 156.3
+    },
+    "2024-12-13": {
+      "words": 54,
+      "characters": 327,
+      "sentences": 6,
+      "pages": 0.2,
+      "files": 171,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 46965,
+      "totalCharacters": 335735,
+      "totalSentences": 1446,
+      "totalFootnotes": 1403,
+      "totalCitations": 1403,
+      "totalPages": 156.5
+    },
+    "2024-12-17": {
+      "words": 332,
+      "characters": 2091,
+      "sentences": 5,
+      "pages": 1.1,
+      "files": 171,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 47296,
+      "totalCharacters": 338273,
+      "totalSentences": 1454,
+      "totalFootnotes": 12368,
+      "totalCitations": 12368,
+      "totalPages": 157.59999999999997
+    },
+    "2024-12-18": {
+      "words": 382,
+      "characters": 2403,
+      "sentences": 10,
+      "pages": 1.2999999999999998,
+      "files": 172,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 47678,
+      "totalCharacters": 340678,
+      "totalSentences": 1464,
+      "totalFootnotes": 0,
+      "totalCitations": 0,
+      "totalPages": 158.90000000000003
     }
   },
-  "modifiedFiles": {}
+  "modifiedFiles": {
+    "operating-systems/Capitulos/Capitulo-1/003 - Estrutura de Armazenamento.md": {
+      "words": {
+        "initial": 335,
+        "current": 712
+      },
+      "characters": {
+        "initial": 2119,
+        "current": 4491
+      },
+      "sentences": {
+        "initial": 6,
+        "current": 15
+      },
+      "footnotes": {
+        "initial": 0,
+        "current": 0
+      },
+      "citations": {
+        "initial": 0,
+        "current": 0
+      },
+      "pages": {
+        "initial": 1.1,
+        "current": 2.4
+      }
+    },
+    "operating-systems/Capitulos/Capitulo-1/004 - Estrutura de E IO.md": {
+      "words": {
+        "initial": 0,
+        "current": 5
+      },
+      "characters": {
+        "initial": 1,
+        "current": 32
+      },
+      "sentences": {
+        "initial": 0,
+        "current": 1
+      },
+      "footnotes": {
+        "initial": 0,
+        "current": 0
+      },
+      "citations": {
+        "initial": 0,
+        "current": 0
+      },
+      "pages": {
+        "initial": 0,
+        "current": 0
+      }
+    }
+  }
 }
