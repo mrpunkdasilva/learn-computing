@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f783295818ec4772",
+        "id": "3c2eafe07dbbb7a1",
         "type": "tabs",
         "children": [
           {
-            "id": "e53533f9890da486",
+            "id": "1309a10bacdce878",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 2.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Untitled 2"
+              "title": "New tab"
             }
           }
         ]
@@ -347,13 +343,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e53533f9890da486",
+  "active": "1309a10bacdce878",
   "lastOpenFiles": [
+    "Untitled 2.md",
     "operating-systems/Sistemas Operacionais.md",
     "operating-systems/Capitulos/Capitulo-1/004 - Estrutura de E IO.md",
     "operating-systems/Capitulos/Capitulo-1/003 - Estrutura de Armazenamento.md",
     "operating-systems/sistemas-operacionais-com-java Silberschatz.pdf",
-    "Untitled 2.md",
     "Untitled.md",
     "operating-systems/Capitulos/Capitulo-1/Resources/003 - Estrutura de Armazenamento.png",
     "operating-systems/Capitulos/Capitulo-1/Resources",

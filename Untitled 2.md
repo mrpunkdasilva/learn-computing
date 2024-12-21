@@ -15,3 +15,9 @@ Porque usar terminal?
 - Eficiente
 - Porque sim
 
+## Servers
+
+### What is a server?
+Serve para receber, tratar e mandar requisições e respostas de algum serviço
+
+## SSH
