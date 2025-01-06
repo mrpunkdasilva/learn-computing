@@ -1,6 +1,0 @@
-# Learn JQuery
-
-
-## Efeitos Básicos
-
-

@@ -73,6 +73,51 @@ Um **sistema computadorizado** ou só computador, pode ser *dividido em quatro p
                     +----------+
 ```
 
+```mermaid
+graph TD
+
+subgraph Usuarios
+
+U1[Usuário 1] --> Compilador
+
+U2[Usuário 2] --> Montador
+
+U3[Usuário 3] --> EditorTextos
+
+Un[Usuário n] --> BancoDados
+
+end
+
+  
+
+subgraph Ferramentas
+
+Compilador[Compilador]
+
+Montador[Montador]
+
+EditorTextos[Editor de Textos]
+
+BancoDados[Sistema de Banco de Dados]
+
+end
+
+  
+
+Compilador --> Programas
+
+Montador --> Programas
+
+EditorTextos --> Programas
+
+BancoDados --> Programas
+
+  
+
+Programas[Programas de Sistema e Aplicativos] --> SO[Sistema Operacional]
+
+SO --> Hardware[Hardware do Computador]
+```
 ---
 
 [[002 - Operação do computador]]

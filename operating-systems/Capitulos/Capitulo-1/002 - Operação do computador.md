@@ -4,7 +4,7 @@
 
 Ao desligar o computador e ligar, o que será que acontece? Como ele "chama" o Sistema Operacional.
 
-Para  o  computador começar a funcionar ele chama um programa básico, chamado de **bootsrap** normalmente está alocado na memoria apenas de leitura (**[ROM]()**) ou então é salva na memoria de somente leitura apagável programavelmente (**[EEPROM]()**).
+Para  o  computador começar a funcionar ele chama um programa básico, chamado de **bootstrap** normalmente está alocado na memoria apenas de leitura (**[ROM]()**) ou então é salva na memoria de somente leitura apagável programavelmente (**[EEPROM]()**).
 
 Esse programa é conhecido como **([Firmware]())** porque está instalado diretamente no hardware, assim ele inicializa todos os aspectos do sistema que vão dos registradores da CPU até a dispositivos e conteúdo na memoria.
 
@@ -39,7 +39,7 @@ Esse **vetor de interrupção** vai ser indexado exclusivamente pelo número do 
              ┌───────────────────────┐
              │    Método simples:    
              │  Transfere para uma   
-             │   rotina genérica. 🔁 
+             │   rotina genérica. 🔁 bootsrap
              └───────────────────────┘
                   ┌───────────────────────┐
                   │   Método rápido:      
@@ -66,40 +66,47 @@ Se a rotina de interrupção precisar modificar algum estado do processador, por
 - Depois **carregar** e **restaurar** esse estado para depois **retornar**;
 - Em seguida será carregado para o **contador de programa** o **endereço do retorno** e o **processador** que foi **interrompido** continua como se nada tivesse acontecido:
 
+```mermaid
+graph TD
+
+DetecInterrupcao[📟 Detecção de Interrupção 📟]
+
+DetecInterrupcao --> VerificaArquitetura[Verifica o tipo de arquitetura]
+
+VerificaArquitetura -->|Arquiteturas Antigas| ArmazenaLocalFixo[Armazena endereço em local fixo]
+
+VerificaArquitetura -->|Arquiteturas Antigas Indexadas| ArmazenaIndexado[Armazena endereço indexado]
+
+VerificaArquitetura -->|Arquiteturas Modernas| ArmazenaPilha[Armazena endereço na pilha do sistema]
+
+  
+
+ArmazenaLocalFixo --> ProcessamentoInterrupcao[Processamento da Interrupção 🔄]
+
+ArmazenaIndexado --> ProcessamentoInterrupcao
+
+ArmazenaPilha --> ProcessamentoInterrupcao
+
+  
+
+ProcessamentoInterrupcao --> SalvamentoEstado[Salvamento do Estado do Processador 💾]
+
+SalvamentoEstado -->|Se modificar o estado do processador| SalvarEstadoAtual[Salvar o estado atual 📝]
+
+SalvamentoEstado -->|Caso contrário| ExecRotinaInterrupcao[Executar a rotina de interrupção 🔄]
+
+  
+
+SalvarEstadoAtual --> ExecRotinaInterrupcao
+
+ExecRotinaInterrupcao --> RestaurarEstado[Restaurar o estado salvo 📂]
+
+RestaurarEstado --> CarregarEndereco[Carregar o endereço de retorno 📡 para o contador de programa]
+
+CarregarEndereco --> ContinuarExec[Processador continua a execução 🚀]
 ```
-    📟 Detecção de Interrupção 📟
-               ⬇️
-    Verifica o tipo de arquitetura
-               ⬇️
-       ┌────────────┬─────────────┐
-       ⬇️                            ⬇️            ⬇️
-  Arquiteturas      Arquiteturas    Modernas
-    Antigas             Antigas                  ⬇️
-    ⬇️                             ⬇️                 Armazena 
- Armazena              Armazena        endereço na 
-endereço em        endereço            pilha do 
- local fixo             indexado            sistema
-    ⬇️                          ⬇️                         ⬇️
-  Processamento da Interrupção 🔄
-                ⬇️
-  Salvamento do Estado do Processador 💾
-                ⬇️
-     ┌─────────────────────────┐
-    ⬇️                                                                   ⬇️
-Se modificar o estado do                          Caso 
- processador                                                 contrário
-     ⬇️                                                                  ⬇️
-        Salvar o estado atual ⬅️ 📝
-     ⬇️                                                                  ⬇️
-        Executar a rotina de interrupção 🔄
-     ⬇️                                                                  ⬇️
-         Restaurar o estado salvo 📂
-     ⬇️                                                                 ⬇️
-        Carregar o endereço de retorno 📡
-          para o contador de programa
-     ⬇️                                                                 ⬇️
-        Processador continua a execução 🚀
-```
+
+
 
 ---
 

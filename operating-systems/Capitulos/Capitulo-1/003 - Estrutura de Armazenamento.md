@@ -66,9 +66,9 @@ flowchart TD
 
 > 💡 A unidade de memoria só consegue ver um fluxo de endereços de memoria. Ela não sabe: 
 > - Como são gerados ou
-> 	- Gerados por contador de instruções, indexação, endereços literais e etc 
+>  - Gerados por contador de instruções, indexação, endereços literais e etc 
 > - Para que servem
-> 	- Se são instruções ou dados
+>  - Se são instruções ou dados
 
 Seria bom, mas a vida não é um morango, a memoria principal guardar todos os dados  e programas entretanto, todavia, não temos isso já que:
 - A memoria principal é volátil, vai perder os dados assim que a maquina desligar;

@@ -28,25 +28,25 @@ Mas como os caches possuem um **tamanho reduzido** o aspecto de **gerenciamento 
 
 Tais aspectos podem **causar um melhor desempenho da memoria** (cache).
 
-**A memoria principal** pode ser vista  **como um cache veloz para o armazenamento secundario**, **porque os dados nessa memoria precisam ser copiados para a memoria principal.**
+**A memoria principal** pode ser vista  **como um cache veloz para o armazenamento secundário**, **porque os dados nessa memoria precisam ser copiados para a memoria principal.**
 De modo reciproco, para serem **movidos** para a **memoria secundaria**, precisam **antes estar na memoria principal** (feito isso para a proteção).
 
-O sistema de arquivos vê os dados permanentemente gravados no armazenamento secundario **são vistos de modo hierarquico**, de forma que que existem **diversos niveis na hierarquia*:
-- No nivel mais alto ->  o **sistema operaciona**  pode **manter** um **cache do sistema de arquivos na memoria principal**.
+O sistema de arquivos vê os dados permanentemente gravados no armazenamento secundário **são vistos de modo hierárquico**, de forma que que existem **diversos níveis na hierarquia*:
+- No nível mais alto ->  o **sistema operacional**  pode **manter** um **cache do sistema de arquivos na memoria principal**.
 
 Também é **possivel que as memorias RAM como disco de estado solido** (ou então discos eletronicos de RAM) podem ser usados para **armazenamento de alta velocidade**, dos quais **são acessados pela interface do sistema de arquivos**, ou seja, é necessária a comunicação direta com a interface ou melhor o sistema de arquivos.
 
-Temos que a maior parte do **armazenamento terciario** são os **HDs ou SSDs** (pelo menos em 2024 ~~kkkkk~~).
+Temos que a maior parte do **armazenamento terciário** são os **HDs ou SSDs** 
 
 
 ## Niveis e o cache
 
 Os **movimentos** de informações entre os **niveis de hierarquias das memorias** (armazenamento) podem ser de dois tipos: **explicitos** e **implicitos**. De modo que depende apenas da forma como se vai construir o **hardware** e qual é o **software** de controle do sistema operacional.
 Podemos exemplificar essa questão:
-- A **transferência de dados entre a cahce e a CPU e seus registradores**  -> se dá pelo **hardware**, sem o SO fazer isso.
+- A **transferência de dados entre a cache e a CPU e seus registradores**  -> se dá pelo **hardware**, sem o SO fazer isso.
 - A **transferência dos dados dos disco para a memoria (RAM)** -> em geral tem como controlador o **sistema operacional**.
 
-Como nessa estrutura de armazenamento hierarquico, os mesmos dados podem aparecer em diferentes niveis de armazenamento, como por exemplo:
+Como nessa estrutura de armazenamento hierárquico, os mesmos dados podem aparecer em diferentes níveis de armazenamento, como por exemplo:
 - Supunhetamos que um texto em um arquivo `A` **deverá ser mudado para uma outra palavra que está no arquivo `B`, que reside no HD**
 - A operação de mudança  **deve primeiro emitir uma operação de E/S para copiar o bloco de disco de `A` em questão, para a memoria principal.**
 - Essa operação é seguida por A sendo **copiado para o cache, registradores internos da CPU**
@@ -64,7 +64,7 @@ Memoria Secundaria
 - Após isso, se o **registrador chegar a gravar a mudança no disco rígido**, ou seja, na memoria secundaria **os valores nos niveis serão iguais** (e então a mudança se torna efetiva).
 
 
-### Threads e cores e sistemas distribuidps
+### Threads e cores e sistemas distribuidos
 Num ambiente com uma unica threads, ou seja, que executa apenas uma tarefa por vez esse esquema hierárquico todo funciona perfeitamente, já quando o valor é alterado nos registradores ou então o acesso ao disco se torna da seguinte forma:
 - Vai do nível mais alto ao baixo numa unica "pista", sem haver nenhum confronto de dados, já que todos os níveis conseguem chegar a se atualizarem pelos valores da unica tarefa sem problema.
 

@@ -1,21 +1,36 @@
-Threads são as fatias de processos do sistema, são "fios" criados para resolver um processo, assim é possível faze mais de uma tarefa. 
+Threads são as fatias de processos do sistema, são "fios" criados para resolver um processo, assim é possível fazer mais de uma tarefa. 
 
 > Uma thread é uma unidade básica de utilização de CPU
 
 Vamos imaginar um cenário, de uma loja:
-```
-┌───────────────────────────────────────────────┐
-│                   Gerente                     │
-│   ┌──────────┐   ┌──────────┐   ┌──────────┐  │
-│   │  Caixa 1 │   │  Caixa 2 |   │  Caixa 3 │  |
-│   └──────────┘   └──────────┘   └──────────┘  │
-│     ▲     ▲         ▲     ▲         ▲     ▲   │
-│     │     │         │     │         │     │   │
-│ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐  │
-│ │Atend.│ │Atend.│ │Atend.│ │Atend.│ │Atend.│  │
-│ │  1   │ │  2   │ │  3   │ │  4   │ │  5   │  │
-│ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘  │
-└───────────────────────────────────────────────┘
+```mermaid
+graph TD
+
+Gerente[Gerente]
+
+Caixa1[Caixa 1]
+
+Caixa2[Caixa 2]
+
+Caixa3[Caixa 3]
+
+Gerente --> Caixa1
+
+Gerente --> Caixa2
+
+Gerente --> Caixa3
+
+Caixa1 --> Atend1[Atend. 1]
+
+Caixa2 --> Atend2[Atend. 2]
+
+Caixa3 --> Atend3[Atend. 3]
+
+Caixa1 --> Atend4[Atend. 4]
+
+Caixa2 --> Atend5[Atend. 5]
+
+Caixa3 --> Atend6[Atend. 6]
 ```
 
 **Pense assim:**
@@ -25,69 +40,60 @@ Vamos imaginar um cenário, de uma loja:
 - Cliente seria o usuario que entrou com algum dado que é passado para o sistema operacional que faz alguma chamada nas threads secundarias (atendentes) thread main (gerente);
 
 **Funcionamento:**
-- O Gerente **cria e genrencia** as threads secundarias (caixas).
-- As caixas são as responsaveis por **escolher um dos atendentes para atender** os clientes, de modo que elas são **independentes** e veja que logo cada uma está trabalhando de modo **concorrente**, como se estivessem "disputando".
+- O Gerente **cria e gerencia** as threads secundarias (caixas).
+- As caixas são as responsáveis por **escolher um dos atendentes para atender** os clientes, de modo que elas são **independentes** e veja que logo cada uma está trabalhando de modo **concorrente**, como se estivessem "disputando".
 - Os atendentes são os recursos usados pela CPU, ou mesmo pode se dizer a CPU, para resolver a thread, ou seja, executar determinada tarefa.
 
+```mermaid
+graph TD
+
+Gerente[Gerente]
+
+  
+
+Caixa1[▶️ Caixa 1]
+
+Caixa2[▶️ Caixa 2]
+
+Caixa3[▶️ Caixa 3]
+
+Gerente --> Caixa1
+
+Gerente --> Caixa2
+
+Gerente --> Caixa3
+
+  
+
+Caixa1 --> Atend1[▶️ Atend. 1]
+
+Caixa2 --> Atend2[Atend. 2]
+
+Caixa3 --> Atend3[Atend. 3]
+
+Caixa1 --> Atend4[Atend. 4]
+
+Caixa2 --> Atend5[Atend. 5]
+
+Caixa3 --> Atend6[Atend. 6]
+
+  
+
+Atend1 --> Cliente1[▶️ 👥]
+
+Atend2 --> Cliente2[👥]
+
+Atend3 --> Cliente3[👥]
+
+Atend4 --> Cliente4[👥]
+
+Atend5 --> Cliente5[👥]
 ```
-┌───────────────────────────────────────────────┐
-│                   Gerente                    │
-│ ┌───────┐ ┌───────┐ ┌───────┐                │
-│ │  Caixa│ │  Caixa│ │  Caixa│                │
-│ │   1   │ │   2   │ │   3   │                │
-│ └───────┘ └───────┘ └───────┘                │
-│     │         │         │                    │
-│ ┌───────┐ ┌───────┐ ┌───────┐ ┌───────┐ ┌───────┐
-│ │Atend. │ │Atend. │ │Atend. │ │Atend. │ │Atend. │
-│ │   1   │ │   2   │ │   3   │ │   4   │ │   5   │
-│ └───────┘ └───────┘ └───────┘ └───────┘ └───────┘
-│     │      |            │                    │
-│  ┌───┐   ┌───┐   ┌───┐  |                    │
-│  │ 👥│   │ 👥│   │👥 │--|                    │
-│  └───┘   └───┘   └───┘                       │
-└───────────────────────────────────────────────┘
-
-1. O Gerente cria as threads de Caixa (Caixa 1, Caixa 2, Caixa 3). ➡️
-
-┌───────────────────────────────────────────────┐
-│                   Gerente                    │
-│ ┌───────┐ ┌───────┐ ┌───────┐                │
-│ │▶️Caixa▶️│ │  Caixa│ │  Caixa│                │
-│ │   1   │ │   2   │ │   3   │                │
-│ └───────┘ └───────┘ └───────┘                │
-│     │         │         │                    │
-│ ┌───────┐ ┌───────┐ ┌───────┐ ┌───────┐ ┌───────┐
-│ │Atend. │ │Atend. │ │Atend. │ │Atend. │ │Atend. │
-│ │▶️  1  ▶️│ │   2   │ │   3   │ │   4   │ │   5   │
-│ └───────┘ └───────┘ └───────┘ └───────┘ └───────┘
-│     │         │         │                    │
-│  ┌───┐   ┌───┐   ┌───┐  |                    │
-│  │▶️👥▶️│   👥 │    👥 │--|                    │
-│  └───┘   └───┘   └───┘                       │
-└───────────────────────────────────────────────┘
-
-2. Um cliente chega e é direcionado para a Caixa 1. 👉
-
-┌───────────────────────────────────────────────┐
-│                   Gerente                    │
-│ ┌───────┐ ┌───────┐ ┌───────┐                │
-│ │▶️Caixa▶️│ │  Caixa│ │  Caixa│                │
-│ │   1   │ │   2   │ │   3   │                │
-│ └───────┘ └───────┘ └───────┘                │
-│     │         │         │                    │
-│ ┌───────┐ ┌───────┐ ┌───────┐ ┌───────┐ ┌───────┐
-│ │Atend. │ │Atend. │ │Atend. │ │Atend. │ │Atend. │
-│ │▶️  1  ▶️│ │   2   │ │   3   │ │   4   │ │   5   │
-│ └───────┘ └───────┘ └───────┘ └───────┘ └───────┘
-│     │       |           │                     │
-│  ┌───┐   ┌───┐   ┌───┐--|                     │
-│  │▶️👥▶️│  │👥 │   │👥 │                        │
-│  └───┘   └───┘   └───┘                        │
-└───────────────────────────────────────────────┘
-
-3. A Caixa 1 utiliza o Atendente 1 para processar as compras do cliente. 💼
-```
-
+**Explicação**:
+- **Gerente** cria as threads de Caixa (Caixa 1, Caixa 2, Caixa 3).
+- Cada **Caixa** tem atendentes (Atend. 1, 2, 3, 4, 5).
+- Quando o cliente chega, ele é direcionado ao caixa específico (seta indicando o fluxo).
+- **Atendente 1** é utilizado para processar a compra do cliente.
 
 > Tudo isso é gerenciado e orquestrado pelo Sistema Operacional.
 
@@ -99,9 +105,9 @@ Assim , as threads compartilham de algumas coisas em comum:
 Trazendo para o exemplo acima temos que o Gerente, caixa e atendente compartilham de:
 - Seção de códigos de conduta, o código que define o que eles devem fazer e como deve ser feito;
 - Seção de dados, tanto da loja como deles mesmos ou de clientes ou tarefas
-- Seção  de arquivos ou mesmo utensilios da loja
+- Seção  de arquivos ou mesmo utensílios da loja
 
-Pórem, não é só isso, **as threads possuem** básicamente:
+Porem, não é só isso, **as threads possuem** basicamente:
 - ID da thread
 - Conjunto de registradores;
 - Uma pilha;
@@ -111,23 +117,24 @@ Pórem, não é só isso, **as threads possuem** básicamente:
 ┌───────────────────────────────────────────────────────────────┐
 │                   Gerente 👨‍💼                 
 │ ┌─────────┐ ┌──────────┐ ┌─────────┐              
-│ │ Caixa 1 │ │ Caixa 2  │ │ Caixa 3 │               
-│ │ 💻 📁 🔣│ │ 💻 📁 🔣 │ │ 💻 📁 🔣│             
-│ │ ID 1    │ │ ID 2     │ │ ID 3     │              
-│ │ ⚙️ ⏱️ 🧠 │ │ ⚙️ ⏱️ 🧠  │ │ ⚙️ ⏱️ 🧠  │               
+│ │ Caixa 1         │ │ Caixa 2           │ │ Caixa 3                
+│ │ 💻 📁 🔣     │ │ 💻 📁 🔣       │ │ 💻 📁 🔣             
+│ │ ID 1                │ │ ID 2                   │ │ ID 3                   
+│ │ ⚙️ ⏱️ 🧠    │  │ ⚙️ ⏱️ 🧠         │ │ ⚙️ ⏱️ 🧠                 
 │ └─────────┘ └──────────┘ └──────────┘              
 │           🔄         🔄         🔄           
-│ ┌─────────┐ ┌──────────┐ ┌──────────┐ ┌───────┐   ┌──────────┐
-│ │Atend. 1 │ │Atend.  2 │ │Atend. 3   │ │Atend. 4│ │Atend. 5  │  
-│ │ 💻 📁 🔣│ │ 💻 📁 🔣 │ │ 💻 📁 🔣│ │ 💻 📁 🔣│ │ 💻 📁 🔣 │
-│ │ ID 1    │ │ ID 2     │ │ ID 3     │ │ ID 4    │ │ ID 5     │    
-│ │⚙️ ⏱️ 🧠  │ │⚙️ ⏱️ 🧠   |  │ ⚙️ ⏱️ 🧠│ │ ⚙️ ⏱️ 🧠 │ │ ⚙️ ⏱️ 🧠  │
-│ └─────────┘ └──────────┘ └─────────┘ └─────────┘  └──────────┘
+│ ┌─────────┐ ┌──────────┐ ┌──────────┐ ┌─────────┐  ┌──────────┐
+│ │Atend. 1         │ │Atend.  2         │ │Atend. 3         │ │Atend. 4       │   │Atend. 5  
+│ │ 💻 📁 🔣      │ │ 💻 📁 🔣       │ │ 💻 📁 🔣       │ │ 💻 📁 🔣    │   │ 💻 📁 🔣 
+│ │ ID 1                 │ │ ID 2                   │ │ ID 3                   │ │ ID 4                │  │ ID 5                   
+│ │⚙️ ⏱️ 🧠       │ │⚙️ ⏱️ 🧠         |  │ ⚙️ ⏱️ 🧠       │ │ ⚙️ ⏱️ 🧠    │  │ ⚙️ ⏱️ 🧠  
+│ └─────────┘ └──────────┘ └──────────┘ └─────────┘  └──────────┘
 │           🔄         🔄         🔄         
 │  ┌───┐   ┌───┐   ┌───┐   ┌───┐   ┌───┐       
-│  │ 👤│   │ 👤│   │ 👤│   │ 👤│   │ 👤│        
+│  │ 👤            👤           👤           👤           👤        
 │  └───┘   └───┘   └───┘   └───┘   └───┘        
 └──────────────────────────────────────────────────────────────────┘
+```
 Nesta representação, utilizei os seguintes elementos:
 - 👨‍💼: Símbolo do Gerente
 - 💻: Código (seção de código compartilhada)
@@ -145,9 +152,36 @@ Nesta representação, utilizei os seguintes elementos:
 2. Os Atendentes (Atend. 1, Atend. 2, Atend. 3, Atend. 4, Atend. 5) também são criados como threads, com as mesmas características de ID, registradores, pilha e contador, além de compartilharem a seção de código, dados, arquivos e sinais com o Gerente e as Caixas.
 
 3. Os Clientes 👤 chegam e são atendidos pelas threads de Caixa e Atendentes, que compartilham os recursos necessários para processar as compras.
+
+```mermaid
+graph TD
+
+Gerente[Gerente]
+
+Gerente --> Caixa1[Caixa 1] --> Caixa1_1[Dados e Código ID 1] --> Caixa1_2[Estado do Sistema]
+
+Gerente --> Caixa2[Caixa 2] --> Caixa2_1[Dados e Código ID 2] --> Caixa2_2[Estado do Sistema]
+
+Gerente --> Caixa3[Caixa 3] --> Caixa3_1[Dados e Código ID 3] --> Caixa3_2[Estado do Sistema]
+
+  
+
+Caixa1 --> Atend1[Atend. 1] --> Atend1_1[Dados e Código ID 1] --> Atend1_2[Estado do Sistema]
+
+Caixa2 --> Atend2[Atend. 2] --> Atend2_1[Dados e Código ID 2] --> Atend2_2[Estado do Sistema]
+
+Caixa3 --> Atend3[Atend. 3] --> Atend3_1[Dados e Código ID 3] --> Atend3_2[Estado do Sistema]
+
+  
+
+Atend1 --> Cliente1[Cliente 1]
+
+Atend2 --> Cliente2[Cliente 2]
+
+Atend3 --> Cliente3[Cliente 3]
 ```
 
-As threads em seu uso, ou seja a forma como os processos são construidos, podem ser divididos em **dois tipos threads:**
+As threads em seu uso, ou seja a forma como os processos são construídos, podem ser divididos em **dois tipos threads:**
 - **Singlethread**: é uma **única** **thread** em uso;
 ![](SingleThread.png)
 
@@ -166,19 +200,19 @@ Assim temos que a **solução** para este problema é justamente fazer com que e
 
 Threads tem uma função muito importante nas **RPC**
  (*remote procedure call* -> **fazem a comunicação entre os processos**, algo parecido com chamadas comuns de função)
- Os servidores de RPC atuam de modo multithreads: ele espera **receber** uma **requisição (mensagem)** então ele **cria uma thread especifica para resolver aquela mensagem** , assim o sistema consegue atuar  com **varias requisições de modo simultaneio**.
+ Os servidores de RPC atuam de modo multithreads: ele espera **receber** uma **requisição (mensagem)** então ele **cria uma thread especifica para resolver aquela mensagem** , assim o sistema consegue atuar  com **varias requisições de modo simultâneo**.
  
 ## Benefícios
 Tais benefícios podem ser divididos em quatro categorias:
-1. **Responsividade** -> *Capacidade de dar uma resposta não importando a condição de outras tarefas*.
-- A execução de varias tarefas de modo independende ffaz com que mesmo se uma tarefa estiver demorando muito ou então foi interrupida não faz com que as outras acabem caindo (sejam mortas ou interrompidas). Assim temos 
+1. **Responsividade** --> *Capacidade de dar uma resposta não importando a condição de outras tarefas*.
+- A execução de varias tarefas de modo independente faz com que mesmo se uma tarefa estiver demorando muito ou então foi interrompida não faz com que as outras acabem caindo (sejam mortas ou interrompidas). Assim temos 
 
-2. **Compartilhamento de Recursos** -> *Ter varias threads no mesmo  endereço de memoria compartilhando dados*.
-- Como as threads conseguem compartilhar os codigos e dados de duas formas: memoria compartilhada e trocas de mensagens (tais técnicas são feita pelos desenvolvedores), as threads conseguem executar diversas atividades e estarem no mesmo espaço de memoria e compartilharem recursos entre si
+2. **Compartilhamento de Recursos** --> *Ter varias threads no mesmo  endereço de memoria compartilhando dados*.
+- Como as threads conseguem compartilhar os códigos e dados de duas formas: memoria compartilhada e trocas de mensagens (tais técnicas são feita pelos desenvolvedores), as threads conseguem executar diversas atividades e estarem no mesmo espaço de memoria e compartilharem recursos entre si
 
-3. **Economia** -> *A principal economia que se tem ao se usar  threads é o baixo processamento e uso de memoria para cria-las e gerenciar*  . 
--  Ao criarmos um processo temos que usar mais processamento e memoria do que criar uma thread, além de que as threads compartilham recursos do seu processo pai. De modo que temos não só uma economia na criação mais tambem no uso de threads já que os recursos que uma usa as outras caso precisem conseguem usar, sem ter que fazer um outro processo
+3. **Economia** --> *A principal economia que se tem ao se usar  threads é o baixo processamento e uso de memoria para cria-las e gerenciar*  . 
+-  Ao criarmos um processo temos que usar mais processamento e memoria do que criar uma thread, além de que as threads compartilham recursos do seu processo pai. De modo que temos não só uma economia na criação mais também no uso de threads já que os recursos que uma usa as outras caso precisem conseguem usar, sem ter que fazer um outro processo
 
-4. **Escalabilidade** -> *O uso e mulithreads em um sistema multicore (multiplas CPUS) faz com que se possa ter o uso do paralelismo elevado ao maximo, assim aumentamos o poder e velocidade de processamentos*.
-- Ao usar multiplas threads em um processo em que o sistema é apenas de uma CPU acaba que temos que uma única thread só pode ser executada em um único processador o que diminui a eficiencia e por vez a escalabilidade, mas em sistemas com arquiteturas multcore temos varias threads sendo executadas em varios processadores, o que resulta em um maior uso do paralelismo  
+4. **Escalabilidade** -> *O uso e mulithreads em um sistema multicore (múltiplas CPUS) faz com que se possa ter o uso do paralelismo elevado ao máximo, assim aumentamos o poder e velocidade de processamentos*.
+- Ao usar múltiplas threads em um processo em que o sistema é apenas de uma CPU acaba que temos que uma única thread só pode ser executada em um único processador o que diminui a eficiência e por vez a escalabilidade, mas em sistemas com arquiteturas multicore temos varias threads sendo executadas em vários processadores, o que resulta em um maior uso do paralelismo  
 ## Programação multicore

@@ -44,7 +44,7 @@ O que pode ser um problema já que devemos mantar alguns princípios de seguran�
  já que o hardware é o mais baixo nível que conseguimos manipular.
 
 ### Garantindo segurança
-Primeiro temos que separar um espaço na memoria  (um endereço fisico) para cada processo. Assim podemos atribuir um intervalo legal (possivel) de endereços físicos na memoria que podem ser acessados pelo processo. 
+Primeiro temos que separar um espaço na memoria  (um endereço fisico) para cada processo. Assim podemos atribuir um intervalo legal (possível) de endereços físicos na memoria que podem ser acessados pelo processo. 
 
 Com isso vamos precisar de duas medidas, o começo (base) e o fim (limite) do intervalo de memoria que podem ser acessados:
 - Base -> contem o valor do menor endereço físico da memoria 
