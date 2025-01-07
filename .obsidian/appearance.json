@@ -1,10 +1,10 @@
 {
-  "cssTheme": "Cyber Glow",
+  "cssTheme": "Dracula Official",
   "accentColor": "",
   "theme": "obsidian",
   "interfaceFontFamily": "JetBrainsMonoNL Nerd Font Propo",
   "textFontFamily": "JetBrainsMono Nerd Font,DejaVu Sans Mono",
-  "baseFontSize": 15,
+  "baseFontSize": 19,
   "baseFontSizeAction": true,
   "nativeMenus": true
 }

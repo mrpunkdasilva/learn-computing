@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "905d292f8b624080",
+        "id": "79e4b07c585d5886",
         "type": "tabs",
         "children": [
           {
-            "id": "351d8b5b439b9ad7",
+            "id": "dc31225f634d0b22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/Java.md",
+                "file": "algebra-linear/Matrizes e sistemas de equações.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java"
+              "title": "Matrizes e sistemas de equações"
             }
           }
         ]
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 200
   },
   "right": {
     "id": "0d929310f57b2e7a",
@@ -437,6 +437,46 @@
             "id": "bf18edbaf2993b3c",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "2edba8345625c7a5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "6774a9465c35bafa",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "1ea917a8993a3246",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "da27ea7e42ff1307",
+            "type": "leaf",
+            "state": {
               "type": "BC-matrix",
               "state": {},
               "icon": "BC-trail-icon",
@@ -444,7 +484,7 @@
             }
           },
           {
-            "id": "2edba8345625c7a5",
+            "id": "325276fbe52cf858",
             "type": "leaf",
             "state": {
               "type": "BC-tree",
@@ -454,7 +494,7 @@
             }
           }
         ],
-        "currentTab": 34
+        "currentTab": 38
       }
     ],
     "direction": "horizontal",
@@ -477,22 +517,41 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "351d8b5b439b9ad7",
+  "active": "dc31225f634d0b22",
   "lastOpenFiles": [
+    "algebra-linear/resources/note.xopp~",
+    "algebra-linear/resources/Matrizes e sistemas de equações-exg2.png",
+    "algebra-linear/Matrizes e sistemas de equações.md",
+    "Untitled 2.md",
+    "memes/kitten-love.gif",
+    "memes/kitten-love.gif.crdownload",
+    "Matrizes e sistemas de equações-ex3.png",
+    "algebra-linear/Algébra Linear.md",
+    "algebra-linear/resources/Matrizes e sistemas de equações-ex2.png",
+    "algebra-linear/resources/Matrizes e sistemas de equações-ex1.png",
+    "algebra-linear/resources/note.xopp",
+    "algebra-linear/resources",
+    "algebra-linear/Untitled.md",
+    "algebra-linear",
+    "operating-systems/mod2/Sistemas Distribuidos.md",
+    "operating-systems/mod2/Reesources",
+    "operating-systems/mod2",
+    "programming/Capitulos/Origens da Programação.md",
+    "programming/Capitulos/Intro/00.2 - Pensamento Computacional.md",
+    "programming/Capitulos/Intro/00.1 - Tradutores.md",
     "java/Java.md",
     "java",
-    "operating-systems/Capitulos/Capitulo-1/08 - Caching.md",
-    "operating-systems/Capitulos/Capitulo-1/Sistema Distribuidos.md",
-    "operating-systems/Capitulos/Capitulo-1/Resources/003 - Estrutura de Armazenamento.png",
-    "operating-systems/Capitulos/Capitulo-1/Resources/003 - Estrutura de Armazenamento-Hierarquia-Dispositivos-De-Armazenamento.png",
-    "operating-systems/Capitulos/Capitulo-1/004 - Estrutura de IO.md",
-    "operating-systems/Capitulos/Capitulo-1/003 - Estrutura de Armazenamento.md",
-    "operating-systems/Capitulos/Capitulo-1/001 - Introdução.md",
-    "operating-systems/Capitulos/Capitulo-1/002 - Operação do computador.md",
-    "operating-systems/Capitulos/Capitulo-1/005 - Arquitetura do Sistema.md",
-    "operating-systems/Capitulos/Capitulo-1/Resources/4 - Threads.png",
+    "operating-systems/mod1/Capitulo-1/08 - Caching.md",
+    "operating-systems/mod1/Capitulo-1/Sistema Distribuidos.md",
+    "operating-systems/mod1/Capitulo-1/Resources/003 - Estrutura de Armazenamento.png",
+    "operating-systems/mod1/Capitulo-1/Resources/003 - Estrutura de Armazenamento-Hierarquia-Dispositivos-De-Armazenamento.png",
+    "operating-systems/mod1/Capitulo-1/004 - Estrutura de IO.md",
+    "operating-systems/mod1/Capitulo-1/003 - Estrutura de Armazenamento.md",
+    "operating-systems/mod1/Capitulo-1/001 - Introdução.md",
+    "operating-systems/mod1/Capitulo-1/002 - Operação do computador.md",
+    "operating-systems/mod1/Capitulo-1/005 - Arquitetura do Sistema.md",
+    "operating-systems/mod1/Capitulo-1/Resources/4 - Threads.png",
     "METAS - 2-.md",
-    "Untitled 2.md",
     "web/javascript/mod2/jquery/mod1/Learn JQuery.md",
     "mod1/01.md",
     "web/css/mod1/bulma/Learn Bulma.md",
@@ -501,30 +560,11 @@
     "web/javascript/mod2/jquery/mod1/capitulos/07 - 08 events keyboard and form.md",
     "web/javascript/mod2/jquery/mod1/capitulos/09 basic effects.md",
     "web/javascript/mod2/jquery/mod1/capitulos/05 browsers events.md",
-    "web/javascript/mod2/jquery/mod1/capitulos/04 selectors inherirance.md",
-    "web/javascript/mod2/jquery/mod1/capitulos/03 logic development.md",
-    "web/javascript/mod2/jquery/mod1/capitulos/02 loading and initialize.md",
-    "web/javascript/mod2/jquery/mod1/capitulos/01 install.md",
-    "web/javascript/mod2/jquery/mod1/capitulos/06 mouse events.md",
-    "web/css/mod2/scss/Learn Scss.md",
-    "web/css/mod2/scss/mod1/01 install.md",
-    "web/css/mod2/scss/mod1/01.md",
     "mod1",
     "memes/cachorro-comuna.png",
     "memes/dilma1.png",
-    "memes/gru-1.png",
-    "memes/rapidtulip647-meme.gif",
-    "memes/sigma-squirdwind.png",
-    "Integral-1.png",
-    "web/css/mod1/flexbox/resources/Flexbox Sem Frescura-ex1.png",
     "web/css/mod1/flexbox/resources",
     "web/css/mod1/flexbox",
-    "memes/rapidtulip647-meme.gif.crdownload",
-    "operating-systems/sistemas-operacionais-com-java Silberschatz.pdf",
-    "operating-systems/Capitulos/Capitulo-1/Resources",
-    "operating-systems/Capitulos/Capitulo-1/Diagrama.drawio",
-    "calculus-1/Integral/Resources/Integral.xopp~",
-    "calculus-1/Integral/Resources/memes/crazyeyes-stevebuscemi.gif.crdownload",
     "calculus-1/Integral/Resources/Untitled.canvas"
   ]
 }

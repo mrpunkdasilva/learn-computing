@@ -1,7 +1,7 @@
 # Modulo 1 - ReactJS
 
 <!-- TOC -->
-- [00 - intro.md](00%20-%20intro.md)
+- [00 - intro.md](web/javascript/mod2/reactjs/mod1/00%20-%20intro.md)
 - [01 - estrutura de projeto.md](01%20-%20estrutura%20de%20projeto.md)
 - [02 - rendering.md](02%20-%20rendering.md)
 - [03 - JSX.md](03%20-%20JSX.md)
