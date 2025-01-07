@@ -62,15 +62,16 @@ $$
 
 Para definirmos a estrutura dessa tabela, definimos duas partes:
 - **Linhas (horizontal)** - são os segmentos divididos na ***horizontal***
-
-![Matrizes e sistemas de equações-ex1.png](algebra-linear/resources/Matrizes e sistemas de equações-ex1.png)
+![[Matrizes e sistemas de equações-ex1.png]]
 
 - **Colunas (vertical)** - são os segmentos divididos na ***vertical***
+![[Matrizes e sistemas de equações-ex2.png]]
 
-!(./resources/Matrizes e sistemas de equações-ex2.png)[Matrizes e sistemas de equações-ex2.png]
 
 > 💡 Os elementos de uma matriz podem ser números: reais, complexos; funções; ou até mesmo outras matrizes
 
+
+---
 
 ## Conceitos base
 
