@@ -11,7 +11,7 @@ Matriz é uma tabela que contem **elementos¹** e são dados por $i$ itens na ho
 Como toda linguagem, a matemática possui sua sintaxe para todos os seus objetos, então para criarmos matrizes temos que seguir algumas regras;
 
 **Regras básicas:**
-- Para nomear matrizes damos uma letra maiúscula
+- Para nomear matrizes damos uma letra maiúsculaMatrizes e sistemas de equações-ex2.png
 - Os elementos da matriz são denotados por letras minusculas (caso formos representar ps elementos com letras)
 - Devemos usar '()' (parenteses) e '[]' (colchetes) para definir o bloco da matriz - inicio e fim. Existem outras formas
 
@@ -62,10 +62,12 @@ $$
 
 Para definirmos a estrutura dessa tabela, definimos duas partes:
 - **Linhas (horizontal)** - são os segmentos divididos na ***horizontal***
-> ![[Matrizes e sistemas de equações-ex1.png]]
+
+![Matrizes e sistemas de equações-ex1.png](algebra-linear/resources/Matrizes e sistemas de equações-ex1.png)
 
 - **Colunas (vertical)** - são os segmentos divididos na ***vertical***
-> ![[Matrizes e sistemas de equações-ex2.png]]
+
+!(./resources/Matrizes e sistemas de equações-ex2.png)[Matrizes e sistemas de equações-ex2.png]
 
 > 💡 Os elementos de uma matriz podem ser números: reais, complexos; funções; ou até mesmo outras matrizes
 
