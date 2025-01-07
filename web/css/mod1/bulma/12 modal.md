@@ -1,5 +1,0 @@
-# Learn Bulma
-
-
-## Modal
-
