@@ -16,6 +16,7 @@ Como toda linguagem, a matemática possui sua sintaxe para todos os seus objetos
 - Devemos usar '()' (parenteses) e '[]' (colchetes) para definir o bloco da matriz - inicio e fim. Existem outras formas
 
 **Exemplo:** 
+
 $$
 M =  
 \begin{pmatrix}
@@ -42,6 +43,7 @@ M =
 5 6\\
 \end{Bmatrix}
 $$
+
 $$
 M =  
 \begin{pmatrix}
@@ -49,6 +51,7 @@ a_{ij} \text{  }\text{ } \dots \text{  }\text{ } b_{ij} \\
 c_{ij} \text{  }\text{ } \dots \text{  }\text{ } d_{ij}  \\
 \end{pmatrix}
 $$
+
 $$
 M_{ij} =  
 \begin{pmatrix}
@@ -99,6 +102,7 @@ Possui o mesmo número de linhas e colunas.
 
 **Exemplo:**
 Nessa matriz chamada M temos o seguinte
+
 $$
 M_{(2\times2)} =  
 \begin{pmatrix}
@@ -115,6 +119,7 @@ $$
 ##### Matriz Identidade de Ordem $n$
 É a matriz quadrada $M$ de ordem $n$ que tem todos os seus elementos da *diagonal principal* iguais a 1 e o resto igual a zero;
 **Exemplo:**
+
 $$
 M =  
 \begin{pmatrix}
@@ -127,6 +132,7 @@ $$
 ##### Matriz Nula
 É a matriz de ordem $m \times n$ em que todos os elementos são zero
 **Exemplo:**
+
 $$
 M =  
 \begin{pmatrix}
@@ -135,11 +141,13 @@ M =
 0 0 0 
 \end{pmatrix}
 $$
+
 ##### Matriz Linha 
 É a matriz que é dada pela ordem: $1 \times n$, onde:
 - O número de linhas é sempre um
 - O número de colunas varia (n)
 **Exemplo:**
+  
 $$
 M =  
 \begin{pmatrix}
@@ -151,6 +159,7 @@ $$
 - O número de colunas é sempre um
 - O número de linhas varia (m)
 **Exemplo:**
+  
 $$
 M =  
 \begin{bmatrix}
@@ -166,6 +175,7 @@ $$
 ##### Matriz Diagonal
 É uma matriz quadrada, em que todos os elementos menos os da diagonal principal são nulos (zero)
 **Exemplo:**
+
 $$
 M =  
 \begin{bmatrix}
@@ -180,6 +190,7 @@ $$
 - O valor das linhas se tornam das colunas
 - O valor das colunas se tornam linhas
 **Exemplo:**
+  
 $$
 M_{(3 \times 2)} =  
 \begin{bmatrix}
@@ -198,6 +209,7 @@ Ela será simétrica caso:
 - Temos uma matriz $M$ quadrada
 - A matriz transposta de $M$ seja igual a matriz original
 **Exemplo:**
+  
 $$
 M_{(2 \times 2)} =  
 \begin{bmatrix}
@@ -214,6 +226,7 @@ Como a matriz $M = M^{t}$ então ela temos uma simétrica
 ##### Matriz Antissimétrica
 É quando fazemos a transposta, depois fazemos o oposto e então se a matriz resultante tiver a sua diagonal principal nula e se a oposta for igual a transposta
 **Exemplo:**
+
 $$
 M_{(2 \times 2)} =  
 \begin{bmatrix}
