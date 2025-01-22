@@ -614,60 +614,97 @@
       "totalFootnotes": 80,
       "totalCitations": 80,
       "totalPages": 168.89999999999998
+    },
+    "2025-01-07": {
+      "words": 0,
+      "characters": 0,
+      "sentences": 0,
+      "pages": 0,
+      "files": 148,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 53465,
+      "totalCharacters": 381371,
+      "totalSentences": 1535,
+      "totalFootnotes": 0,
+      "totalCitations": 0,
+      "totalPages": 178.09999999999997
+    },
+    "2025-01-09": {
+      "words": 114,
+      "characters": 764,
+      "sentences": 5,
+      "pages": 0.4,
+      "files": 149,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 53567,
+      "totalCharacters": 382048,
+      "totalSentences": 1540,
+      "totalFootnotes": 450,
+      "totalCitations": 450,
+      "totalPages": 178.49999999999997
+    },
+    "2025-01-10": {
+      "words": 14,
+      "characters": 100,
+      "sentences": 0,
+      "pages": 0.10000000000000009,
+      "files": 150,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 53576,
+      "totalCharacters": 382111,
+      "totalSentences": 1541,
+      "totalFootnotes": 0,
+      "totalCitations": 0,
+      "totalPages": 178.49999999999997
+    },
+    "2025-01-15": {
+      "words": 47,
+      "characters": 299,
+      "sentences": 0,
+      "pages": 0.2,
+      "files": 149,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 53623,
+      "totalCharacters": 382410,
+      "totalSentences": 1541,
+      "totalFootnotes": 383,
+      "totalCitations": 383,
+      "totalPages": 178.7
+    },
+    "2025-01-19": {
+      "words": 0,
+      "characters": 0,
+      "sentences": 0,
+      "pages": 0,
+      "files": 149,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 53576,
+      "totalCharacters": 382111,
+      "totalSentences": 1541,
+      "totalFootnotes": 0,
+      "totalCitations": 0,
+      "totalPages": 178.49999999999997
+    },
+    "2025-01-21": {
+      "words": 0,
+      "characters": 0,
+      "sentences": 0,
+      "pages": 0,
+      "files": 149,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 53576,
+      "totalCharacters": 382111,
+      "totalSentences": 1541,
+      "totalFootnotes": 0,
+      "totalCitations": 0,
+      "totalPages": 178.49999999999997
     }
   },
-  "modifiedFiles": {
-    "operating-systems/mod2/Sistemas Distribuidos.md": {
-      "words": {
-        "initial": 0,
-        "current": 2
-      },
-      "characters": {
-        "initial": 1,
-        "current": 25
-      },
-      "sentences": {
-        "initial": 1,
-        "current": 1
-      },
-      "footnotes": {
-        "initial": 0,
-        "current": 0
-      },
-      "citations": {
-        "initial": 0,
-        "current": 0
-      },
-      "pages": {
-        "initial": 0,
-        "current": 0
-      }
-    },
-    "algebra-linear/Matrizes e sistemas de equações.md": {
-      "words": {
-        "initial": 949,
-        "current": 935
-      },
-      "characters": {
-        "initial": 5796,
-        "current": 5686
-      },
-      "sentences": {
-        "initial": 10,
-        "current": 10
-      },
-      "footnotes": {
-        "initial": 0,
-        "current": 0
-      },
-      "citations": {
-        "initial": 0,
-        "current": 0
-      },
-      "pages": {
-        "initial": 3.2,
-        "current": 3.1
-      }
-    }
-  }
+  "modifiedFiles": {}
 }
