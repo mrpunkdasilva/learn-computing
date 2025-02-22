@@ -190,16 +190,18 @@ As threads em seu uso, ou seja a forma como os processos são construídos, pode
 
 ## Usos
 Vários softwares que são executados nos computadores modernos são dotados de múltiplas threads. 
+
 Sendo que se olharmos para uma **aplicação** ela é em geral **um processo principal** sendo executado **de forma separada** e com **varias threads de controle**.
 Quando olhamos para **algumas aplicações** elas tendem a fazer **varias tarefas semelhantes,** como no caso de um **servidor Web**.
 
-Tomemos como exemplo, um servidor web, o que ele faz? Bem ele recebe requisições de um cliente (um outro computador) tal servidor que é um computador pode ter diversos senão centenas de outros clientes fazendo **requisições** ao mesmo tempo de modo **concorrente** já que as requisições estão sendo executadas no mesmo momento (é o mesmo que dizer que elas estão competindo, são concorrentes)
+Tomemos como exemplo, um servidor web, o que ele faz? Bem ele recebe requisições de um cliente (um outro computador) tal servidor que é um computador pode ter diversos senão centenas de outros clientes fazendo **requisições** ao mesmo tempo de modo **concorrente** já que as requisições estão sendo executadas no mesmo momento (é o mesmo que dizer que elas estão competindo, são concorrentes);
+
 Caso pensarmos que o servidor fosse um sistema **com uma unica thread** temos que a cada **requisição** ao **servidor ele só atenderia um cliente por ver.**
 
 Assim temos que a **solução** para este problema é justamente fazer com que existam multiplas threads assim podemos fazer com que **o servidor** p**ossa criar uma thread para cada requisição** e assim **essa thread possa atender a requisição**.
 
-Threads tem uma função muito importante nas **RPC**
- (*remote procedure call* -> **fazem a comunicação entre os processos**, algo parecido com chamadas comuns de função)
+Threads tem uma função muito importante nas **RPC** (*remote procedure call* -> **fazem a comunicação entre os processos**, algo parecido com chamadas comuns de função)
+ 
  Os servidores de RPC atuam de modo multithreads: ele espera **receber** uma **requisição (mensagem)** então ele **cria uma thread especifica para resolver aquela mensagem** , assim o sistema consegue atuar  com **varias requisições de modo simultâneo**.
  
 ## Benefícios
@@ -211,8 +213,13 @@ Tais benefícios podem ser divididos em quatro categorias:
 - Como as threads conseguem compartilhar os códigos e dados de duas formas: memoria compartilhada e trocas de mensagens (tais técnicas são feita pelos desenvolvedores), as threads conseguem executar diversas atividades e estarem no mesmo espaço de memoria e compartilharem recursos entre si
 
 3. **Economia** --> *A principal economia que se tem ao se usar  threads é o baixo processamento e uso de memoria para cria-las e gerenciar*  . 
--  Ao criarmos um processo temos que usar mais processamento e memoria do que criar uma thread, além de que as threads compartilham recursos do seu processo pai. De modo que temos não só uma economia na criação mais também no uso de threads já que os recursos que uma usa as outras caso precisem conseguem usar, sem ter que fazer um outro processo
+	-  Ao criarmos um processo temos que usar mais processamento e memoria do que criar uma thread, além de que as threads compartilham recursos do seu processo pai. 
+	- De modo que temos não só uma economia na criação mais também no uso de threads já que os recursos que uma usa as outras caso precisem conseguem usar, sem ter que fazer um outro processo
 
-4. **Escalabilidade** -> *O uso e mulithreads em um sistema multicore (múltiplas CPUS) faz com que se possa ter o uso do paralelismo elevado ao máximo, assim aumentamos o poder e velocidade de processamentos*.
-- Ao usar múltiplas threads em um processo em que o sistema é apenas de uma CPU acaba que temos que uma única thread só pode ser executada em um único processador o que diminui a eficiência e por vez a escalabilidade, mas em sistemas com arquiteturas multicore temos varias threads sendo executadas em vários processadores, o que resulta em um maior uso do paralelismo  
+4. **Escalabilidade** -> *O uso e multithreads em um sistema multicore (múltiplas CPUS) faz com que se possa ter o uso do paralelismo elevado ao máximo, assim aumentamos o poder e velocidade de processamentos*.
+	- Ao usar múltiplas threads em um processo em que o sistema é apenas de uma CPU acaba que temos que uma única thread só pode ser executada em um único processador o que diminui a eficiência 
+	- E por vez a escalabilidade, mas em sistemas com arquiteturas multicore temos varias threads sendo executadas em vários processadores, o que resulta em um maior uso do paralelismo  
+
+---
+
 ## Programação multicore

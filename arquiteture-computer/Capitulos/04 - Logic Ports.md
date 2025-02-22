@@ -103,4 +103,7 @@ Ela faz primeiro o OR e em seguida opera o NOT.
 | 0       | 1   | 0       |
 | 1       | 1   | 0       |
 | 0       | 0   | 1       |
+
+---
+
 [[05 - Types of Memory]]

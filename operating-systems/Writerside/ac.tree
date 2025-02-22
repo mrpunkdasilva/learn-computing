@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="ac"
+                 name="Arquiteture Computer" start-page="Architeture Computer.md">
+
+    <toc-element topic="Architeture Computer.md"/>
+    <toc-element toc-title="Capitulos">
+        <toc-element topic="_TOC_.md"/>
+        <toc-element topic="00 - Evolution of Computers.md"/>
+        <toc-element topic="01 - Numerical System.md"/>
+        <toc-element topic="02 - Components of a Basic PC.md"/>
+        <toc-element topic="03 - Truth Table.md"/>
+        <toc-element topic="04 - Logic Ports.md"/>
+        <toc-element topic="05 - Types of Memory.md"/>
+        <toc-element topic="06 - Organization of the Processor.md"/>
+        <toc-element topic="07 - Barrament.md"/>
+        <toc-element topic="08 - Data Representation.md"/>
+        <toc-element topic="09 - IO Devices.md">
+        </toc-element>
+    </toc-element>
+</instance-profile>

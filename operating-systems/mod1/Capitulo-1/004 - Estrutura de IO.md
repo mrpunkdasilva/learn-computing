@@ -137,3 +137,9 @@ flowchart TD
 	
 	Jogador -->|Foca na construção ou exploração| Cofre
 ```
+
+---
+
+[[003 - Estrutura de Armazenamento]]
+
+[[005 - Arquitetura do Sistema]]

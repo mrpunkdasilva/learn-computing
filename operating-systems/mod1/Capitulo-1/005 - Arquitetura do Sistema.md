@@ -21,13 +21,18 @@ O sistema operacional não pode se comunicar com esses processadores que estão 
 
 Assim temos que mesmo com o uso desses processadores o sistema não será visto como multprocessado já que para ser um sistema de processador unico é quando se tem uma unica CPU de uso geral, lembrando que esses processadores foram falados anteiormente são de uso especifico.
 
-
-## Sistema poli processador
+---
+## Sistema multi-processador
 Esse tipo de sistema em que temos mais de um processador, de uso geral, dentro de um mesmo sistema computadorizado tem ganhado cada vez mais espaço por diversas razões o lugar dos sistema mono processador.
 
-Os sistemas multiprocessados, ou também conhecidos como: sistemas paralelos (parallel system) ou sistema fortemente acoplado (tightly coupled system) fazem um compartilhamento perfeito de perifericos, relogio do computador, barramento do computador para vários processadores de modo que a comunicação entre eles é perfeita.
+Os sistemas multiprocessados, ou também conhecidos como: sistemas paralelos (parallel system) ou sistema fortemente acoplado (tightly coupled system) fazem um compartilhamento perfeito de periféricos, relógio do computador, barramento do computador para vários processadores de modo que a comunicação entre eles é perfeita.
 
-Podemos escalar três grandes vantagens a cerca desse tipo de arquitetura para sistemas:
+Podemos escalar **três grandes vantagens** a cerca desse tipo de arquitetura para sistemas:
 - Maior vazão:
 - Economia de escala:
 - Maior confiabilidade:
+
+
+---
+
+[[004 - Estrutura de IO]]

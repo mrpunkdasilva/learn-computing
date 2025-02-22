@@ -83,7 +83,10 @@ Firmwares já instalados:
 É a memoria que vai ser aquela que vai armazenar os dados em massa, ou seja, o `SO` e outros programas, assim como, outros dados e por isso ela não pode ser `vólatil`.
 Essas memorias **não** são **acessadas** pelo **processador**.
 
-> Vólatil é igual a desligou o PC ela deixou de existir, igual a gigolos, acabou o dinheiro não se vê mais ninguem ~~(kkkkkkk)~~
-> SO é o Sistma Operacional, sendo a interface entre hardware e humano e software. ele é aquele amigo cúpido
+> Volátil é igual a desligou o PC ela deixou de existir, igual a gigolos, acabou o dinheiro não se vê mais ninguém 
+> 
+> SO é o Sistema Operacional, sendo a interface entre hardware e humano e software. ele é aquele amigo cúpido
+
+---
 
 [[06 - Organization of the Processor]]

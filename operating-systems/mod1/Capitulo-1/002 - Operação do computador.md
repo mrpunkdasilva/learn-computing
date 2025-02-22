@@ -13,9 +13,11 @@ Para carregar o SO ele precisa localizar o **[Kernel]()** que é o núcleo do si
 - Se for por software, ele pode fazer de duas maneiras ou chamando o **[system call]()** (chamada do sistema) ou usando o **[monitor call]()** (monitor de chamada) elas são operações especiais executadas para realizar a interrupção disparando um sinal para a CPU.
 
 Assim que a CPU  recebe alguma interrupção ela para o que está fazendo:
+
 > ![](Pasted%20image%2020240712151644.jpg)
 
 E a CPU manda a execução para uma **locação fixa de memoria**, tal locação contem o **endereço inicial** que está localizada a rotina para **atender a essa interrupção.**
+
 Essas **interrupções** podem ser tratadas de diferentes  maneiras e cada computador possui seu próprio mecanismo. Um método simples para isso, seria tratar a transferência chamando uma rotina generica.
 
 Para dar mais enfoque em velocidade pode ser usada uma **tabela de ponteiros a pontando para as interrupções**, já que elas devem ser predefinidas. **Essa tabela é armazenada em memoria baixa**, sendo ela a primeira parte ou locação da memoria.
@@ -110,3 +112,6 @@ CarregarEndereco --> ContinuarExec[Processador continua a execução 🚀]
 
 ---
 
+[[001 - Introdução]]
+
+[[003 - Estrutura de Armazenamento]]

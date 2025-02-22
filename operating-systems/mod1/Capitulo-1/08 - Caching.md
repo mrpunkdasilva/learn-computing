@@ -1,16 +1,15 @@
 ## Caching
 O entendimento de  **caching** é muito importante para entender como sistemas computadorizados funcionam.
 
-Primeiro pensemos que as **informações são armazenadas** em algum **dispositivos de armazenamento** como a memoria principal, assim **conforme são usadas** essas informações elas **são copiadas para uma memoria mais rápida de modo temporário** (que até mesmo a memoria principal).
- - Tal memoria é o -> ***cache***
+Primeiro pensemos que as **informações são armazenadas** em algum **dispositivos de armazenamento** como a memoria principal, assim **conforme são usadas** essas informações elas **são copiadas para uma memoria mais rápida de modo temporário** (que até mesmo a memoria principal). Tal memoria é o -> ***cache***
 
 ## Como funciona?
 **Primeiro** ao precisarmos de alguma informação **o sistema busca no cache**:
-- Se tiver **usamos as informações dali mesmo**.
+- Se tiver, **usamos as informações dali mesmo**.
 - Caso não tenha, **o sistema irá carregar a informação de alguma outra memoria lenta** (principal ou mesmo de massa(secundaria)) e em seguida **fara a copia destas informações para a cache de modo temporário**
 	-  Para que assim em uma **outra tentativa de achar o dado no cache ele consiga**, isso logo **diminuirá as muitas consultas lentas que seriam feitas usando a memoria principal**.
 
-Indo além, registradores responsaveis por comunicação com a memoria principal como registradores de índice , **o programador ou compilador faz a implementação do algoritmo de alocação e substituição de registradores*.
+Indo além, registradores responsáveis por comunicação com a memoria principal como registradores de índice , **o programador ou compilador faz a implementação do algoritmo de alocação e substituição de registradores**.
 
 Esses **algoritmos** servem para **definir quais informações** serão **mantidas nos registradores** e quais **serão mandadas para a memoria principal**.
 
@@ -20,7 +19,7 @@ A maioria dos sistemas, possui em seu cerne um **cache de instruções** -> volt
 
 **Sem isso, a CPU** teria que **levar vários e vários ciclos** para que ela **buscasse na memoria principal** pela **informação da próxima instrução** que **deve ser executada**.
 
-Por essa e outros benefícios, os sistemas (em sua maioria**) possui em sua base vários caches de dados de alta velocidade** -> tal que os caches estão no top #2 da [Hierarquia de Memorias](05%20-%20Types%20of%20Memory.md).
+Por essa e outros benefícios, os sistemas (em sua maioria) possui em sua base vários caches de dados de alta velocidade -> tal que os caches estão no top 2 da [Hierarquia de Memorias](05%20-%20Types%20of%20Memory.md).
 
 Mas como os caches possuem um **tamanho reduzido** o aspecto de **gerenciamento de cache** se torna **fundamental**. Esse gerenciamento se dá em **alguns aspectos importantes**, como:
 - Quanto de **tamanho** o cache terá 
@@ -29,6 +28,7 @@ Mas como os caches possuem um **tamanho reduzido** o aspecto de **gerenciamento 
 Tais aspectos podem **causar um melhor desempenho da memoria** (cache).
 
 **A memoria principal** pode ser vista  **como um cache veloz para o armazenamento secundário**, **porque os dados nessa memoria precisam ser copiados para a memoria principal.**
+
 De modo reciproco, para serem **movidos** para a **memoria secundaria**, precisam **antes estar na memoria principal** (feito isso para a proteção).
 
 O sistema de arquivos vê os dados permanentemente gravados no armazenamento secundário **são vistos de modo hierárquico**, de forma que que existem **diversos níveis na hierarquia*:
@@ -42,14 +42,19 @@ Temos que a maior parte do **armazenamento terciário** são os **HDs ou SSDs**
 ## Niveis e o cache
 
 Os **movimentos** de informações entre os **niveis de hierarquias das memorias** (armazenamento) podem ser de dois tipos: **explicitos** e **implicitos**. De modo que depende apenas da forma como se vai construir o **hardware** e qual é o **software** de controle do sistema operacional.
+
 Podemos exemplificar essa questão:
 - A **transferência de dados entre a cache e a CPU e seus registradores**  -> se dá pelo **hardware**, sem o SO fazer isso.
+
 - A **transferência dos dados dos disco para a memoria (RAM)** -> em geral tem como controlador o **sistema operacional**.
 
 Como nessa estrutura de armazenamento hierárquico, os mesmos dados podem aparecer em diferentes níveis de armazenamento, como por exemplo:
 - Supunhetamos que um texto em um arquivo `A` **deverá ser mudado para uma outra palavra que está no arquivo `B`, que reside no HD**
+
 - A operação de mudança  **deve primeiro emitir uma operação de E/S para copiar o bloco de disco de `A` em questão, para a memoria principal.**
+
 - Essa operação é seguida por A sendo **copiado para o cache, registradores internos da CPU**
+
 - Tal que a **cópia de  `A` será vista existente em vários níveis**:
 ```
 Registradores
@@ -60,7 +65,9 @@ Memoria Principal
 	|
 Memoria Secundaria
 ```
+
 - Assim que ocorre a mudança nos registradores internos da CPU, os a valores de `A` se **diferem nos outros niveis de armazenamentos, os outros niveis não mudam**
+
 - Após isso, se o **registrador chegar a gravar a mudança no disco rígido**, ou seja, na memoria secundaria **os valores nos niveis serão iguais** (e então a mudança se torna efetiva).
 
 

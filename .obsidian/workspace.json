@@ -11,10 +11,14 @@
             "id": "e47265fd36c269c3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "SSH.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "SSH"
             }
           }
         ]
@@ -613,6 +617,86 @@
             "id": "afb0ec32f0f066a4",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "71fe212660ab33e1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "9f8f8d2cf5366876",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "bd5b66cca585d985",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "cbb94ab813360d7a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "5398f1ce86ab7736",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "7dc014dd1e7c7f4a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "0a433f45b8ad0d67",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "13f4ef9c1da29913",
+            "type": "leaf",
+            "state": {
               "type": "BC-matrix",
               "state": {},
               "icon": "BC-trail-icon",
@@ -620,7 +704,7 @@
             }
           },
           {
-            "id": "71fe212660ab33e1",
+            "id": "22471f30377a70a3",
             "type": "leaf",
             "state": {
               "type": "BC-tree",
@@ -630,7 +714,7 @@
             }
           }
         ],
-        "currentTab": 52
+        "currentTab": 60
       }
     ],
     "direction": "horizontal",
@@ -653,14 +737,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e47265fd36c269c3",
+  "active": "22471f30377a70a3",
   "lastOpenFiles": [
+    "SSH.md",
     "Writerside para documentar seus trabalho.md",
     "java/Java.md",
     "2025-01-15.md",
     "preview.mp4",
     "FrontENdMasters.md",
-    "Untitled.md",
     "Untitled 1.md",
     "algebra-linear/Sistemas Lineares.md",
     "algebra-linear/resources/gatrix_notes_matrix_annotated.pdf",
