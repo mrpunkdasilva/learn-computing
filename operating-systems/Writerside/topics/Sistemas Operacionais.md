@@ -1,10 +1,5 @@
 # Sistemas Operacionais
 
+**Bem-vindo** ao nosso guia sobre Sistemas Operacionais! Nesta obra, exploraremos os conceitos fundamentais que regem o funcionamento dos sistemas que permitem que nossos dispositivos funcionem de maneira eficaz. Os sistemas operacionais são uma peça crucial da tecnologia moderna, servindo como intermediários entre o hardware e o software, gerenciando recursos, permitindo a execução de aplicativos e garantindo uma experiência de usuário fluida.
 
-> *Bibliografia: Silberschatz 8°*
-
-
-## Sumario
-
-- [[001 - Introdução]]
-
+Este PDF é estruturado para proporcionar uma compreensão acessível e prática dos sistemas operacionais, abrangendo desde a teoria básica até exercícios práticos que reforçam o aprendizado. Se você é estudante, entusiasta ou profissional na área de tecnologia, este material foi feito para você! Prepare-se para se aprofundar neste universo fascinante, desenvolver novas habilidades e, quem sabe, até se divertir no processo.

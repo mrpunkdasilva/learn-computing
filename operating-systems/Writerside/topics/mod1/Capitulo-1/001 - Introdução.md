@@ -3,6 +3,8 @@
 Um **Sistema Operacional** é uma interface que interliga o **hardware** e o **software**, fazendo o gerenciamento dos dois mundos do computador.
 
 > A inexistência, de um **SO** resulta em um impedimento de uma interação natural com o computador.
+{style="note"}
+
 
 Como todo grande projeto complexo caímos em uma operação em que deve ser bem definida em como o **SO** irá trabalhar, quais são seus requisitos.
 
@@ -14,10 +16,10 @@ E o **SO** tem algumas funções básicas que é:
 --- 
 ## O que os Sistemas Operacionais fazem
 Um **sistema computadorizado** ou só computador, pode ser *dividido em quatro partes*:
-- [[Hardware]]
+- [Hardware](Hardware.md)
 - Sistema Operacional
-- [[Software]]
-- [[Usuários]]
+- [Software](Software.md)
+- Usuários
 
 
 - **Também podemos considerar que um sistema computadorizado é composto por:**
@@ -35,6 +37,7 @@ Um **sistema computadorizado** ou só computador, pode ser *dividido em quatro p
 				|--------|     
 ```
 
+----
 
 
 - **Exemplo de Funcionamento de um Sistema Operacional**
@@ -118,6 +121,3 @@ Programas[Programas de Sistema e Aplicativos] --> SO[Sistema Operacional]
 
 SO --> Hardware[Hardware do Computador]
 ```
----
-
-[[002 - Operação do computador]]
