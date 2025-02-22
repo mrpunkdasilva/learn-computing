@@ -1,84 +1,203 @@
 # Caching
-O entendimento de  **caching** é muito importante para entender como sistemas computadorizados funcionam.
 
-Primeiro pensemos que as **informações são armazenadas** em algum **dispositivos de armazenamento** como a memoria principal, assim **conforme são usadas** essas informações elas **são copiadas para uma memoria mais rápida de modo temporário** (que até mesmo a memoria principal). Tal memoria é o -> ***cache***
+O entendimento de **caching** é fundamental para compreender como os sistemas computadorizados funcionam.
+
+Primeiro, pensemos que as **informações são armazenadas** em algum **dispositivo de armazenamento**, como a memória principal. Conforme são utilizadas, essas informações **são copiadas para uma memória mais rápida de modo temporário** (até mesmo mais rápida que a memória principal). Essa memória é o ***cache***.
 
 ## Como funciona?
-**Primeiro** ao precisarmos de alguma informação **o sistema busca no cache**:
-- Se tiver, **usamos as informações dali mesmo**.
-- Caso não tenha, **o sistema irá carregar a informação de alguma outra memoria lenta** (principal ou mesmo de massa(secundaria)) e em seguida **fara a copia destas informações para a cache de modo temporário**
-	-  Para que assim em uma **outra tentativa de achar o dado no cache ele consiga**, isso logo **diminuirá as muitas consultas lentas que seriam feitas usando a memoria principal**.
 
-Indo além, registradores responsáveis por comunicação com a memoria principal como registradores de índice , **o programador ou compilador faz a implementação do algoritmo de alocação e substituição de registradores**.
+**Primeiro**, ao precisarmos de alguma informação, **o sistema busca no cache**:
+- Se a informação estiver disponível, **usamos os dados dali mesmo**.
+- Caso não esteja, **o sistema irá carregá-la de uma memória mais lenta** (principal ou até mesmo de massa, secundária) e, em seguida, **fará a cópia temporária para o cache**.
+	- Dessa forma, em uma **nova tentativa de acesso ao dado, ele poderá ser encontrado no cache**, reduzindo significativamente as consultas lentas que seriam feitas à memória principal.
 
-Esses **algoritmos** servem para **definir quais informações** serão **mantidas nos registradores** e quais **serão mandadas para a memoria principal**.
+Indo além, registradores responsáveis pela comunicação com a memória principal, como registradores de índice, **são gerenciados por um algoritmo de alocação e substituição de registradores, implementado pelo programador ou compilador**.
 
-Também existem  os hardwares voltados para **serem implementados totalmente no hardware**.
+Esses **algoritmos** definem **quais informações serão mantidas nos registradores** e quais **serão enviadas para a memória principal**.
 
-A maioria dos sistemas, possui em seu cerne um **cache de instruções** -> voltado para servir de **armazenamento das próximas instruções a serem executadas**.
+Também existem hardwares projetados para **serem implementados inteiramente no hardware**.
 
-**Sem isso, a CPU** teria que **levar vários e vários ciclos** para que ela **buscasse na memoria principal** pela **informação da próxima instrução** que **deve ser executada**.
+A maioria dos sistemas possui um **cache de instruções**, que serve para **armazenar as próximas instruções a serem executadas**.
 
-Por essa e outros benefícios, os sistemas (em sua maioria) possui em sua base vários caches de dados de alta velocidade -> tal que os caches estão no top 2 da [Hierarquia de Memorias](05%20-%20Types%20of%20Memory.md).
+**Sem isso, a CPU** levaria **vários ciclos** para buscar na memória principal a **próxima instrução a ser executada**.
 
-Mas como os caches possuem um **tamanho reduzido** o aspecto de **gerenciamento de cache** se torna **fundamental**. Esse gerenciamento se dá em **alguns aspectos importantes**, como:
-- Quanto de **tamanho** o cache terá 
-- Qual será sua **politica de substituição** 
+Por essa e outras razões, a maioria dos sistemas possui vários caches de dados de alta velocidade, que estão no **topo da Hierarquia de Memórias**.
 
-Tais aspectos podem **causar um melhor desempenho da memoria** (cache).
+Mas, como os caches possuem um **tamanho reduzido**, o **gerenciamento de cache** se torna **fundamental**. Esse gerenciamento envolve alguns aspectos importantes, como:
+- Definir o **tamanho do cache**.
+- Estabelecer a **política de substituição**.
 
-**A memoria principal** pode ser vista  **como um cache veloz para o armazenamento secundário**, **porque os dados nessa memoria precisam ser copiados para a memoria principal.**
+Esses fatores podem **melhorar o desempenho da memória cache**.
 
-De modo reciproco, para serem **movidos** para a **memoria secundaria**, precisam **antes estar na memoria principal** (feito isso para a proteção).
+A **memória principal** pode ser vista como um **cache rápido para o armazenamento secundário**, pois os dados precisam ser copiados da memória secundária para a principal antes de serem utilizados.
 
-O sistema de arquivos vê os dados permanentemente gravados no armazenamento secundário **são vistos de modo hierárquico**, de forma que que existem **diversos níveis na hierarquia*:
-- No nível mais alto ->  o **sistema operacional**  pode **manter** um **cache do sistema de arquivos na memoria principal**.
+De forma recíproca, para serem **movidos para a memória secundária**, os dados **precisam estar primeiro na memória principal**, garantindo proteção e integridade.
 
-Também é **possivel que as memorias RAM como disco de estado solido** (ou então discos eletronicos de RAM) podem ser usados para **armazenamento de alta velocidade**, dos quais **são acessados pela interface do sistema de arquivos**, ou seja, é necessária a comunicação direta com a interface ou melhor o sistema de arquivos.
+O sistema de arquivos vê os dados permanentemente gravados no armazenamento secundário de forma hierárquica, existindo *diversos níveis na hierarquia*:
+- No nível mais alto -> o **sistema operacional** pode **manter um cache do sistema de arquivos na memória principal**.
 
-Temos que a maior parte do **armazenamento terciário** são os **HDs ou SSDs** 
+Também é **possível que memórias RAM, como discos de estado sólido** (ou então discos eletrônicos de RAM), sejam usadas para **armazenamento de alta velocidade**, acessados pela **interface do sistema de arquivos**. Isso significa que a comunicação deve ser feita diretamente com o sistema de arquivos.
+
+Atualmente, a maior parte do **armazenamento terciário** consiste em **HDs ou SSDs**.
 
 
-## Niveis e o cache
+### Diagrama {id="diagrama_2"}
 
-Os **movimentos** de informações entre os **niveis de hierarquias das memorias** (armazenamento) podem ser de dois tipos: **explicitos** e **implicitos**. De modo que depende apenas da forma como se vai construir o **hardware** e qual é o **software** de controle do sistema operacional.
+```mermaid
+mindmap
+  root((Caching))
+    Funcionalidade
+      Definição
+        Armazena temporariamente dados em memória rápida
+      Objetivo
+        Reduz acessos à memória principal
+    Funcionamento
+      Passos
+        1 Sistema busca no cache
+        2 Se presente, usa os dados diretamente
+        3 Se ausente, carrega da memória lenta e copia para o cache
+      Benefícios
+        Redução de consultas lentas
+        Aumento de desempenho
+    Hierarquia de Memórias
+      Cache
+        Armazena instruções futuras
+        Reduz ciclos de busca da CPU
+      Memória Principal
+        Serve como cache para armazenamento secundário
+      Memória Secundária
+        Dados precisam ser copiados para a memória principal antes de serem usados
+      Armazenamento Terciário
+        HDs e SSDs
+    Gerenciamento de Cache
+      Tamanho
+        Definir capacidade do cache
+      Política de Substituição
+        Determinar quais dados permanecem no cache
+      Impacto
+        Melhora o desempenho do sistema
+    Sistemas de Arquivos
+      Cache do sistema operacional na memória principal
+      Armazenamento rápido com RAM e SSDs
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Níveis e o Cache
+
+Os **movimentos** de informações entre os **níveis da hierarquia de memórias** podem ser de dois tipos: **explícitos** e **implícitos**. Isso depende da arquitetura do **hardware** e do **software** que controla o sistema operacional.
 
 Podemos exemplificar essa questão:
-- A **transferência de dados entre a cache e a CPU e seus registradores**  -> se dá pelo **hardware**, sem o SO fazer isso.
+- A **transferência de dados entre a cache e a CPU e seus registradores** -> ocorre diretamente no **hardware**, sem intervenção do sistema operacional.
+- A **transferência de dados do disco para a memória RAM** -> normalmente é controlada pelo **sistema operacional**.
 
-- A **transferência dos dados dos disco para a memoria (RAM)** -> em geral tem como controlador o **sistema operacional**.
+Como, nessa estrutura hierárquica, os mesmos dados podem aparecer em diferentes níveis de armazenamento, vejamos um exemplo:
 
-Como nessa estrutura de armazenamento hierárquico, os mesmos dados podem aparecer em diferentes níveis de armazenamento, como por exemplo:
-- Supunhetamos que um texto em um arquivo `A` **deverá ser mudado para uma outra palavra que está no arquivo `B`, que reside no HD**
+- Suponha que um texto no arquivo `A` precise ser alterado para um outro valor no arquivo `B`, que reside no HD.
+- Antes da alteração, **o sistema precisa emitir uma operação de E/S para copiar o bloco de disco contendo `A` para a memória principal**.
+- Em seguida, o arquivo `A` será **copiado para o cache e para os registradores internos da CPU**.
+- Assim, a **cópia de `A` estará presente em vários níveis**, conforme mostrado abaixo:
 
-- A operação de mudança  **deve primeiro emitir uma operação de E/S para copiar o bloco de disco de `A` em questão, para a memoria principal.**
-
-- Essa operação é seguida por A sendo **copiado para o cache, registradores internos da CPU**
-
-- Tal que a **cópia de  `A` será vista existente em vários níveis**:
 ```
 Registradores
-	|
+|
 Cache
-	|
-Memoria Principal
-	|
-Memoria Secundaria
+|
+Memória Principal
+|
+Memória Secundária
 ```
 
-- Assim que ocorre a mudança nos registradores internos da CPU, os a valores de `A` se **diferem nos outros niveis de armazenamentos, os outros niveis não mudam**
+- Quando a alteração for feita nos registradores internos da CPU, os valores de `A` **serão diferentes nos outros níveis de armazenamento, que permanecerão inalterados**.
+- Somente quando o **registrador gravar a mudança no disco rígido** (memória secundária), os valores nos diferentes níveis estarão **sincronizados**, tornando a alteração efetiva.
 
-- Após isso, se o **registrador chegar a gravar a mudança no disco rígido**, ou seja, na memoria secundaria **os valores nos niveis serão iguais** (e então a mudança se torna efetiva).
+#### Diagrama {id="diagrama_1"}
+```mermaid
+graph TD;
+	A[Arquivo A no HD] -->|Operação de E/S| B[Copiar para Memória Principal];
+	B -->|Movido para| C[Cache];
+	C -->|Movido para| D[Registradores da CPU];
+
+	subgraph Alteração de A
+		D -->|Modificação ocorre| E[Valores nos Registradores Alterados];
+		E -->|Outros níveis ainda inalterados| F[Inconsistência Temporária];
+		F -->|Registro gravado no HD| G[Sincronização Completa];
+	end
+
+	G -->|Alteração Efetivada| H[Valores Iguais em Todos os Níveis];
+```
 
 
-### Threads e cores e sistemas distribuidos
-Num ambiente com uma unica threads, ou seja, que executa apenas uma tarefa por vez esse esquema hierárquico todo funciona perfeitamente, já quando o valor é alterado nos registradores ou então o acesso ao disco se torna da seguinte forma:
-- Vai do nível mais alto ao baixo numa unica "pista", sem haver nenhum confronto de dados, já que todos os níveis conseguem chegar a se atualizarem pelos valores da unica tarefa sem problema.
 
-Mas quando nos deparamos num sistema multcore, temos que varias threads (tarefa) acessando o mesmo arquivo `A` tem que se torram muito cuidado para que todos os cores consigam pegar os valores de `A` atualizados, senão haverá um extravio dos dados (threads terão valores de `A` diferentes e então será uma bagunça).
 
-Isso se torna mais problemático com um ambiente com multiprocessadores, em que temos um registrador interno tem também caches locais. Assim `A` pode existir em diversos caches de modo simultâneo  e precisa-s que o valor mais recente de `A` seja refletido em todos os núcleos que ele reside.
-- Tal situação é chamada de **Coerência de cache** -> tal problema é resolvido de forma baixo nível do sistema operacional, já que é uma questão do hardware
 
-Tudo isso só se torna mais complexo num sistema distribuído, já que diversas a cópias de `A` existem em diversos computadores que estão distribuídos em determinado espaço, logo para resolver essa questão os sistemas deve garantir que as alterações ao arquivo devem ser refletidas nas outras maquinas o mais cedo possível.
-- Existem diversas formas de chegar nesse numa solução para esse problema.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Threads, Cores e Sistemas Distribuídos
+
+Em um ambiente com **apenas uma thread** (executando uma única tarefa por vez), esse esquema hierárquico funciona perfeitamente. Quando um valor é alterado nos registradores ou acessado no disco, o fluxo ocorre de forma linear, do nível mais alto ao mais baixo, sem conflitos de dados, pois todos os níveis são atualizados sequencialmente.
+
+Entretanto, em **sistemas multicore**, onde múltiplas threads acessam simultaneamente o mesmo arquivo `A`, é necessário um **mecanismo de controle** para garantir que todos os núcleos acessem os valores atualizados de `A`. Caso contrário, podem ocorrer inconsistências, onde diferentes threads terão versões diferentes do mesmo dado, causando falhas no sistema.
+
+Esse problema se torna ainda mais crítico em **sistemas multiprocessadores**, pois, além de registradores internos, cada processador pode possuir caches locais distintos.
+
+Assim, `A` pode existir em diversos caches simultaneamente, e é essencial que a **versão mais recente de `A` seja refletida em todos os núcleos**.
+
+- Esse problema é conhecido como **Coerência de Cache**, e sua solução ocorre em **baixo nível**, diretamente no hardware.
+
+A complexidade aumenta ainda mais em **sistemas distribuídos**, onde diversas cópias de `A` podem estar espalhadas por vários computadores conectados em rede.
+
+Para evitar inconsistências, o sistema precisa garantir que **as alterações no arquivo sejam refletidas nas demais máquinas o mais rapidamente possível**.
+
+- Existem diversas estratégias para resolver esse problema de sincronização em sistemas distribuídos.
+
+### Diagrama
+
+```mermaid
+graph TD;
+    A[Single Thread] -->|Execução Linear| B[Níveis Atualizados Sequencialmente];
+    
+    subgraph Multicore
+        C[Múltiplas Threads] -->|Acessam o mesmo arquivo| D[Possível Inconsistência de Dados];
+        D -->|Mecanismo de Controle| E[Acessar Versões Atualizadas]
+    end
+    
+    subgraph Multiprocessadores
+        F[Registradores Internos] --> G[Caches Locais Distintos];
+        G -->|A pode estar em múltiplos caches| H[Problema de Coerência de Cache];
+        H -->|Solução de Baixo Nível| I[Sincronização pelo Hardware]
+    end
+    
+    subgraph Sistemas Distribuídos
+        J[Cópias de A em Múltiplas Máquinas] --> K[Risco de Inconsistência];
+        K -->|Garantia de Sincronização| L[Alterações Refletidas Globalmente]
+    end
+```

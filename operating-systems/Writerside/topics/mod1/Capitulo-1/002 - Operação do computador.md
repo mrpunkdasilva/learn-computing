@@ -1,20 +1,18 @@
 # Operação do computador
 
-## Operação do Computador
-
 Ao desligar o computador e ligar, o que será que acontece? Como ele "chama" o Sistema Operacional.
 
-Para  o  computador começar a funcionar ele chama um programa básico, chamado de **bootstrap** normalmente está alocado na memoria apenas de leitura (**[ROM]()**) ou então é salva na memoria de somente leitura apagável programavelmente (**[EEPROM]()**).
+Para  o  computador começar a funcionar ele chama um programa básico, chamado de **bootstrap** normalmente está alocado na memoria apenas de leitura (**ROM**) ou então é salva na memoria de somente leitura apagável programavelmente **EEPROM**.
 
-Esse programa é conhecido como **([Firmware]())** porque está instalado diretamente no hardware, assim ele inicializa todos os aspectos do sistema que vão dos registradores da CPU até a dispositivos e conteúdo na memoria.
+Esse programa é conhecido como **Firmware** porque está instalado diretamente no hardware, assim ele inicializa todos os aspectos do sistema que vão dos registradores da CPU até a dispositivos e conteúdo na memoria.
 
-Para carregar o SO ele precisa localizar o **[Kernel]()** que é o núcleo do sistema operacional, assim que carregado na memoria do computador ele chama um processo chamado **init** que espera uma interrupção do sistema ou do hardware, os dois casos:
+Para carregar o SO ele precisa localizar o **Kernel** que é o núcleo do sistema operacional, assim que carregado na memoria do computador ele chama um processo chamado **init** que espera uma interrupção do sistema ou do hardware, os dois casos:
 - Se for pelo hardware, ele manda uma interrupção por sinal para a CPU, via normalmente barramento do sistema;
-- Se for por software, ele pode fazer de duas maneiras ou chamando o **[system call]()** (chamada do sistema) ou usando o **[monitor call]()** (monitor de chamada) elas são operações especiais executadas para realizar a interrupção disparando um sinal para a CPU.
+- Se for por software, ele pode fazer de duas maneiras ou chamando o **system call** (chamada do sistema) ou usando o **monitor call** (monitor de chamada) elas são operações especiais executadas para realizar a interrupção disparando um sinal para a CPU.
 
 Assim que a CPU  recebe alguma interrupção ela para o que está fazendo:
 
-> ![](Pasted%20image%2020240712151644.jpg)
+![](img.png)
 
 E a CPU manda a execução para uma **locação fixa de memoria**, tal locação contem o **endereço inicial** que está localizada a rotina para **atender a essa interrupção.**
 
@@ -110,8 +108,39 @@ CarregarEndereco --> ContinuarExec[Processador continua a execução 🚀]
 
 
 
----
+## Diagrama
 
-[[001 - Introdução]]
-
-[[003 - Estrutura de Armazenamento]]
+```mermaid
+mindmap
+  root((Operação do Computador))
+    Início
+      Desligar e Ligar
+        Acontece ao reiniciar o computador
+    Programa Inicial
+      Bootstrap
+        Armazenado na ROM ou EEPROM
+        Chama o Sistema Operacional
+    Firmware
+      Instalado no hardware
+      Inicializa registradores da CPU
+      Configura dispositivos e memória
+    Carregamento do Sistema Operacional
+      Localiza o Kernel
+      Chama o processo "init"
+    Interrupções
+      Fonte
+        Hardware
+          Interrupção via barramento do sistema
+        Software
+          System Call
+          Monitor Call
+    Ação da CPU
+      Interrupção recebida
+      Para execução atual
+      Direciona para rotina de interrupção
+    Tratamento de Interrupção
+      Rotina Genérica
+      Tabela de Ponteiros
+        Armazenada na memória baixa
+        Aponta para interrupções predefinidas
+```
