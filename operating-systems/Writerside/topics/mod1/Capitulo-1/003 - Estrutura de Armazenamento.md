@@ -88,7 +88,7 @@ graph TD
 ```
 *Ilustração de um esquema sobre instruções da CPU (`load` e  `store`)*
 
-> 💡 A CPU carrega e armazena essas instruções tanto explicitamente (dizer para ela fazer) como de maneira automática - ela faz sozinha o carregamento da memória principal para serem executadas.
+> A CPU carrega e armazena essas instruções tanto explicitamente (dizer para ela fazer) como de maneira automática - ela faz sozinha o carregamento da memória principal para serem executadas.
 > {style="note"}
 
 A arquitetura mais usada nos computadores modernos é a de **Von Neumann**. Essa arquitetura funciona da seguinte forma:

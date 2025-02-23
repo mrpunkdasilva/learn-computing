@@ -1,6 +1,65 @@
+# Threads
+
 Threads são as fatias de processos do sistema, são "fios" criados para resolver um processo, assim é possível fazer mais de uma tarefa. 
 
 > Uma thread é uma unidade básica de utilização de CPU
+{style="note"}
+
+
+
+### Diagrama
+
+```mermaid
+mindmap
+  root((Threads))
+    Conceito
+      Unidade básica de utilização da CPU
+      Permite executar múltiplas tarefas simultaneamente
+    Exemplo - Loja
+      Gerente Thread Main
+      Caixas Threads Secundárias
+      Atendentes Recursos da CPU
+      Cliente Usuário
+    Funcionamento
+      Gerente cria e gerencia as threads secundárias
+      Caixas selecionam atendentes de forma concorrente
+      Atendentes executam as tarefas processadas pelas threads
+    Compartilhamento
+      Seção de Código
+      Seção de Dados
+      Seção de Arquivos e Sinais
+    Características das Threads
+      ID da Thread
+      Conjunto de Registradores
+      Pilha
+      Contador de Programa
+    Tipos de Threads
+      Single Thread
+        Processo único em execução
+      Multi Thread
+        Múltiplas threads executando simultaneamente
+    Aplicações
+      Servidores Web
+      RPC Remote Procedure Call
+      Processos concorrentes
+    Benefícios
+      Responsividade
+        Execução independente de tarefas
+      Compartilhamento de Recursos
+        Memória compartilhada e troca de mensagens
+      Economia
+        Redução no uso de memória e processamento
+      Escalabilidade
+        Melhor aproveitamento de sistemas multicore
+    Programação Multicore
+      Execução paralela em múltiplos processadores
+      Aumento da eficiência e desempenho do sistema
+```
+
+
+
+
+
 
 Vamos imaginar um cenário, de uma loja:
 ```mermaid
@@ -32,6 +91,8 @@ Caixa2 --> Atend5[Atend. 5]
 
 Caixa3 --> Atend6[Atend. 6]
 ```
+
+
 
 **Pense assim:**
 - O Gerente é a  thread main (seria o "fio" principal);
@@ -96,6 +157,7 @@ Atend5 --> Cliente5[👥]
 - **Atendente 1** é utilizado para processar a compra do cliente.
 
 > Tudo isso é gerenciado e orquestrado pelo Sistema Operacional.
+> {style="note"}
 
 Assim , as threads compartilham de algumas coisas em comum:
 - Seção de **código**;
