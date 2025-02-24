@@ -1,23 +1,36 @@
-# Operação do computador
+# Operação do Computador
 
-Ao desligar o computador e ligar, o que será que acontece? Como ele "chama" o Sistema Operacional.
+Ao desligar o computador e ligá-lo, o que acontece? Como ele "chama" o Sistema Operacional.
 
-Para  o  computador começar a funcionar ele chama um programa básico, chamado de **bootstrap** normalmente está alocado na memoria apenas de leitura (**ROM**) ou então é salva na memoria de somente leitura apagável programavelmente **EEPROM**.
+Para o computador começar a funcionar, ele chama um programa básico, chamado de **bootstrap**. Normalmente, este programa está alocado na memória apenas de leitura (**ROM**) ou é salvo na memória de somente leitura apagável programavelmente (**EEPROM**).
 
-Esse programa é conhecido como **Firmware** porque está instalado diretamente no hardware, assim ele inicializa todos os aspectos do sistema que vão dos registradores da CPU até a dispositivos e conteúdo na memoria.
+Este programa é conhecido como **Firmware**, pois está instalado diretamente no hardware, assim, ele inicializa todos os aspectos do sistema, desde os registradores da CPU até os dispositivos e o conteúdo na memória.
 
-Para carregar o SO ele precisa localizar o **Kernel** que é o núcleo do sistema operacional, assim que carregado na memoria do computador ele chama um processo chamado **init** que espera uma interrupção do sistema ou do hardware, os dois casos:
-- Se for pelo hardware, ele manda uma interrupção por sinal para a CPU, via normalmente barramento do sistema;
-- Se for por software, ele pode fazer de duas maneiras ou chamando o **system call** (chamada do sistema) ou usando o **monitor call** (monitor de chamada) elas são operações especiais executadas para realizar a interrupção disparando um sinal para a CPU.
+Para carregar o SO, ele precisa localizar o **Kernel**, que é o núcleo do sistema operacional. Assim que o Kernel é carregado na memória do computador, ele chama um processo chamado **init**, que espera uma interrupção do sistema ou do hardware. Os dois casos são:
 
-Assim que a CPU  recebe alguma interrupção ela para o que está fazendo:
+- Se for pelo hardware, ele envia uma interrupção por sinal para a CPU, via normalmente o barramento do sistema;
+- Se for por software, ele pode fazer de duas maneiras: chamando uma **system call** (chamada do sistema) ou usando um **monitor call** (monitor de chamada). Essas são operações especiais executadas para disparar uma interrupção, enviando um sinal para a CPU.
 
-![](img.png)
+```mermaid
+graph LR
+A[Desligar o computador] --> B[Chamar o Bootstrap]
+B --> C[Inicializar o Firmware]
+C --> D[Localizar o Kernel]
+D --> E[Chamar o processo init]
+E --> F[Espera interrupção]
+F --> G[Interrupção por hardware]
+F --> H[Interrupção por software]
+G --> I[System call ou monitor call]
+H --> I
+```
 
-E a CPU manda a execução para uma **locação fixa de memoria**, tal locação contem o **endereço inicial** que está localizada a rotina para **atender a essa interrupção.**
+Quando a CPU recebe uma interrupção, ela para o que está fazendo e executa a rotina de tratamento correspondente:
 
-Essas **interrupções** podem ser tratadas de diferentes  maneiras e cada computador possui seu próprio mecanismo. Um método simples para isso, seria tratar a transferência chamando uma rotina generica.
+![Meme fia para tudo](img.png)
 
+A CPU então manda a execução para uma **localização fixa na memória**, onde essa localização contém o **endereço inicial** da rotina para **atender a essa interrupção**.
+
+Essas **interrupções** podem ser tratadas de diferentes maneiras, e cada computador possui seu próprio mecanismo. Um método simples para isso é tratar a transferência chamando uma rotina genérica.
 Para dar mais enfoque em velocidade pode ser usada uma **tabela de ponteiros a pontando para as interrupções**, já que elas devem ser predefinidas. **Essa tabela é armazenada em memoria baixa**, sendo ela a primeira parte ou locação da memoria.
 
 Esse **vetor de interrupção** vai ser indexado exclusivamente pelo número do dispositivo, fornecido com a requisição da interrupção para gerar o endereço do tratamento da interrupção:

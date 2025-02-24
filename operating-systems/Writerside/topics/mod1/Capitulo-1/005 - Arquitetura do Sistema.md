@@ -70,20 +70,6 @@ flowchart TD
 
 <br>
 <br>
-<br>
-
-
-## Sistema Multiprocessador
-
-Esse tipo de sistema, no qual há mais de um processador de uso geral dentro de um mesmo sistema computadorizado, tem ganhado cada vez mais espaço por diversas razões, substituindo os sistemas monoprocessadores.
-
-Os sistemas multiprocessados, também conhecidos como **sistemas paralelos** (*parallel system*) ou **sistemas fortemente acoplados** (*tightly coupled system*), compartilham periféricos, relógio do computador e barramento entre vários processadores, garantindo uma comunicação eficiente entre eles.
-
-Podemos destacar **três grandes vantagens** desse tipo de arquitetura:
-- **Maior vazão**
-- **Economia de escala**
-- **Maior confiabilidade**
----
 
 ## Sistema multi-processador
 Esse tipo de sistema em que temos mais de um processador, de uso geral, dentro de um mesmo sistema computadorizado tem ganhado cada vez mais espaço por diversas razões o lugar dos sistema mono processador.

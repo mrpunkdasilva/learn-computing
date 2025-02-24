@@ -1,4 +1,6 @@
-# Introdução 
+# Capitulo 1
+
+## Introdução
 
 Um **Sistema Operacional** é uma interface que interliga o **hardware** e o **software**, fazendo o gerenciamento dos dois mundos do computador.
 

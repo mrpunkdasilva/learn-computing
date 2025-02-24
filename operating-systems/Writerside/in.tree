@@ -6,34 +6,19 @@
                  name="Instance Name" start-page="Sistemas Operacionais.md">
 
     <toc-element topic="Sistemas Operacionais.md">
-        <toc-element toc-title="mod1">
-            <toc-element toc-title="Capitulo-1">
-                <toc-element topic="001 - Introdução.md"/>
-                <toc-element topic="002 - Operação do computador.md"/>
-                <toc-element topic="003 - Estrutura de Armazenamento.md"/>
-                <toc-element topic="004 - Estrutura de IO.md"/>
-                <toc-element topic="005 - Arquitetura do Sistema.md"/>
-                <toc-element topic="08 - Caching.md"/>
-            </toc-element>
-
-            <toc-element toc-title="Capitulo-3">
-                <toc-element topic="3 - Processos.md"/>
-            </toc-element>
-            <toc-element toc-title="Capitulo-4">
-                <toc-element topic="4 - Threads.md"/>
-            </toc-element>
-            <toc-element toc-title="Capitulo-8">
-                <toc-element topic="00 - Intro Gerencia de Memoria.md"/>
-                <toc-element topic="01 - Conceitos Básicos.md"/>
-                <toc-element topic="02 - Associação de endereços.md"/>
-            </toc-element>
+        <toc-element topic="001 - Introdução.md">
+            <toc-element topic="002 - Operação do computador.md"/>
+            <toc-element topic="003 - Estrutura de Armazenamento.md"/>
+            <toc-element topic="004 - Estrutura de IO.md"/>
+            <toc-element topic="005 - Arquitetura do Sistema.md"/>
+            <toc-element topic="08 - Caching.md"/>
+            <toc-element topic="Questões.md"/>
+            <toc-element topic="Prática.md"/>
         </toc-element>
-        <toc-element toc-title="mod2">
-            <toc-element topic="Sistemas Distribuidos.md"/>
+        <toc-element toc-title="Anexos">
+            <toc-element topic="Hardware.md"/>
+            <toc-element topic="Software.md"/>
+            <toc-element topic="Respostas.md"/>
         </toc-element>
-    </toc-element>
-    <toc-element toc-title="Anexos">
-        <toc-element topic="Hardware.md"/>
-        <toc-element topic="Software.md"/>
     </toc-element>
 </instance-profile>

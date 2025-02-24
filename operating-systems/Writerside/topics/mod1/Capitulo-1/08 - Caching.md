@@ -27,6 +27,45 @@ Mas, como os caches possuem um **tamanho reduzido**, o **gerenciamento de cache*
 - Definir o **tamanho do cache**.
 - Estabelecer a **política de substituição**.
 
+
+```mermaid
+graph LR
+    subgraph Armazenamento
+        MemoriaPrincipal["Memória Principal"]
+        ArmazenamentoSecundario["Armazenamento Secundário"]
+    end
+
+    subgraph Cache
+        CacheInstrucoes["Cache de Instruções"]
+        CacheDados["Cache de Dados"]
+    end
+
+    subgraph Processador
+        CPU["Unidade Central de Processamento (CPU)"]
+    end
+
+    subgraph Algoritmos
+        AlgoritmoAlocacao["Algoritmo de Alocação"]
+        PoliticaSubstituicao["Política de Substituição"]
+    end
+
+    MemoriaPrincipal --> CacheDados
+    ArmazenamentoSecundario --> MemoriaPrincipal
+
+    CPU --> CacheInstrucoes
+    CPU --> CacheDados
+
+    CacheInstrucoes --> CPU
+    CacheDados --> CPU
+
+    MemoriaPrincipal --> CacheInstrucoes
+    ArmazenamentoSecundario --> CacheInstrucoes
+
+    AlgoritmoAlocacao --> CacheDados
+    PoliticaSubstituicao --> CacheDados
+```
+
+
 Esses fatores podem **melhorar o desempenho da memória cache**.
 
 A **memória principal** pode ser vista como um **cache rápido para o armazenamento secundário**, pois os dados precisam ser copiados da memória secundária para a principal antes de serem utilizados.
@@ -82,19 +121,6 @@ mindmap
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Níveis e o Cache
 
 Os **movimentos** de informações entre os **níveis da hierarquia de memórias** podem ser de dois tipos: **explícitos** e **implícitos**. Isso depende da arquitetura do **hardware** e do **software** que controla o sistema operacional.
@@ -110,14 +136,14 @@ Como, nessa estrutura hierárquica, os mesmos dados podem aparecer em diferentes
 - Em seguida, o arquivo `A` será **copiado para o cache e para os registradores internos da CPU**.
 - Assim, a **cópia de `A` estará presente em vários níveis**, conforme mostrado abaixo:
 
-```
-Registradores
-|
-Cache
-|
-Memória Principal
-|
-Memória Secundária
+```mermaid
+graph LR
+    Registradores -->|Copiado para| Cache
+    Cache -->|Copiado para| MemóriaPrincipal
+    MemóriaPrincipal -->|Copiado para| MemóriaSecundária
+    MemóriaSecundária -->|Alteração gravada| MemóriaPrincipal
+    MemóriaPrincipal -->|Alteração refletida| Cache
+    Cache -->|Alteração refletida| Registradores
 ```
 
 - Quando a alteração for feita nos registradores internos da CPU, os valores de `A` **serão diferentes nos outros níveis de armazenamento, que permanecerão inalterados**.
@@ -138,18 +164,6 @@ graph TD;
 
 	G -->|Alteração Efetivada| H[Valores Iguais em Todos os Níveis];
 ```
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
