@@ -30,4 +30,8 @@
         <description>Created after removal of "Associação de endereços" from Instance Name</description>
         <accepts>02 - Associação de endereços.html</accepts>
     </rule>
+    <rule id="75e5ca0c">
+        <description><![CDATA[Created after removal of "<Anexos.md>" from JavaLang]]></description>
+        <accepts>Anexos.html</accepts>
+    </rule>
 </rules>
