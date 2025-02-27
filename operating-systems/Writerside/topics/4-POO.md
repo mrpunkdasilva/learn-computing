@@ -39,8 +39,6 @@ mindmap
         Acesso no mesmo pacote
 ```
 
-Claro! Vamos refazer o **Capítulo 4: Orientação a Objetos (POO)** usando **Minecraft** como analogia. Isso tornará os conceitos mais divertidos e fáceis de entender, especialmente para quem gosta do jogo. Vamos lá!
-
 ---
 
 ###  Orientação a Objetos (POO) com Minecraft

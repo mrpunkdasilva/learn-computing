@@ -21,6 +21,7 @@ public class Main {
 
 ---
 
+
 #### **2.2 Tipos de Dados**
 Java possui dois tipos de dados principais: **primitivos** e **de referência**.
 
@@ -65,7 +66,6 @@ Java possui vários tipos de operadores para realizar operações em variáveis 
   - Exemplo: `boolean resultado = (10 > 5) && (20 < 30);`.
 
 
-
 ##### **Tabela de Operadores em Java**
 
 | **Categoria**         | **Operador** | **Descrição**                                                                 | **Exemplo**                          |
@@ -96,37 +96,122 @@ Java possui vários tipos de operadores para realizar operações em variáveis 
 
 
 
-
 ---
 
-### **Exemplo Prático**
-Aqui está um exemplo que combina tudo o que vimos até agora:
+#### **2.5 Arrays**
+Arrays são estruturas de dados que permitem armazenar múltiplos valores do mesmo tipo em uma única variável.
 
-```java
-public class Exemplo {
-    public static void main(String[] args) {
-        // Declaração de variáveis
-        int numero1 = 10;
-        int numero2 = 20;
+- **Declaração de Arrays:**
+  - Sintaxe: `tipo[] nomeArray;` (ex: `int[] numeros;`).
+  - Inicialização: `nomeArray = new tipo[tamanho];` (ex: `numeros = new int[5];`).
 
-        // Operações aritméticas
-        int soma = numero1 + numero2;
-        double media = soma / 2.0;
+- **Acessando Elementos do Array:**
+  - Use o índice do elemento entre colchetes (ex: `numeros[0] = 10;`).
+  - O índice começa em 0.
 
-        // Comparação e lógica
-        boolean isMaior = numero2 > numero1;
-        boolean isPar = (soma % 2) == 0;
-
-        // Saída de dados
-        System.out.println("Soma: " + soma);
-        System.out.println("Média: " + media);
-        System.out.println("Número 2 é maior que Número 1? " + isMaior);
-        System.out.println("A soma é par? " + isPar);
+- **Percorrendo um Array:**
+  - Você pode usar um loop `for` para percorrer todos os elementos do array.
+  - Exemplo:
+    ```java
+    for (int i = 0; i < numeros.length; i++) {
+        System.out.println(numeros[i]);
     }
-}
-```
+    ```
 
 ---
 
-### **Próximos Passos**
-Agora que você conhece a sintaxe básica do Java, no próximo capítulo vamos explorar **estruturas de controle**, como condicionais e loops, para tornar seus programas mais dinâmicos.
+#### **2.6 Matrizes**
+Matrizes são arrays bidimensionais, ou seja, arrays de arrays.
+
+- **Declaração de Matrizes:**
+  - Sintaxe: `tipo[][] nomeMatriz;` (ex: `int[][] matriz;`).
+  - Inicialização: `nomeMatriz = new tipo[linhas][colunas];` (ex: `matriz = new int[3][4];`).
+
+- **Acessando Elementos da Matriz:**
+  - Use o índice da linha e da coluna entre colchetes (ex: `matriz[1][2] = 10;`).
+  - O índice começa em 0.
+
+- **Percorrendo uma Matriz:**
+  - Você pode usar dois loops `for` aninhados para percorrer todos os elementos da matriz.
+  - Exemplo:
+    ```java
+    for (int i = 0; i < matriz.length; i++) {
+        for (int j = 0; j < matriz[i].length; j++) {
+            System.out.println(matriz[i][j]);
+        }
+    }
+    ```
+
+---
+
+#### **2.7 Strings**
+Strings são sequências de caracteres que representam texto.
+
+- **Declaração de Strings:**
+  - Sintaxe: `String nomeString;` (ex: `String nome;`).
+  - Inicialização: `nomeString = "Hello, World!";` (ex: `nome = "Java";`).
+
+- **Operações com Strings:**
+  - Concatenação: Use o operador `+` para combinar duas strings (ex: `String saudacao = "Olá, " + nome + "!";`).
+  - Comparação: Use os operadores de comparação (`==` e `!=`) para comparar strings (ex: `boolean isIgual = nome.equals("Java");`).
+  - Métodos úteis: Existem vários métodos para manipular e extrair informações de strings, como `length()`, `charAt()`, `substring()`, etc.
+
+---
+
+#### **2.8 Entrada e Saída de Dados**
+Java fornece várias maneiras de ler e escrever dados de entrada e saída.
+
+- **Entrada de Dados:**
+  - Você pode usar a classe `Scanner` para ler dados de entrada do usuário.
+  - Exemplo:
+    ```java
+    import java.util.Scanner;
+
+    public class EntradaSaida {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+
+            System.out.print("Digite seu nome: ");
+            String nome = scanner.nextLine();
+
+            System.out.println("Olá, " + nome + "!");
+        }
+    }
+    ```
+
+- **Saída de Dados:**
+  - Você pode usar a classe `System.out` para escrever dados na saída padrão (console).
+  - Exemplo:
+    ```java
+    System.out.println("Hello, World!");
+    System.out.print("Digite seu nome: ");
+    System.out.printf("Olá, %s!\n", nome);
+    ```
+
+---
+
+#### **2.9 Comentários**
+Comentários são usados para explicar o código e torná-lo mais legível.
+
+- **Comentários de Linha:**
+  - Sintaxe: `// Texto do comentário` (ex: `// Este é um comentário de linha`).
+  - O texto após `//` até o final da linha é considerado um comentário.
+
+- **Comentários de Bloco:**
+  - Sintaxe: `/* Texto do comentário */` (ex: `/* Este é um comentário de bloco */`).
+  - O texto entre `/*` e `*/` é considerado um comentário.
+
+---
+
+
+#### **2.10 Revisão**
+- Sintaxe básica do Java: tipos de dados, variáveis, operadores, estruturas de controle (condicionais e loops), arrays, matrizes, strings, entrada e saída de dados, comentários.
+- Exercícios para praticar e revisar os conhecimentos adquiridos.
+
+---
+
+#### **2.11 Próximos Passos**
+- No próximo capítulo, você aprenderá sobre **estruturas de controle avançadas**, como switch-case e operadores ternários.
+- Em seguida, você explorará **métodos e classes**, aprendendo a organizar seu código em funções e objetos.
+- Depois disso, você estudará **herança e polimorfismo**, que permitem criar hierarquias de classes e implementar comportamentos específicos para objetos.
+- Por fim, você aprenderá sobre **exceções**, que permitem tratar erros e anomalias em seu código.
