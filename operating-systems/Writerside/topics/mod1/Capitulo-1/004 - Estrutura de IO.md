@@ -1,4 +1,4 @@
-# Estrutura de Entrada e Saída
+# 1.4 Estrutura de Entrada e Saída
 
 Os dispositivos de Entrada e Saída (ou E/S), são um dos grandes pontos importantes para um Sistema Operacional, como podemos notar no armazenamento que possui grande importância para ser um dispositivo de E/S.
 - Um outro ponto importante é que grande parte do código do SO é pensado para E/S;

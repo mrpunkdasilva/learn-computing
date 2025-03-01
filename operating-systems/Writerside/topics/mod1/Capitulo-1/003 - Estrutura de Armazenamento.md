@@ -1,4 +1,4 @@
-# Estrutura de Armazenamento
+# 1.4 Estrutura de Armazenamento
 
 Para os computadores que temos a **CPU** só consegue carregar instruções que vêm diretamente da memória.
 - A memória não sendo nada, mas a **Memória Principal** - aquela cujo acesso é randômico, ou seja, desligar o PC não apaga os dados armazenados, que é a memória **RAM**.

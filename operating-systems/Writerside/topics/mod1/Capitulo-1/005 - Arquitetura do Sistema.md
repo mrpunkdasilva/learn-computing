@@ -1,4 +1,4 @@
-# Arquitetura do Sistema
+# 1.3 Arquitetura do Sistema
 
 Agora falaremos sobre a categorização dos sistemas computadorizados, que é feita com base no número de processadores que ele possui, ou seja, estamos nos referindo a computadores de uso geral.
 

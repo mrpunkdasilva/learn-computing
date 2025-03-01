@@ -1,4 +1,4 @@
-# Operação do Computador
+# 1.2 Operação do Computador
 
 Ao desligar o computador e ligá-lo, o que acontece? Como ele "chama" o Sistema Operacional.
 
