@@ -146,3 +146,5 @@ flowchart TD
 	
 	Jogador -->|Foca na construção ou exploração| Cofre
 ```
+
+

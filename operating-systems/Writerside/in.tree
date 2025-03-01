@@ -9,18 +9,20 @@
         <toc-element topic="001 - Introdução.md">
             <toc-element topic="1-1.md">
                 <toc-element topic="Hardware.md"/>
+                <toc-element topic="Software.md"/>
                 <toc-element topic="1-2.md"/>
             </toc-element>
             <toc-element topic="002 - Operação do computador.md"/>
-            <toc-element topic="005 - Arquitetura do Sistema.md"/>
             <toc-element topic="003 - Estrutura de Armazenamento.md"/>
             <toc-element topic="004 - Estrutura de IO.md"/>
+            <toc-element topic="005 - Arquitetura do Sistema.md"/>
+            <toc-element topic="1-6-Estrutura-do-sistema-operacional.md"/>
+            <toc-element topic="1-7-Operações-do-Computador.md"/>
             <toc-element topic="08 - Caching.md"/>
             <toc-element topic="Questões.md"/>
             <toc-element topic="Prática.md"/>
         </toc-element>
         <toc-element toc-title="Anexos">
-            <toc-element topic="Software.md"/>
             <toc-element topic="Respostas.md"/>
         </toc-element>
     </toc-element>
