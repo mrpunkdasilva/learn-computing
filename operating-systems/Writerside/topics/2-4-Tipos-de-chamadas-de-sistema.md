@@ -68,3 +68,29 @@
 - **Casos de Uso**:
   - Definir permissões de acesso a arquivos, dispositivos ou processos.
   - Proteger o sistema contra acessos não autorizados.
+
+```mermaid
+mindmap
+  root((Chamadas de Sistema))
+    Controle de Processos
+      Criação/Término
+      Controle
+      Sincronização
+    Manipulação de Arquivos
+      Abertura/Fechamento
+      Leitura/Escrita
+      Atributos
+    Manipulação de Dispositivos
+      Acesso
+      Alocação
+    Manutenção de Informações
+      Tempo/Data
+      Informações do Sistema
+      Depuração
+    Comunicações
+      Troca de Mensagens
+      Memória Compartilhada
+    Proteção
+      Permissões
+      Controle de Acesso
+```

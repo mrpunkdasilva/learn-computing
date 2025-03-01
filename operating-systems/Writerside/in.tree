@@ -26,14 +26,23 @@
             <toc-element topic="1-12-Sistemas-de-uso-específico.md"/>
             <toc-element topic="Ambientes-de-Computação.md"/>
             <toc-element topic="1-14.md"/>
+            <toc-element topic="Exercícios-Práticos-Resolvidos.md"/>
         </toc-element>
         <toc-element topic="Capitulo-2.md">
             <toc-element topic="2-2-Interface-usuário-sistema-operacional.md"/>
             <toc-element topic="2-3-Chamadas-de-sistema.md"/>
             <toc-element topic="2-4-Tipos-de-chamadas-de-sistema.md"/>
+            <toc-element topic="2-5-Programas-do-sistema.md"/>
+            <toc-element topic="2-6-Projeto-e-implementação-do-sistema-operacional.md">
+            </toc-element>
+            <toc-element topic="2-8-Máquinas-virtuais.md">
+            </toc-element>
+            <toc-element topic="2-7-Geração-do-sistema-operacional.md"/>
+            <toc-element topic="2-9-Boot-do-sistema.md"/>
+            <toc-element topic="Exercicios-Práticos-Resolvidos.md"/>
         </toc-element>
-        <toc-element topic="Prática.md"/>
         <toc-element topic="Questões.md"/>
+        <toc-element topic="Prática.md"/>
         <toc-element toc-title="Anexos">
             <toc-element topic="Respostas.md"/>
         </toc-element>
